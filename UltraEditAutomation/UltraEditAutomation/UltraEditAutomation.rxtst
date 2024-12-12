@@ -5386,7 +5386,25 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="2ee8f293-f8ff-4063-8474-47eeef5c266c">
+			</testcontainer>
+			<testcontainer
+			id="4d954276-fadf-4067-880c-e42324aaf048">
+			</testcontainer>
+			<testcontainer
 			id="6fdd8673-017f-4293-8641-eb9f3ba7c872">
+			</testcontainer>
+			<testcontainer
+			id="77a3d148-d2a1-4b86-8f0e-5c1bc7627e7f">
+			</testcontainer>
+			<testcontainer
+			id="a5e9503f-93b7-45a4-a415-bfec3e74d744">
+			</testcontainer>
+			<testcontainer
+			id="c065cfe3-4560-42d3-8fce-da928e47a312">
+			</testcontainer>
+			<testcontainer
+			id="d3015180-2ae5-4f5e-a607-9735d60b2235">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
