@@ -1,0 +1,12 @@
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\TestSolution.rxtmg
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\TestSolution.rxtst
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\TestSolution.exe.config
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\TestSolution.xml
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\TestSolution.exe
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\TestSolution.pdb
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\obj\x86\Debug\TestSolution.csproj.AssemblyReference.cache
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\obj\x86\Debug\TestSolution.csproj.CoreCompileInputs.cache
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\obj\x86\Debug\TestSolution.csproj.CopyComplete
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\obj\x86\Debug\TestSolution.exe
+C:\Users\vidhyashree.c\Documents\Ranorex\RanorexStudio Projects\TestSolution\TestSolution\obj\x86\Debug\TestSolution.pdb

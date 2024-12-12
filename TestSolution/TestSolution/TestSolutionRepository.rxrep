@@ -1,0 +1,138 @@
+﻿<repository
+id="368f7d25-c21b-4782-b89d-558583bdfdd4"
+name="TestSolutionRepository">
+	<codegen
+	classname="TestSolutionRepository"
+	namespace="TestSolution">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c582a625-9645-499c-b837-dcf50d3cfa5e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="5eea6e75-e384-4352-9bef-43129e9dc03b"
+		isrooted="True"
+		name="Calculator"
+		refpath="/winapp[@packagename='Microsoft.WindowsCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="87a5b16b-3c84-4803-a825-d23ae9ea06f7"
+			isrooted="True"
+			name="NumberPad"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element[@automationid='NavView']/container[@classname='LandmarkTarget']/container[@automationid='NumberPad']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="160b0af0-2917-4af9-a29f-a2b900f788d6"
+				name="Num3Button"
+				refimgid="1556a90d-44fd-46ee-8077-7cef977953d1"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='NumberPad']/button[@automationid='num3Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num3Button']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num3Button']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="081eab1f-c086-4f5e-962e-664fc34de896"
+				name="Num5Button"
+				refimgid="bfeaf046-b5dd-4b6f-8fe7-aeca8e8b9f69"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='NumberPad']/button[@automationid='num5Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num5Button']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num5Button']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="6e9af292-35cc-4801-bae2-6b8e6b5c1a14"
+				name="Num6Button"
+				refimgid="6ea006d2-c38a-4d00-b928-4204152638b2"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='NumberPad']/button[@automationid='num6Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num6Button']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num6Button']
+				</item>
+				<basepath>
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="23833477-e8c7-4e89-b70b-59a03b847c01"
+			isrooted="True"
+			name="StandardOperators"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element[@automationid='NavView']/container[@classname='LandmarkTarget']/container[@automationid='StandardOperators']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="2a7a53b4-872f-40f5-841f-57c571e7d96c"
+				name="EqualButton"
+				refimgid="32cee8e9-4d90-4607-8feb-89ee5964bc8b"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='StandardOperators']/button[@automationid='equalButton']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='equalButton']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='equalButton']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="7ae9a933-9682-4388-86f7-9a76a746ea3c"
+				name="MultiplyButton"
+				refimgid="96704949-26cc-4a55-a762-a1f07c8b18c6"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='multiplyButton']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='multiplyButton']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="33b1f5d5-99be-498c-9c7f-4c8f16b98f50"
+				name="PlusButton"
+				refimgid="158ee8f3-414f-4170-86d9-e436439aebb8"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element/container/container[@automationid='StandardOperators']/button[@automationid='plusButton']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='plusButton']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='plusButton']
+				</item>
+				<basepath>
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']
+				</basepath>
+			</folder>
+			<basepath>
+				/winapp[@packagename='Microsoft.WindowsCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPdZDJTpRBFIV5BSZfQxONJkQURWlw
+iC/hhM3U89//PE9ND6CIvolxwUIXGodESWvEaDTGtXECFMTjvS3ViSlZVHIW9X2nTvX0KG3wOeSu
+oLZ4G8nCLcStZUTNmwgbSwjqS/Dnb8CrXYebLsJJFnDAvNthOkeElMCEwL0gO27B2j1m1JQFcXMZ
+dtTAhY+/cf7DDs6++4XxN9sYe7WF0fYPjDzbwNHH65gp6dCDhizgZt1Pce79DibebiOztoVTL37i
+xPNNDD9Zx9CDbzh87wuyRQ2qPy8L+MmamyLzmsCXBK5u4tjTDQw9/I4j97/i4Mpn7L/zCZN5FYpb
+kwW81aatGtlVr4YqyRQnQcWOUbZilMwIRSOEYico05EEDPMHPVpd6xzeKXKVGkVmuERCSWBGLRhh
+s3uRd4pccdJuLtJLCkYkC4ywQa317kXeKTI3ipynGTk9kAWaX6ft/28tUGvvmRp6J1LMaQFmVV8W
+VOnj9mrN6SHBCfrGY8xUPUwrrizgRv4gAfFOkec0H32ZEP1jPqYIzlYcWVCyEhT/aQ26mVv7T3sY
+GHWQLduYLNmygHfyBwmId4o8RY0DJy0MjugEW7haNGVBnnbyBwlomlpFvkatg8dV7BtWcKVg4nLe
+kAW8c1b1Os8VOxn822h1wUs5HRdz2q6gjT9SQp+y3+nSYwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

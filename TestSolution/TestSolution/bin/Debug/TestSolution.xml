@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestSolution</name>
+    </assembly>
+    <members>
+        <member name="T:TestSolution.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:TestSolution.CloseAUT.repo">
+            <summary>
+            Holds an instance of the TestSolutionRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestSolution.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestSolution.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TestSolution.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TestSolution.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestSolution.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestSolution.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestSolution.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestSolution.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TestSolution.Recording1.repo">
+            <summary>
+            Holds an instance of the TestSolutionRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestSolution.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestSolution.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestSolution.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestSolution.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestSolution.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestSolution.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestSolution.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:TestSolution.StartAUT.repo">
+            <summary>
+            Holds an instance of the TestSolutionRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestSolution.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestSolution.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TestSolution.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TestSolution.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestSolution.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestSolution.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestSolution.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestSolution.TestSolutionRepository">
+            <summary>
+            The class representing the TestSolutionRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TestSolutionRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TestSolution.TestSolutionRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepository.Calculator">
+            <summary>
+            The Calculator folder.
+            </summary>
+        </member>
+        <member name="T:TestSolution.TestSolutionRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TestSolution.TestSolutionRepositoryFolders.CalculatorAppFolder">
+            <summary>
+            The CalculatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestSolution.TestSolutionRepositoryFolders.CalculatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calculator  folder.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.CalculatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.CalculatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.CalculatorAppFolder.NumberPad">
+            <summary>
+            The NumberPad folder.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.CalculatorAppFolder.StandardOperators">
+            <summary>
+            The StandardOperators folder.
+            </summary>
+        </member>
+        <member name="T:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder">
+            <summary>
+            The NumberPadFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NumberPad  folder.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Num3Button">
+            <summary>
+            The Num3Button item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Num3ButtonInfo">
+            <summary>
+            The Num3Button item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Num5Button">
+            <summary>
+            The Num5Button item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Num5ButtonInfo">
+            <summary>
+            The Num5Button item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Num6Button">
+            <summary>
+            The Num6Button item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.NumberPadFolder.Num6ButtonInfo">
+            <summary>
+            The Num6Button item info.
+            </summary>
+        </member>
+        <member name="T:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder">
+            <summary>
+            The StandardOperatorsFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new StandardOperators  folder.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.EqualButton">
+            <summary>
+            The EqualButton item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.EqualButtonInfo">
+            <summary>
+            The EqualButton item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.MultiplyButton">
+            <summary>
+            The MultiplyButton item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.MultiplyButtonInfo">
+            <summary>
+            The MultiplyButton item info.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.PlusButton">
+            <summary>
+            The PlusButton item.
+            </summary>
+        </member>
+        <member name="P:TestSolution.TestSolutionRepositoryFolders.StandardOperatorsFolder.PlusButtonInfo">
+            <summary>
+            The PlusButton item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
