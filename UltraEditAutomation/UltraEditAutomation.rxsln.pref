@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{50896D4D-A4F9-43BC-A540-AD33AEDAC8A6}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>162aa2c0-11f7-48d2-bdde-3205bec2b4e3</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution UltraEditAutomation[UltraEditAutomation[]]]&#xD;&#xA;Solution UltraEditAutomation\UltraEditAutomation\UltraEditAutomation.rxtst&#xD;&#xA;Solution UltraEditAutomation\UltraEditAutomation\UltraEditAutomation.rxtst" />
+  <StartupProject value="{50896D4D-A4F9-43BC-A540-AD33AEDAC8A6}" />
+</Properties>

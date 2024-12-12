@@ -1,0 +1,2177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.6m"
+		durationms="157033"
+		type="root"
+		rid="6918fa6ad303a3c"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="2"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="4"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vidhyashree.c"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000301"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="11/27/2024 05:21:54 PM"
+		timestampiso="2024-11-27T11:51:54"
+		endtime="11/27/2024 05:24:31 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.5m"
+			durationms="150779"
+			type="test-suite"
+			rid="1f5ea00b7989b5"
+			totalerrorcount="0"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="2"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="2"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="4"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UltraEditAutomation"
+			headertext="UltraEditAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="48ms"
+				durationms="48"
+				type="setup-container"
+				rid="c3fe4772a9d5662"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="20ms"
+					durationms="20"
+					type="test-module"
+					rid="806c9100288cfc0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="KillRunningProcesses"
+					displayName="KillRunningProcesses"
+					moduleid="ea6303d4-5fcd-4f59-a5a3-2ce170654706"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="2.5m"
+				durationms="150674"
+				type="smart-folder"
+				rid="cafdf58322f320"
+				totalerrorcount="0"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="2"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="4"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="FileHandling"
+				testcontainerid="c065cfe3-4560-42d3-8fce-da928e47a312"
+				headertext="FileHandling"
+				displayName="FileHandling"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="2.5m"
+					durationms="150670"
+					type="smart-folder"
+					rid="29d75e3db6de9d75"
+					totalerrorcount="0"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="2"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="2"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="3"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="CodePageDetection"
+					testcontainerid="a5e9503f-93b7-45a4-a415-bfec3e74d744"
+					headertext="CodePageDetection"
+					displayName="CodePageDetection"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<activity
+						result="Success"
+						duration="1.3m"
+						durationms="75762"
+						type="test-case"
+						rid="19e9a89c41ec4b22"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesstestcasecount="1"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="5"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="Thai_detection"
+						testcontainerid="2ee8f293-f8ff-4063-8474-47eeef5c266c"
+						headertext="Thai_detection"
+						displayName="Thai_detection"
+						iteration="1"
+						activity-exectype="execute"
+						conditionstate="none">
+						<params>
+							<param
+								name="FilePath">
+								C:\UltraEditFiles\ue-20241025T061201Z-001\ue\codePageDetection\_li_thai.txt
+							</param>
+						</params>
+						<activity
+							result="Success"
+							duration="36.28s"
+							durationms="36280"
+							type="setup-container"
+							rid="1a719ba2d1b7b739"
+							totalerrorcount="0"
+							totalwarningcount="1"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="2"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0">
+							<activity
+								result="Success"
+								duration="2.64s"
+								durationms="2642"
+								type="test-module"
+								rid="a69a9fc66ee9827"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="RestoreDefaultSettings"
+								displayName="RestoreDefaultSettings"
+								moduleid="2f917574-72a0-4ade-a96e-bd153c793ab2"
+								moduletype="UserCode"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.216"
+									timeRelativeToTestModuleStartTime="00:00.128"
+									timeWallClock="17:22:00"
+									time="00:00.216"
+									level="Info"
+									category="User">
+									<message>
+										Folder deleted successfully!
+									</message>
+									<metainfo
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+										codeline="52"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.688"
+									timeRelativeToTestModuleStartTime="00:01.600"
+									timeWallClock="17:22:02"
+									time="00:01.688"
+									level="Info"
+									category="User">
+									<message>
+										Folder copied successfully!
+									</message>
+									<metainfo
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+										codeline="59"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+							<activity
+								result="Success"
+								duration="33.62s"
+								durationms="33620"
+								type="test-module"
+								rid="31b2deab69e2ba7"
+								totalerrorcount="0"
+								totalwarningcount="1"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="StartAUT"
+								displayName="StartAUT"
+								moduleid="e2650338-2dbb-41bb-a3a6-4798caf81207"
+								moduletype="Recording"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+									<varbinding
+										name="StartAutProcessIDVar"
+										value="">
+									</varbinding>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.751"
+									timeRelativeToTestModuleStartTime="00:00.003"
+									timeWallClock="17:22:03"
+									time="00:02.751"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$StartAutProcessIDVar = ''
+									</message>
+									<metainfo
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.786"
+									timeRelativeToTestModuleStartTime="00:00.038"
+									timeWallClock="17:22:03"
+									time="00:02.786"
+									level="Info"
+									category="Application">
+									<message>
+										Run application 'C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+									</message>
+									<metainfo
+										itemindex="0"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="95"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:03.297"
+									timeRelativeToTestModuleStartTime="00:00.549"
+									timeWallClock="17:22:03"
+									time="00:03.297"
+									level="Info"
+									category="Invoke action">
+									<message>
+										(Optional Action)<br/>Invoking Close() on item 'TrialPeriodExpiring'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/form[@title='Trial Period Expiring']"
+										itempath="/form[@title='Trial Period Expiring']"
+										fullname="UltraEditAutomationRepository.TrialPeriodExpiring.Self"
+										id="fad3edbaf5c846c98298d735f41a3d93"
+										timeout="30000"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="100"
+										itemindex="1"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:33.828"
+									timeRelativeToTestModuleStartTime="00:31.081"
+									timeWallClock="17:22:34"
+									time="00:33.828"
+									level="Warn"
+									category="Module">
+									<message>
+										(Optional Action) Failed to find item 'UltraEditAutomationRepository.TrialPeriodExpiring.Self'.
+									</message>
+									<metainfo
+										itemindex="1"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="103"
+										loglvl="Warn"
+										id="fad3edbaf5c846c98298d735f41a3d93"
+										path="/form[@title='Trial Period Expiring']"
+										fullname="UltraEditAutomationRepository.TrialPeriodExpiring.Self">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:33.864"
+									timeRelativeToTestModuleStartTime="00:31.116"
+									timeWallClock="17:22:34"
+									time="00:33.864"
+									level="Info"
+									category="Invoke action">
+									<message>
+										Invoking Maximize() on item 'UltraEdit64Bit'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/form[@title~'UltraEdit 64-bi']"
+										itempath="/form[@title~'UltraEdit 64-bi']"
+										fullname="UltraEditAutomationRepository.UltraEdit64Bit.Self"
+										id="5274a8d051584fdaa542b6fdc24cb4f2"
+										timeout="30000"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="105"
+										itemindex="2"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:34.311"
+									timeRelativeToTestModuleStartTime="00:31.563"
+									timeWallClock="17:22:34"
+									time="00:34.311"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="3"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="109"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Success"
+							duration="8.02s"
+							durationms="8024"
+							type="test-module"
+							rid="56c1e1cd93517b0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="AutomaticallyDetectEncoding_IsSelected"
+							displayName="AutomaticallyDetectEncoding_IsSelected"
+							moduleid="875812ad-0ca5-43e5-a4bf-15077eeaaa73"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:36.371"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="17:22:37"
+								time="00:36.371"
+								level="Info"
+								category="Invoke action">
+								<message>
+									Invoking Select() on item 'UltraEdit64Bit.Advanced'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Advanced']"
+									itempath="?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Advanced']"
+									fullname="UltraEditAutomationRepository.UltraEdit64Bit.Advanced"
+									id="403447d800b140d8b30e9639058573c4"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:38.476"
+								timeRelativeToTestModuleStartTime="00:02.107"
+								timeWallClock="17:22:39"
+								time="00:38.476"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'UltraEdit64Bit.Settings' at 8;51.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'UltraEdit 64-bi']//toolbar[@accessiblename='Advanced']/toolbar[@accessiblename='Configure']/button[@accessiblename='Settings']"
+									itempath=".//toolbar[@accessiblename='Advanced']/toolbar[@accessiblename='Configure']/button[@accessiblename='Settings']"
+									fullname="UltraEditAutomationRepository.UltraEdit64Bit.Settings"
+									id="7d327accf93d424faee80b22ab8d3fec"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:40.563"
+								timeRelativeToTestModuleStartTime="00:04.194"
+								timeWallClock="17:22:41"
+								time="00:40.563"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Configuration.FileHandling' at 59;3.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/tree/treeitem[@text='File handling']"
+									itempath="tree/treeitem[@text='File handling']"
+									fullname="UltraEditAutomationRepository.Configuration.FileHandling"
+									id="13e12960a7004d0db45c51c1723f5b80"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:41.642"
+								timeRelativeToTestModuleStartTime="00:05.273"
+								timeWallClock="17:22:42"
+								time="00:41.642"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Configuration.Encoding' at 37;9.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/tree[@controlid='8190']/?/?/treeitem[@text='Encoding']"
+									itempath="tree[@controlid='8190']/?/?/treeitem[@text='Encoding']"
+									fullname="UltraEditAutomationRepository.Configuration.Encoding"
+									id="4eb1ac5e8a1e474093c3ab69d0f57acb"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="94"
+									itemindex="3"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:42.343"
+								timeRelativeToTestModuleStartTime="00:05.974"
+								timeWallClock="17:22:42"
+								time="00:42.343"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (Checked='True') on item 'Configuration.AutomaticallyDetectEncoding'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/?/?/checkbox[@controlid='1350']"
+									itempath="?/?/checkbox[@controlid='1350']"
+									fullname="UltraEditAutomationRepository.Configuration.AutomaticallyDetectEncoding"
+									id="ae402ba7232f405ab9d5780042094167"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="98"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:43.243"
+								timeRelativeToTestModuleStartTime="00:06.874"
+								timeWallClock="17:22:43"
+								time="00:43.243"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'Checked' of element for item 'UltraEditAutomationRepository.Configuration.AutomaticallyDetectEncoding' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/?/?/checkbox[@controlid='1350']"
+									itempath="?/?/checkbox[@controlid='1350']"
+									fullname="UltraEditAutomationRepository.Configuration.AutomaticallyDetectEncoding"
+									id="ae402ba7232f405ab9d5780042094167"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="99"
+									loglvl="Success"
+									itemindex="4">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:43.386"
+								timeRelativeToTestModuleStartTime="00:07.017"
+								timeWallClock="17:22:44"
+								time="00:43.386"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Configuration.Close' at 23;15.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/form[@name='Configuration']/?/?/button[@name='Close']"
+									itempath="form[@name='Configuration']/?/?/button[@name='Close']"
+									fullname="UltraEditAutomationRepository.Configuration.Close"
+									id="fd492f9ccba2447ab2200d1c3728cc5e"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="102"
+									itemindex="5"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="11.27s"
+							durationms="11274"
+							type="test-module"
+							rid="ef18222f7db394e"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="OpenFile"
+							displayName="OpenFile"
+							moduleid="86a4a5f3-5d95-466e-838a-0c9261985152"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="Filepath"
+									value="C:\UltraEditFiles\ue-20241025T061201Z-001\ue\codePageDetection\_li_thai.txt">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:44.398"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="17:22:45"
+								time="00:44.398"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$Filepath = 'C:\UltraEditFiles\ue-20241025T061201Z-001\ue\codePageDetection\_li_thai.txt'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:44.444"
+								timeRelativeToTestModuleStartTime="00:00.046"
+								timeWallClock="17:22:45"
+								time="00:44.444"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'UltraEdit64Bit.ToolBar.ApplicationMenu' at 40;11.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+									itempath="button[@accessiblename='Application menu']"
+									fullname="UltraEditAutomationRepository.UltraEdit64Bit.ToolBar.ApplicationMenu"
+									id="40f5f2fcf2a343d98001a64f4f686131"
+									timeout="90000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="95"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:45.924"
+								timeRelativeToTestModuleStartTime="00:01.527"
+								timeWallClock="17:22:46"
+								time="00:45.924"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Uedit64.Open' at 55;15.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']"
+									itempath="?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']"
+									fullname="UltraEditAutomationRepository.Uedit64.Open"
+									id="cc0a9e1b713949edb0f2bfb26ce727f9"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="99"
+									itemindex="1"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:48.544"
+								timeRelativeToTestModuleStartTime="00:04.146"
+								timeWallClock="17:22:49"
+								time="00:48.544"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Open.Text1148' at 60;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Open']/?/?/text[@controlid='1148']"
+									itempath="?/?/text[@controlid='1148']"
+									fullname="UltraEditAutomationRepository.Open.Text1148"
+									id="79bb1fc86ebf43cba8f60bcb1ba970af"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="103"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:50.560"
+								timeRelativeToTestModuleStartTime="00:06.162"
+								timeWallClock="17:22:51"
+								time="00:50.560"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence from variable '$Filepath' with focus on 'Open.Text1148'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Open']/?/?/text[@controlid='1148']"
+									itempath="?/?/text[@controlid='1148']"
+									fullname="UltraEditAutomationRepository.Open.Text1148"
+									id="79bb1fc86ebf43cba8f60bcb1ba970af"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="107"
+									itemindex="3"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:53.062"
+								timeRelativeToTestModuleStartTime="00:08.664"
+								timeWallClock="17:22:53"
+								time="00:53.062"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Open.ButtonOpen' at 42;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Open']/button[@text='&amp;Open']"
+									itempath="button[@text='&amp;Open']"
+									fullname="UltraEditAutomationRepository.Open.ButtonOpen"
+									id="e8939048c05b41218ed856963692f6bd"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="111"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:53.627"
+								timeRelativeToTestModuleStartTime="00:09.229"
+								timeWallClock="17:22:54"
+								time="00:53.627"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2s.
+								</message>
+								<metainfo
+									itemindex="5"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="115"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="9.74s"
+							durationms="9735"
+							type="test-module"
+							rid="1757c02bae4052af"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="VerifyThaiDetection"
+							displayName="VerifyThaiDetection"
+							moduleid="46cded95-f243-4a5b-bc15-d66e3844059a"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:55.685"
+								timeRelativeToTestModuleStartTime="00:00.009"
+								timeWallClock="17:22:56"
+								time="00:55.685"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (Text='874   (ANSI/OEM - Thai)') on item 'FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									itempath="?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai"
+									id="8cda95b8c2b5464d9764bd975c3af9b9"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.cs"
+									codeline="98"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:56.979"
+								timeRelativeToTestModuleStartTime="00:01.303"
+								timeWallClock="17:22:57"
+								time="00:56.979"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'Text' of element for item 'UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									itempath="?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai"
+									id="8cda95b8c2b5464d9764bd975c3af9b9"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.cs"
+									codeline="99"
+									loglvl="Success"
+									itemindex="4">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:57.116"
+								timeRelativeToTestModuleStartTime="00:01.440"
+								timeWallClock="17:22:57"
+								time="00:57.116"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=126,Height=17}) on item 'FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									itempath="?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai"
+									id="8cda95b8c2b5464d9764bd975c3af9b9"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.cs"
+									codeline="102"
+									itemindex="5"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:58.649"
+								timeRelativeToTestModuleStartTime="00:02.973"
+								timeWallClock="17:22:59"
+								time="00:58.649"
+								level="Success"
+								category="Validation">
+								<message>
+									Screenshot of item 'UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai' does contain the specified image.
+								</message>
+								<metainfo
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.cs"
+									codeline="103"
+									loglvl="Success"
+									id="8cda95b8c2b5464d9764bd975c3af9b9"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text874ANSIOEMThai"
+									itemindex="5">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:00.011"
+								timeRelativeToTestModuleStartTime="00:04.335"
+								timeWallClock="17:23:00"
+								time="01:00.011"
+								level="Info"
+								category="User"
+								errimg="images_UltraEdi_e5b8724\UltraEdi_7f608464_rxlog.jpg"
+								errthumb="images_UltraEdi_e5b8724\UltraEdi_7f608464_rxlog_thumb.jpg">
+								<message>
+									
+								</message>
+								<metainfo
+									itemindex="6"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.cs"
+									codeline="106"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:05.322"
+								timeRelativeToTestModuleStartTime="00:09.646"
+								timeWallClock="17:23:05"
+								time="01:05.322"
+								level="Info"
+								category="User">
+								<message>
+									Retrieved Text: Lorem Ipsum &#3588;&#3639;&#3629;&#3629;&#3632;&#3652;&#3619;?<br/>Lorem Ipsum &#3588;&#3639;&#3629; &#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;&#3592;&#3635;&#3621;&#3629;&#3591;&#3649;&#3610;&#3610;&#3648;&#3619;&#3637;&#3618;&#3610;&#3654; &#3607;&#3637;&#3656;&#3651;&#3594;&#3657;&#3585;&#3633;&#3609;&#3651;&#3609;&#3608;&#3640;&#3619;&#3585;&#3636;&#3592;&#3591;&#3634;&#3609;&#3614;&#3636;&#3617;&#3614;&#3660;&#3627;&#3619;&#3639;&#3629;&#3591;&#3634;&#3609;&#3648;&#3619;&#3637;&#3618;&#3591;&#3614;&#3636;&#3617;&#3614;&#3660;<br/>&#3617;&#3633;&#3609;&#3652;&#3604;&#3657;&#3585;&#3621;&#3634;&#3618;&#3617;&#3634;&#3648;&#3611;&#3655;&#3609;&#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;&#3592;&#3635;&#3621;&#3629;&#3591;&#3617;&#3634;&#3605;&#3619;&#3600;&#3634;&#3609;&#3586;&#3629;&#3591;&#3608;&#3640;&#3619;&#3585;&#3636;&#3592;&#3604;&#3633;&#3591;&#3585;&#3621;&#3656;&#3634;&#3623;&#3617;&#3634;&#3605;&#3633;&#3657;&#3591;&#3649;&#3605;&#3656;&#3624;&#3605;&#3623;&#3619;&#3619;&#3625;&#3607;&#3637;&#3656; 16<br/>&#3648;&#3617;&#3639;&#3656;&#3629;&#3648;&#3588;&#3619;&#3639;&#3656;&#3629;&#3591;&#3614;&#3636;&#3617;&#3614;&#3660;&#3650;&#3609;&#3648;&#3609;&#3617;&#3648;&#3588;&#3619;&#3639;&#3656;&#3629;&#3591;&#3627;&#3609;&#3638;&#3656;&#3591;&#3609;&#3635;&#3619;&#3634;&#3591;&#3605;&#3633;&#3623;&#3614;&#3636;&#3617;&#3614;&#3660;&#3617;&#3634;&#3626;&#3621;&#3633;&#3610;&#3626;&#3633;&#3610;&#3605;&#3635;&#3649;&#3627;&#3609;&#3656;&#3591;&#3605;&#3633;&#3623;&#3629;&#3633;&#3585;&#3625;&#3619;&#3648;&#3614;&#3639;&#3656;&#3629;&#3607;&#3635;&#3627;&#3609;&#3633;&#3591;&#3626;&#3639;&#3629;&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591; Lorem Ipsum<br/>&#3629;&#3618;&#3641;&#3656;&#3618;&#3591;&#3588;&#3591;&#3585;&#3619;&#3632;&#3614;&#3633;&#3609;&#3617;&#3634;&#3652;&#3617;&#3656;&#3651;&#3594;&#3656;&#3649;&#3588;&#3656;&#3648;&#3614;&#3637;&#3618;&#3591;&#3627;&#3657;&#3634;&#3624;&#3605;&#3623;&#3619;&#3619;&#3625; &#3649;&#3605;&#3656;&#3629;&#3618;&#3641;&#3656;&#3617;&#3634;&#3592;&#3609;&#3606;&#3638;&#3591;&#3618;&#3640;&#3588;&#3607;&#3637;&#3656;&#3614;&#3621;&#3636;&#3585;&#3650;&#3593;&#3617;&#3648;&#3586;&#3657;&#3634;&#3626;&#3641;&#3656;&#3591;&#3634;&#3609;&#3648;&#3619;&#3637;&#3618;&#3591;&#3614;&#3636;&#3617;&#3614;&#3660;&#3604;&#3657;&#3623;&#3618;&#3623;&#3636;&#3608;&#3637;&#3607;&#3634;&#3591;&#3629;&#3636;&#3648;&#3621;&#3655;&#3585;&#3607;&#3619;&#3629;&#3609;&#3636;&#3585;&#3626;&#3660;<br/>&#3649;&#3621;&#3632;&#3618;&#3633;&#3591;&#3588;&#3591;&#3626;&#3616;&#3634;&#3614;&#3648;&#3604;&#3636;&#3617;&#3652;&#3623;&#3657;&#3629;&#3618;&#3656;&#3634;&#3591;&#3652;&#3617;&#3656;&#3617;&#3637;&#3585;&#3634;&#3619;&#3648;&#3611;&#3621;&#3637;&#3656;&#3618;&#3609;&#3649;&#3611;&#3621;&#3591; &#3617;&#3633;&#3609;&#3652;&#3604;&#3657;&#3619;&#3633;&#3610;&#3588;&#3623;&#3634;&#3617;&#3609;&#3636;&#3618;&#3617;&#3617;&#3634;&#3585;&#3586;&#3638;&#3657;&#3609;&#3651;&#3609;&#3618;&#3640;&#3588; &#3588;.&#3624;. 1960 &#3648;&#3617;&#3639;&#3656;&#3629;&#3649;&#3612;&#3656;&#3609; Letraset<br/>&#3623;&#3634;&#3591;&#3592;&#3635;&#3627;&#3609;&#3656;&#3634;&#3618;&#3650;&#3604;&#3618;&#3617;&#3637;&#3586;&#3657;&#3629;&#3588;&#3623;&#3634;&#3617;&#3610;&#3609;&#3609;&#3633;&#3657;&#3609;&#3648;&#3611;&#3655;&#3609; Lorem Ipsum &#3649;&#3621;&#3632;&#3621;&#3656;&#3634;&#3626;&#3640;&#3604;&#3585;&#3623;&#3656;&#3634;&#3609;&#3633;&#3657;&#3609; &#3588;&#3639;&#3629;&#3648;&#3617;&#3639;&#3656;&#3629;&#3595;&#3629;&#3615;&#3607;&#3660;&#3649;&#3623;&#3619;&#3660;&#3585;&#3634;&#3619;&#3607;&#3635;&#3626;&#3639;&#3656;&#3629;&#3626;&#3636;&#3656;&#3591;&#3614;&#3636;&#3617;&#3614;&#3660; (Desktop Publishing) &#3629;&#3618;&#3656;&#3634;&#3591;<br/>Aldus PageMaker &#3652;&#3604;&#3657;&#3619;&#3623;&#3617;&#3648;&#3629;&#3634; Lorem Ipsum &#3648;&#3623;&#3629;&#3619;&#3660;&#3594;&#3633;&#3656;&#3609;&#3605;&#3656;&#3634;&#3591;&#3654; &#3648;&#3586;&#3657;&#3634;&#3652;&#3623;&#3657;&#3651;&#3609;&#3595;&#3629;&#3615;&#3607;&#3660;&#3649;&#3623;&#3619;&#3660;&#3604;&#3657;&#3623;&#3618;<br/>&#3607;&#3635;&#3652;&#3617;&#3592;&#3638;&#3591;&#3605;&#3657;&#3629;&#3591;&#3609;&#3635;&#3617;&#3634;&#3651;&#3594;&#3657;?<br/>&#3617;&#3637;&#3627;&#3621;&#3633;&#3585;&#3600;&#3634;&#3609;&#3607;&#3637;&#3656;&#3648;&#3611;&#3655;&#3609;&#3586;&#3657;&#3629;&#3648;&#3607;&#3655;&#3592;&#3592;&#3619;&#3636;&#3591;&#3618;&#3639;&#3609;&#3618;&#3633;&#3609;&#3617;&#3634;&#3609;&#3634;&#3609;&#3649;&#3621;&#3657;&#3623; &#3623;&#3656;&#3634;&#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;&#3607;&#3637;&#3656;&#3629;&#3656;&#3634;&#3609;&#3619;&#3641;&#3657;&#3648;&#3619;&#3639;&#3656;&#3629;&#3591;&#3609;&#3633;&#3657;&#3609;&#3592;&#3632;&#3652;&#3611;&#3585;&#3623;&#3609;&#3626;&#3617;&#3634;&#3608;&#3636;&#3586;&#3629;&#3591;&#3588;&#3609;&#3629;&#3656;&#3634;&#3609;&#3651;&#3627;&#3657;&#3648;&#3586;&#3623;&#3652;&#3611;&#3592;&#3634;&#3585;&#3626;&#3656;&#3623;&#3609;&#3607;&#3637;&#3657;&#3648;&#3611;&#3655;&#3609; Layout<br/>&#3648;&#3619;&#3634;&#3609;&#3635; Lorem Ipsum &#3617;&#3634;&#3651;&#3594;&#3657;&#3648;&#3614;&#3619;&#3634;&#3632;&#3588;&#3623;&#3634;&#3617;&#3607;&#3637;&#3656;&#3617;&#3633;&#3609;&#3617;&#3637;&#3585;&#3634;&#3619;&#3585;&#3619;&#3632;&#3592;&#3634;&#3618;&#3586;&#3629;&#3591;&#3605;&#3633;&#3623;&#3629;&#3633;&#3585;&#3625;&#3619;&#3608;&#3619;&#3619;&#3617;&#3604;&#3634;&#3654; &#3649;&#3610;&#3610;&#3614;&#3629;&#3611;&#3619;&#3632;&#3617;&#3634;&#3603; &#3595;&#3638;&#3656;&#3591;&#3648;&#3629;&#3634;&#3617;&#3634;&#3651;&#3594;&#3657;&#3649;&#3607;&#3609;&#3585;&#3634;&#3619;&#3648;&#3586;&#3637;&#3618;&#3609;&#3623;&#3656;&#3634; ?&#3605;&#3619;&#3591;&#3609;&#3637;&#3657;&#3648;&#3611;&#3655;&#3609;&#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;,<br/>&#3605;&#3619;&#3591;&#3609;&#3637;&#3657;&#3648;&#3611;&#3655;&#3609;&#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;' &#3652;&#3604;&#3657; &#3649;&#3621;&#3632;&#3618;&#3633;&#3591;&#3607;&#3635;&#3651;&#3627;&#3657;&#3617;&#3629;&#3591;&#3604;&#3641;&#3648;&#3627;&#3617;&#3639;&#3629;&#3609;&#3585;&#3633;&#3610;&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;&#3607;&#3637;&#3656;&#3629;&#3656;&#3634;&#3609;&#3652;&#3604;&#3657;&#3611;&#3585;&#3605;&#3636; &#3611;&#3633;&#3592;&#3592;&#3640;&#3610;&#3633;&#3609;&#3617;&#3637;&#3649;&#3614;&#3655;&#3585;&#3648;&#3585;&#3592;&#3586;&#3629;&#3591;&#3595;&#3629;&#3615;&#3607;&#3660;&#3649;&#3623;&#3619;&#3660;&#3585;&#3634;&#3619;&#3607;&#3635;&#3626;&#3639;&#3656;&#3629;&#3626;&#3636;&#3656;&#3591;&#3614;&#3636;&#3617;&#3614;&#3660;<br/>&#3649;&#3621;&#3632;&#3595;&#3629;&#3615;&#3607;&#3660;&#3649;&#3623;&#3619;&#3660;&#3585;&#3634;&#3619;&#3626;&#3619;&#3657;&#3634;&#3591;&#3648;&#3623;&#3655;&#3610;&#3648;&#3614;&#3592; (Web Page Editor) &#3627;&#3621;&#3634;&#3618;&#3605;&#3633;&#3623;&#3607;&#3637;&#3656;&#3651;&#3594;&#3657; Lorem Ipsum &#3648;&#3611;&#3655;&#3609;&#3649;&#3610;&#3610;&#3592;&#3635;&#3621;&#3629;&#3591;&#3648;&#3609;&#3639;&#3657;&#3629;&#3627;&#3634;&#3607;&#3637;&#3656;&#3648;&#3611;&#3655;&#3609;&#3588;&#3656;&#3634;&#3605;&#3633;&#3657;&#3591;&#3605;&#3657;&#3609;<br/>&#3649;&#3621;&#3632;&#3648;&#3623;&#3621;&#3634;&#3607;&#3637;&#3656;&#3648;&#3626;&#3636;&#3619;&#3660;&#3594;&#3604;&#3657;&#3623;&#3618;&#3588;&#3635;&#3623;&#3656;&#3634; 'lorem ipsum' &#3612;&#3621;&#3585;&#3634;&#3619;&#3648;&#3626;&#3636;&#3619;&#3660;&#3594;&#3607;&#3637;&#3656;&#3652;&#3604;&#3657;&#3585;&#3655;&#3592;&#3632;&#3652;&#3617;&#3656;&#3614;&#3610;&#3610;&#3619;&#3619;&#3604;&#3634;&#3648;&#3623;&#3655;&#3610;&#3652;&#3595;&#3605;&#3660;&#3607;&#3637;&#3656;&#3618;&#3633;&#3591;&#3588;&#3591;&#3629;&#3618;&#3641;&#3656;&#3651;&#3609;&#3594;&#3656;&#3623;&#3591;&#3648;&#3619;&#3636;&#3656;&#3617;&#3626;&#3619;&#3657;&#3634;&#3591;&#3604;&#3657;&#3623;&#3618;<br/>&#3650;&#3604;&#3618;&#3627;&#3621;&#3634;&#3618;&#3611;&#3637;&#3607;&#3637;&#3656;&#3612;&#3656;&#3634;&#3609;&#3617;&#3634;&#3585;&#3655;&#3617;&#3637;&#3585;&#3634;&#3619;&#3588;&#3636;&#3604;&#3588;&#3657;&#3609;&#3648;&#3623;&#3629;&#3619;&#3660;&#3594;&#3633;&#3656;&#3609;&#3605;&#3656;&#3634;&#3591;&#3654; &#3586;&#3629;&#3591; Lorem Ipsum &#3586;&#3638;&#3657;&#3609;&#3617;&#3634;&#3651;&#3594;&#3657; &#3610;&#3657;&#3634;&#3591;&#3585;&#3655;&#3648;&#3611;&#3655;&#3609;&#3588;&#3623;&#3634;&#3617;&#3610;&#3633;&#3591;&#3648;&#3629;&#3636;&#3597; &#3610;&#3657;&#3634;&#3591;&#3585;&#3655;&#3648;&#3611;&#3655;&#3609;&#3588;&#3623;&#3634;&#3617;&#3605;&#3633;&#3657;&#3591;&#3651;&#3592; (&#3648;&#3594;&#3656;&#3609;<br/>&#3585;&#3634;&#3619;&#3649;&#3629;&#3610;&#3649;&#3607;&#3619;&#3585;&#3617;&#3640;&#3585;&#3605;&#3621;&#3585;)<br/><br/>&#3617;&#3633;&#3609;&#3617;&#3637;&#3607;&#3637;&#3656;&#3617;&#3634;&#3629;&#3618;&#3656;&#3634;&#3591;&#3652;&#3619;?<br/>&#3605;&#3619;&#3591;&#3585;&#3633;&#3609;&#3586;&#3657;&#3634;&#3617;&#3585;&#3633;&#3610;&#3588;&#3623;&#3634;&#3617;&#3648;&#3594;&#3639;&#3656;&#3629;&#3607;&#3637;&#3656;&#3609;&#3636;&#3618;&#3617;&#3585;&#3633;&#3609; Lorem Ipsum &#3652;&#3617;&#3656;&#3652;&#3604;&#3657;&#3648;&#3611;&#3655;&#3609;&#3648;&#3614;&#3637;&#3618;&#3591;&#3649;&#3588;&#3656;&#3594;&#3640;&#3604;&#3605;&#3633;&#3623;&#3629;&#3633;&#3585;&#3625;&#3619;&#3607;&#3637;&#3656;&#3626;&#3640;&#3656;&#3617;&#3586;&#3638;&#3657;&#3609;&#3617;&#3634;&#3617;&#3633;&#3656;&#3623;&#3654;<br/>&#3649;&#3605;&#3656;&#3627;&#3634;&#3585;&#3617;&#3637;&#3607;&#3637;&#3656;&#3617;&#3634;&#3592;&#3634;&#3585;&#3623;&#3619;&#3619;&#3603;&#3585;&#3619;&#3619;&#3617;&#3621;&#3632;&#3605;&#3636;&#3609;&#3588;&#3621;&#3634;&#3626;&#3626;&#3636;&#3585;&#3594;&#3636;&#3657;&#3609;&#3627;&#3609;&#3638;&#3656;&#3591;&#3651;&#3609;&#3618;&#3640;&#3588; 45 &#3611;&#3637;&#3585;&#3656;&#3629;&#3609;&#3588;&#3619;&#3636;&#3626;&#3605;&#3624;&#3633;&#3585;&#3619;&#3634;&#3594; &#3607;&#3635;&#3651;&#3627;&#3657;&#3617;&#3633;&#3609;&#3617;&#3637;&#3629;&#3634;&#3618;&#3640;&#3606;&#3638;&#3591;&#3585;&#3623;&#3656;&#3634; 2000 &#3611;&#3637;&#3648;&#3621;&#3618;&#3607;&#3637;&#3648;&#3604;&#3637;&#3618;&#3623; &#3619;&#3636;&#3594;&#3634;&#3619;&#3660;&#3604;<br/>&#3649;&#3617;&#3588;&#3588;&#3621;&#3636;&#3609;&#3607;&#3655;&#3629;&#3588; &#3624;&#3634;&#3626;&#3605;&#3619;&#3634;&#3592;&#3634;&#3619;&#3618;&#3660;&#3594;&#3634;&#3623;&#3621;&#3632;&#3605;&#3636;&#3609; &#3592;&#3634;&#3585;&#3623;&#3636;&#3607;&#3618;&#3634;&#3621;&#3633;&#3618;&#3649;&#3630;&#3617;&#3614;&#3660;&#3648;&#3604;&#3655;&#3609;-&#3595;&#3636;&#3604;&#3609;&#3637;&#3618;&#3660; &#3651;&#3609;&#3619;&#3633;&#3600;&#3648;&#3623;&#3629;&#3619;&#3660;&#3592;&#3636;&#3648;&#3609;&#3637;&#3618;&#3619;&#3660; &#3609;&#3635;&#3588;&#3635;&#3616;&#3634;&#3625;&#3634;&#3621;&#3632;&#3605;&#3636;&#3609;&#3588;&#3635;&#3623;&#3656;&#3634; consectetur<br/>&#3595;&#3638;&#3656;&#3591;&#3627;&#3634;&#3588;&#3635;&#3649;&#3611;&#3621;&#3652;&#3617;&#3656;&#3652;&#3604;&#3657;&#3592;&#3634;&#3585; Lorem Ipsum &#3605;&#3629;&#3609;&#3627;&#3609;&#3638;&#3656;&#3591;&#3617;&#3634;&#3588;&#3657;&#3609;&#3648;&#3614;&#3636;&#3656;&#3617;&#3648;&#3605;&#3636;&#3617; &#3650;&#3604;&#3618;&#3605;&#3619;&#3623;&#3592;&#3648;&#3607;&#3637;&#3618;&#3610;&#3585;&#3633;&#3610;&#3649;&#3627;&#3621;&#3656;&#3591;&#3629;&#3657;&#3634;&#3591;&#3629;&#3636;&#3591;&#3605;&#3656;&#3634;&#3591;&#3654; &#3651;&#3609;&#3623;&#3619;&#3619;&#3603;&#3585;&#3619;&#3619;&#3617;&#3588;&#3621;&#3634;&#3626;&#3626;&#3636;&#3585;<br/>&#3649;&#3621;&#3632;&#3588;&#3657;&#3609;&#3614;&#3610;&#3649;&#3627;&#3621;&#3656;&#3591;&#3586;&#3657;&#3629;&#3617;&#3641;&#3621;&#3607;&#3637;&#3656;&#3652;&#3619;&#3657;&#3586;&#3657;&#3629;&#3585;&#3633;&#3591;&#3586;&#3634;&#3623;&#3656;&#3634; Lorem Ipsum &#3609;&#3633;&#3657;&#3609;&#3617;&#3634;&#3592;&#3634;&#3585;&#3605;&#3629;&#3609;&#3607;&#3637;&#3656; 1.10.32 &#3649;&#3621;&#3632; 1.10.33 &#3586;&#3629;&#3591;&#3648;&#3619;&#3639;&#3656;&#3629;&#3591; &quot;de Finibus Bonorum et Malorum&quot;<br/>(The Extremes of Good and Evil) &#3586;&#3629;&#3591; &#3595;&#3636;&#3648;&#3595;&#3650;&#3619; &#3607;&#3637;&#3656;&#3649;&#3605;&#3656;&#3591;&#3652;&#3623;&#3657;&#3648;&#3617;&#3639;&#3656;&#3629; 45 &#3611;&#3637;&#3585;&#3656;&#3629;&#3609;&#3588;&#3619;&#3636;&#3626;&#3605;&#3624;&#3633;&#3585;&#3619;&#3634;&#3594;<br/>&#3627;&#3609;&#3633;&#3591;&#3626;&#3639;&#3629;&#3648;&#3621;&#3656;&#3617;&#3609;&#3637;&#3657;&#3648;&#3611;&#3655;&#3609;&#3648;&#3619;&#3639;&#3656;&#3629;&#3591;&#3619;&#3634;&#3623;&#3607;&#3637;&#3656;&#3623;&#3656;&#3634;&#3604;&#3657;&#3623;&#3618;&#3607;&#3620;&#3625;&#3598;&#3637;&#3649;&#3627;&#3656;&#3591;&#3592;&#3619;&#3636;&#3618;&#3624;&#3634;&#3626;&#3605;&#3619;&#3660; &#3595;&#3638;&#3656;&#3591;&#3648;&#3611;&#3655;&#3609;&#3607;&#3637;&#3656;&#3609;&#3636;&#3618;&#3617;&#3617;&#3634;&#3585;&#3651;&#3609;&#3618;&#3640;&#3588;&#3648;&#3619;&#3648;&#3609;&#3626;&#3595;&#3629;&#3591;&#3626;&#3660; &#3610;&#3619;&#3619;&#3607;&#3633;&#3604;&#3649;&#3619;&#3585;&#3586;&#3629;&#3591; Lorem Ipsum &quot;Lorem<br/>ipsum dolor sit amet..&quot; &#3585;&#3655;&#3617;&#3634;&#3592;&#3634;&#3585;&#3610;&#3619;&#3619;&#3607;&#3633;&#3604;&#3627;&#3609;&#3638;&#3656;&#3591;&#3651;&#3609;&#3605;&#3629;&#3609;&#3607;&#3637;&#3656; 1.10.32 &#3609;&#3633;&#3656;&#3609;&#3648;&#3629;&#3591;<br/>&#3604;&#3657;&#3634;&#3609;&#3621;&#3656;&#3634;&#3591;&#3586;&#3629;&#3591;&#3627;&#3609;&#3657;&#3634;&#3609;&#3637;&#3657;&#3588;&#3639;&#3629;&#3607;&#3656;&#3629;&#3609;&#3617;&#3634;&#3605;&#3619;&#3600;&#3634;&#3609;&#3586;&#3629;&#3591; Lorem Ipsum &#3607;&#3637;&#3656;&#3651;&#3594;&#3657;&#3585;&#3633;&#3609;&#3617;&#3634;&#3605;&#3633;&#3657;&#3591;&#3649;&#3605;&#3656;&#3588;&#3619;&#3636;&#3626;&#3605;&#3624;&#3605;&#3623;&#3619;&#3619;&#3625;&#3607;&#3637;&#3656; 16&#3607;&#3637;&#3656;&#3652;&#3604;&#3657;&#3619;&#3633;&#3610;&#3585;&#3634;&#3619;&#3626;&#3619;&#3657;&#3634;&#3591;&#3586;&#3638;&#3657;&#3609;&#3651;&#3627;&#3617;&#3656;&#3626;&#3635;&#3627;&#3619;&#3633;&#3610;&#3612;&#3641;&#3657;&#3607;&#3637;&#3656;&#3626;&#3609;&#3651;&#3592;<br/>&#3611;&#3619;&#3632;&#3585;&#3629;&#3610;&#3652;&#3611;&#3604;&#3657;&#3623;&#3618; &#3605;&#3629;&#3609;&#3607;&#3637;&#3656; 1.10.32 &#3649;&#3621;&#3632; 1.10.33 &#3592;&#3634;&#3585;&#3648;&#3619;&#3639;&#3656;&#3629;&#3591; &quot;de Finibus Bonorum et Malorum&quot; &#3650;&#3604;&#3618;&#3595;&#3636;&#3648;&#3595;&#3650;&#3619;<br/>&#3585;&#3655;&#3652;&#3604;&#3657;&#3619;&#3633;&#3610;&#3585;&#3634;&#3619;&#3612;&#3621;&#3636;&#3605;&#3586;&#3638;&#3657;&#3609;&#3651;&#3627;&#3617;&#3656;&#3604;&#3657;&#3623;&#3618;&#3648;&#3594;&#3656;&#3609;&#3585;&#3633;&#3609;&#3651;&#3609;&#3619;&#3641;&#3611;&#3649;&#3610;&#3610;&#3607;&#3637;&#3656;&#3605;&#3619;&#3591;&#3585;&#3633;&#3610;&#3605;&#3657;&#3609;&#3593;&#3610;&#3633;&#3610; &#3605;&#3634;&#3617;&#3617;&#3634;&#3604;&#3657;&#3623;&#3618;&#3648;&#3623;&#3629;&#3619;&#3660;&#3594;&#3633;&#3656;&#3609;&#3616;&#3634;&#3625;&#3634;&#3629;&#3633;&#3591;&#3585;&#3620;&#3625;&#3592;&#3634;&#3585;&#3585;&#3634;&#3619;&#3649;&#3611;&#3621;&#3586;&#3629;&#3591; &#3648;&#3629;&#3594; &#3649;&#3619;&#3655;&#3588;&#3649;&#3588;&#3617; &#3648;&#3617;&#3639;&#3656;&#3629;&#3611;&#3637; &#3588;.&#3624;.<br/>1914<br/>&#3592;&#3632;&#3609;&#3635;&#3617;&#3634;&#3651;&#3594;&#3657;&#3652;&#3604;&#3657;&#3592;&#3634;&#3585;&#3607;&#3637;&#3656;&#3652;&#3627;&#3609;?<br/>&#3617;&#3637;&#3607;&#3656;&#3629;&#3609;&#3605;&#3656;&#3634;&#3591;&#3654; &#3586;&#3629;&#3591; Lorem Ipsum &#3651;&#3627;&#3657;&#3627;&#3618;&#3636;&#3610;&#3617;&#3634;&#3651;&#3594;&#3657;&#3591;&#3634;&#3609;&#3652;&#3604;&#3657;&#3617;&#3634;&#3585;&#3617;&#3634;&#3618; &#3649;&#3605;&#3656;&#3626;&#3656;&#3623;&#3609;&#3651;&#3627;&#3597;&#3656;&#3649;&#3621;&#3657;&#3623;&#3592;&#3632;&#3606;&#3641;&#3585;&#3609;&#3635;&#3652;&#3611;&#3611;&#3619;&#3633;&#3610;&#3651;&#3627;&#3657;&#3648;&#3611;&#3655;&#3609;&#3619;&#3641;&#3611;&#3649;&#3610;&#3610;&#3629;&#3639;&#3656;&#3609;&#3654; &#3629;&#3634;&#3592;&#3592;&#3632;&#3604;&#3657;&#3623;&#3618;&#3585;&#3634;&#3619;&#3626;&#3629;&#3604;&#3649;&#3607;&#3619;&#3585;&#3617;&#3640;&#3585;&#3605;&#3621;&#3585;<br/>&#3627;&#3619;&#3639;&#3629;&#3604;&#3657;&#3623;&#3618;&#3588;&#3635;&#3607;&#3637;&#3656;&#3617;&#3633;&#3656;&#3623;&#3586;&#3638;&#3657;&#3609;&#3617;&#3634;&#3595;&#3638;&#3656;&#3591;&#3606;&#3638;&#3591;&#3629;&#3618;&#3656;&#3634;&#3591;&#3652;&#3619;&#3585;&#3655;&#3652;&#3617;&#3656;&#3617;&#3637;&#3607;&#3634;&#3591;&#3648;&#3611;&#3655;&#3609;&#3648;&#3619;&#3639;&#3656;&#3629;&#3591;&#3592;&#3619;&#3636;&#3591;&#3652;&#3604;&#3657;&#3648;&#3621;&#3618;&#3649;&#3617;&#3657;&#3649;&#3605;&#3656;&#3609;&#3657;&#3629;&#3618; &#3606;&#3657;&#3634;&#3588;&#3640;&#3603;&#3585;&#3635;&#3621;&#3633;&#3591;&#3588;&#3636;&#3604;&#3592;&#3632;&#3651;&#3594;&#3657; Lorem Ipsum &#3626;&#3633;&#3585;&#3607;&#3656;&#3629;&#3609;&#3627;&#3609;&#3638;&#3656;&#3591;<br/>&#3588;&#3640;&#3603;&#3592;&#3635;&#3648;&#3611;&#3655;&#3609;&#3592;&#3632;&#3605;&#3657;&#3629;&#3591;&#3605;&#3619;&#3623;&#3592;&#3651;&#3627;&#3657;&#3649;&#3609;&#3656;&#3651;&#3592;&#3623;&#3656;&#3634;&#3652;&#3617;&#3656;&#3617;&#3637;&#3629;&#3632;&#3652;&#3619;&#3609;&#3656;&#3634;&#3629;&#3633;&#3610;&#3629;&#3634;&#3618;&#3595;&#3656;&#3629;&#3609;&#3629;&#3618;&#3641;&#3656;&#3616;&#3634;&#3618;&#3651;&#3609;&#3607;&#3656;&#3629;&#3609;&#3609;&#3633;&#3657;&#3609;&#3654; &#3605;&#3633;&#3623;&#3626;&#3619;&#3657;&#3634;&#3591; Lorem Ipsum<br/>&#3610;&#3609;&#3629;&#3636;&#3609;&#3648;&#3607;&#3629;&#3619;&#3660;&#3648;&#3609;&#3655;&#3605;&#3607;&#3640;&#3585;&#3605;&#3633;&#3623;&#3617;&#3633;&#3585;&#3592;&#3632;&#3648;&#3629;&#3634;&#3607;&#3656;&#3629;&#3609;&#3607;&#3637;&#3656;&#3649;&#3609;&#3656;&#3651;&#3592;&#3649;&#3621;&#3657;&#3623;&#3617;&#3634;&#3651;&#3594;&#3657;&#3595;&#3657;&#3635;&#3654; &#3607;&#3635;&#3651;&#3627;&#3657;&#3585;&#3621;&#3634;&#3618;&#3648;&#3611;&#3655;&#3609;&#3607;&#3637;&#3656;&#3617;&#3634;&#3586;&#3629;&#3591;&#3605;&#3633;&#3623;&#3626;&#3619;&#3657;&#3634;&#3591;&#3607;&#3637;&#3656;&#3649;&#3607;&#3657;&#3592;&#3619;&#3636;&#3591;&#3610;&#3609;&#3629;&#3636;&#3609;&#3648;&#3607;&#3629;&#3619;&#3660;&#3648;&#3609;&#3655;&#3605; &#3651;&#3609;&#3585;&#3634;&#3619;&#3626;&#3619;&#3657;&#3634;&#3591; Lorem<br/>Ipsum &#3607;&#3637;&#3656;&#3604;&#3641;&#3648;&#3586;&#3657;&#3634;&#3607;&#3656;&#3634; &#3605;&#3657;&#3629;&#3591;&#3651;&#3594;&#3657;&#3588;&#3635;&#3592;&#3634;&#3585;&#3614;&#3592;&#3609;&#3634;&#3609;&#3640;&#3585;&#3619;&#3617;&#3616;&#3634;&#3625;&#3634;&#3621;&#3632;&#3605;&#3636;&#3609;&#3606;&#3638;&#3591;&#3585;&#3623;&#3656;&#3634; 200 &#3588;&#3635; &#3612;&#3626;&#3617;&#3585;&#3633;&#3610;&#3619;&#3641;&#3611;&#3649;&#3610;&#3610;&#3650;&#3588;&#3619;&#3591;&#3626;&#3619;&#3657;&#3634;&#3591;&#3611;&#3619;&#3632;&#3650;&#3618;&#3588;&#3629;&#3637;&#3585;&#3592;&#3635;&#3609;&#3623;&#3609;&#3627;&#3609;&#3638;&#3656;&#3591; &#3648;&#3614;&#3619;&#3634;&#3632;&#3593;&#3632;&#3609;&#3633;&#3657;&#3609; Lorem<br/>Ipsum &#3607;&#3637;&#3656;&#3606;&#3641;&#3585;&#3626;&#3619;&#3657;&#3634;&#3591;&#3586;&#3638;&#3657;&#3609;&#3651;&#3627;&#3617;&#3656;&#3609;&#3637;&#3657;&#3585;&#3655;&#3592;&#3632;&#3652;&#3617;&#3656;&#3595;&#3657;&#3635;&#3652;&#3611;&#3595;&#3657;&#3635;&#3617;&#3634; &#3652;&#3617;&#3656;&#3617;&#3637;&#3617;&#3640;&#3585;&#3605;&#3621;&#3585;&#3595;&#3640;&#3585;&#3649;&#3613;&#3591;&#3652;&#3623;&#3657;&#3616;&#3634;&#3618;&#3651;&#3609; &#3627;&#3619;&#3639;&#3629;&#3652;&#3617;&#3656;&#3617;&#3637;&#3588;&#3635;&#3651;&#3604;&#3654; &#3607;&#3637;&#3656;&#3652;&#3617;&#3656;&#3610;&#3656;&#3591;&#3610;&#3629;&#3585;&#3588;&#3623;&#3634;&#3617;&#3627;&#3617;&#3634;&#3618;&#10;
+								</message>
+								<metainfo
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.UserCode.cs"
+									codeline="49"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:05.372"
+								timeRelativeToTestModuleStartTime="00:09.696"
+								timeWallClock="17:23:06"
+								time="01:05.372"
+								level="Info"
+								category="User">
+								<message>
+									The text contains Thai characters.
+								</message>
+								<metainfo
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyThaiDetection.UserCode.cs"
+									codeline="64"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="10.44s"
+							durationms="10436"
+							type="teardown-container"
+							rid="ca24cc3416fbde3"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="1"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0">
+							<activity
+								result="Success"
+								duration="10.43s"
+								durationms="10432"
+								type="test-module"
+								rid="14f517a2b96031"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="CloseAUT"
+								displayName="CloseAUT"
+								moduleid="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
+								moduletype="Recording"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+									<varbinding
+										name="CloseAutProcessIDVar"
+										value="20664">
+									</varbinding>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="01:05.415"
+									timeRelativeToTestModuleStartTime="00:00.000"
+									timeWallClock="17:23:06"
+									time="01:05.415"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$CloseAutProcessIDVar = '20664'
+									</message>
+									<metainfo
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:05.448"
+									timeRelativeToTestModuleStartTime="00:00.033"
+									timeWallClock="17:23:06"
+									time="01:05.448"
+									level="Info"
+									category="Application">
+									<message>
+										Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+									</message>
+									<metainfo
+										itemindex="0"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs"
+										codeline="95"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:05.809"
+									timeRelativeToTestModuleStartTime="00:00.395"
+									timeWallClock="17:23:06"
+									time="01:05.809"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 10s.
+									</message>
+									<metainfo
+										itemindex="1"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs"
+										codeline="99"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="1.2m"
+						durationms="74904"
+						type="test-case"
+						rid="13c1a166f04e5932"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesstestcasecount="1"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="5"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="Traditional_Chinese_detection"
+						testcontainerid="4d954276-fadf-4067-880c-e42324aaf048"
+						headertext="Traditional_Chinese_detection"
+						displayName="Traditional_Chinese_detection"
+						iteration="1"
+						activity-exectype="execute"
+						conditionstate="none">
+						<params>
+							<param
+								name="FilePath">
+								C:\UltraEditFiles\ue-20241025T061201Z-004\ue\codePageDetection\stringtable_tc.resource
+							</param>
+						</params>
+						<activity
+							result="Success"
+							duration="35.75s"
+							durationms="35747"
+							type="setup-container"
+							rid="14f203eb4b3670"
+							totalerrorcount="0"
+							totalwarningcount="1"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="2"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0">
+							<activity
+								result="Success"
+								duration="2.51s"
+								durationms="2512"
+								type="test-module"
+								rid="b3c64c90190260c"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="RestoreDefaultSettings"
+								displayName="RestoreDefaultSettings"
+								moduleid="2f917574-72a0-4ade-a96e-bd153c793ab2"
+								moduletype="UserCode"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="01:15.950"
+									timeRelativeToTestModuleStartTime="00:00.099"
+									timeWallClock="17:23:16"
+									time="01:15.950"
+									level="Info"
+									category="User">
+									<message>
+										Folder deleted successfully!
+									</message>
+									<metainfo
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+										codeline="52"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:17.333"
+									timeRelativeToTestModuleStartTime="00:01.481"
+									timeWallClock="17:23:17"
+									time="01:17.333"
+									level="Info"
+									category="User">
+									<message>
+										Folder copied successfully!
+									</message>
+									<metainfo
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\Common\RestoreDefaultSettings.cs"
+										codeline="59"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+							<activity
+								result="Success"
+								duration="33.23s"
+								durationms="33229"
+								type="test-module"
+								rid="14d618153e19fb46"
+								totalerrorcount="0"
+								totalwarningcount="1"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="StartAUT"
+								displayName="StartAUT"
+								moduleid="e2650338-2dbb-41bb-a3a6-4798caf81207"
+								moduletype="Recording"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+									<varbinding
+										name="StartAutProcessIDVar"
+										value="20664">
+									</varbinding>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="01:18.369"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="17:23:19"
+									time="01:18.369"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$StartAutProcessIDVar = '20664'
+									</message>
+									<metainfo
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:18.392"
+									timeRelativeToTestModuleStartTime="00:00.025"
+									timeWallClock="17:23:19"
+									time="01:18.392"
+									level="Info"
+									category="Application">
+									<message>
+										Run application 'C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+									</message>
+									<metainfo
+										itemindex="0"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="95"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:18.501"
+									timeRelativeToTestModuleStartTime="00:00.133"
+									timeWallClock="17:23:19"
+									time="01:18.501"
+									level="Info"
+									category="Invoke action">
+									<message>
+										(Optional Action)<br/>Invoking Close() on item 'TrialPeriodExpiring'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/form[@title='Trial Period Expiring']"
+										itempath="/form[@title='Trial Period Expiring']"
+										fullname="UltraEditAutomationRepository.TrialPeriodExpiring.Self"
+										id="fad3edbaf5c846c98298d735f41a3d93"
+										timeout="30000"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="100"
+										itemindex="1"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:49.095"
+									timeRelativeToTestModuleStartTime="00:30.728"
+									timeWallClock="17:23:49"
+									time="01:49.095"
+									level="Warn"
+									category="Module">
+									<message>
+										(Optional Action) Failed to find item 'UltraEditAutomationRepository.TrialPeriodExpiring.Self'.
+									</message>
+									<metainfo
+										itemindex="1"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="103"
+										loglvl="Warn"
+										id="fad3edbaf5c846c98298d735f41a3d93"
+										path="/form[@title='Trial Period Expiring']"
+										fullname="UltraEditAutomationRepository.TrialPeriodExpiring.Self">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:49.129"
+									timeRelativeToTestModuleStartTime="00:30.761"
+									timeWallClock="17:23:49"
+									time="01:49.129"
+									level="Info"
+									category="Invoke action">
+									<message>
+										Invoking Maximize() on item 'UltraEdit64Bit'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/form[@title~'UltraEdit 64-bi']"
+										itempath="/form[@title~'UltraEdit 64-bi']"
+										fullname="UltraEditAutomationRepository.UltraEdit64Bit.Self"
+										id="5274a8d051584fdaa542b6fdc24cb4f2"
+										timeout="30000"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="105"
+										itemindex="2"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="01:49.539"
+									timeRelativeToTestModuleStartTime="00:31.171"
+									timeWallClock="17:23:50"
+									time="01:49.539"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="3"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\StartAUT.cs"
+										codeline="109"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Success"
+							duration="6.93s"
+							durationms="6928"
+							type="test-module"
+							rid="8fb15e01bcedb4a"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="AutomaticallyDetectEncoding_IsSelected"
+							displayName="AutomaticallyDetectEncoding_IsSelected"
+							moduleid="875812ad-0ca5-43e5-a4bf-15077eeaaa73"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:51.605"
+								timeRelativeToTestModuleStartTime="00:00.005"
+								timeWallClock="17:23:52"
+								time="01:51.605"
+								level="Info"
+								category="Invoke action">
+								<message>
+									Invoking Select() on item 'UltraEdit64Bit.Advanced'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Advanced']"
+									itempath="?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Advanced']"
+									fullname="UltraEditAutomationRepository.UltraEdit64Bit.Advanced"
+									id="403447d800b140d8b30e9639058573c4"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:53.003"
+								timeRelativeToTestModuleStartTime="00:01.403"
+								timeWallClock="17:23:53"
+								time="01:53.003"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'UltraEdit64Bit.Settings' at 8;51.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'UltraEdit 64-bi']//toolbar[@accessiblename='Advanced']/toolbar[@accessiblename='Configure']/button[@accessiblename='Settings']"
+									itempath=".//toolbar[@accessiblename='Advanced']/toolbar[@accessiblename='Configure']/button[@accessiblename='Settings']"
+									fullname="UltraEditAutomationRepository.UltraEdit64Bit.Settings"
+									id="7d327accf93d424faee80b22ab8d3fec"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:54.739"
+								timeRelativeToTestModuleStartTime="00:03.139"
+								timeWallClock="17:23:55"
+								time="01:54.739"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Configuration.FileHandling' at 59;3.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/tree/treeitem[@text='File handling']"
+									itempath="tree/treeitem[@text='File handling']"
+									fullname="UltraEditAutomationRepository.Configuration.FileHandling"
+									id="13e12960a7004d0db45c51c1723f5b80"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:55.774"
+								timeRelativeToTestModuleStartTime="00:04.174"
+								timeWallClock="17:23:56"
+								time="01:55.774"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Configuration.Encoding' at 37;9.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/tree[@controlid='8190']/?/?/treeitem[@text='Encoding']"
+									itempath="tree[@controlid='8190']/?/?/treeitem[@text='Encoding']"
+									fullname="UltraEditAutomationRepository.Configuration.Encoding"
+									id="4eb1ac5e8a1e474093c3ab69d0f57acb"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="94"
+									itemindex="3"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:56.424"
+								timeRelativeToTestModuleStartTime="00:04.824"
+								timeWallClock="17:23:57"
+								time="01:56.424"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (Checked='True') on item 'Configuration.AutomaticallyDetectEncoding'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/?/?/checkbox[@controlid='1350']"
+									itempath="?/?/checkbox[@controlid='1350']"
+									fullname="UltraEditAutomationRepository.Configuration.AutomaticallyDetectEncoding"
+									id="ae402ba7232f405ab9d5780042094167"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="98"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:57.314"
+								timeRelativeToTestModuleStartTime="00:05.714"
+								timeWallClock="17:23:57"
+								time="01:57.314"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'Checked' of element for item 'UltraEditAutomationRepository.Configuration.AutomaticallyDetectEncoding' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/?/?/checkbox[@controlid='1350']"
+									itempath="?/?/checkbox[@controlid='1350']"
+									fullname="UltraEditAutomationRepository.Configuration.AutomaticallyDetectEncoding"
+									id="ae402ba7232f405ab9d5780042094167"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="99"
+									loglvl="Success"
+									itemindex="4">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:57.448"
+								timeRelativeToTestModuleStartTime="00:05.848"
+								timeWallClock="17:23:58"
+								time="01:57.448"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Configuration.Close' at 23;15.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Configuration']/form[@name='Configuration']/?/?/button[@name='Close']"
+									itempath="form[@name='Configuration']/?/?/button[@name='Close']"
+									fullname="UltraEditAutomationRepository.Configuration.Close"
+									id="fd492f9ccba2447ab2200d1c3728cc5e"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\AutomaticallyDetectEncoding_IsSelected.cs"
+									codeline="102"
+									itemindex="5"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="11.8s"
+							durationms="11798"
+							type="test-module"
+							rid="856a0245985bb1"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="OpenFile"
+							displayName="OpenFile"
+							moduleid="86a4a5f3-5d95-466e-838a-0c9261985152"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="Filepath"
+									value="C:\UltraEditFiles\ue-20241025T061201Z-004\ue\codePageDetection\stringtable_tc.resource">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="01:58.531"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="17:23:59"
+								time="01:58.531"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$Filepath = 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\codePageDetection\stringtable_tc.resource'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:58.564"
+								timeRelativeToTestModuleStartTime="00:00.033"
+								timeWallClock="17:23:59"
+								time="01:58.564"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'UltraEdit64Bit.ToolBar.ApplicationMenu' at 40;11.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+									itempath="button[@accessiblename='Application menu']"
+									fullname="UltraEditAutomationRepository.UltraEdit64Bit.ToolBar.ApplicationMenu"
+									id="40f5f2fcf2a343d98001a64f4f686131"
+									timeout="90000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="95"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:00.024"
+								timeRelativeToTestModuleStartTime="00:01.493"
+								timeWallClock="17:24:00"
+								time="02:00.024"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Uedit64.Open' at 55;15.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']"
+									itempath="?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']"
+									fullname="UltraEditAutomationRepository.Uedit64.Open"
+									id="cc0a9e1b713949edb0f2bfb26ce727f9"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="99"
+									itemindex="1"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:02.508"
+								timeRelativeToTestModuleStartTime="00:03.976"
+								timeWallClock="17:24:03"
+								time="02:02.508"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Open.Text1148' at 60;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Open']/?/?/text[@controlid='1148']"
+									itempath="?/?/text[@controlid='1148']"
+									fullname="UltraEditAutomationRepository.Open.Text1148"
+									id="79bb1fc86ebf43cba8f60bcb1ba970af"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="103"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:04.490"
+								timeRelativeToTestModuleStartTime="00:05.959"
+								timeWallClock="17:24:05"
+								time="02:04.490"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence from variable '$Filepath' with focus on 'Open.Text1148'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Open']/?/?/text[@controlid='1148']"
+									itempath="?/?/text[@controlid='1148']"
+									fullname="UltraEditAutomationRepository.Open.Text1148"
+									id="79bb1fc86ebf43cba8f60bcb1ba970af"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="107"
+									itemindex="3"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:07.716"
+								timeRelativeToTestModuleStartTime="00:09.184"
+								timeWallClock="17:24:08"
+								time="02:07.716"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'Open.ButtonOpen' at 42;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='Open']/button[@text='&amp;Open']"
+									itempath="button[@text='&amp;Open']"
+									fullname="UltraEditAutomationRepository.Open.ButtonOpen"
+									id="e8939048c05b41218ed856963692f6bd"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="111"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:08.274"
+								timeRelativeToTestModuleStartTime="00:09.742"
+								timeWallClock="17:24:08"
+								time="02:08.274"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2s.
+								</message>
+								<metainfo
+									itemindex="5"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\OpenFile.cs"
+									codeline="115"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="9.94s"
+							durationms="9943"
+							type="test-module"
+							rid="2a76e2009be0bda1"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="VerifyTraditionalChineseDetection"
+							displayName="VerifyTraditionalChineseDetection"
+							moduleid="4242176f-e1fd-484f-940a-8a565bd9da2c"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="02:10.337"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="17:24:10"
+								time="02:10.337"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeEqual (Text='950   (ANSI/OEM - Traditional Chinese Big5)') on item 'FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									itempath="?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines"
+									id="f6db0f9ca52b4c6aa9057535a93915cd"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.cs"
+									codeline="98"
+									itemindex="4"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:11.677"
+								timeRelativeToTestModuleStartTime="00:01.344"
+								timeWallClock="17:24:12"
+								time="02:11.677"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'Text' of element for item 'UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									itempath="?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines"
+									id="f6db0f9ca52b4c6aa9057535a93915cd"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.cs"
+									codeline="99"
+									loglvl="Success"
+									itemindex="4">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:11.814"
+								timeRelativeToTestModuleStartTime="00:01.480"
+								timeWallClock="17:24:12"
+								time="02:11.814"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=229,Height=17}) on item 'FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									itempath="?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines"
+									id="f6db0f9ca52b4c6aa9057535a93915cd"
+									timeout="60000"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.cs"
+									codeline="102"
+									itemindex="5"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:13.378"
+								timeRelativeToTestModuleStartTime="00:03.045"
+								timeWallClock="17:24:14"
+								time="02:13.378"
+								level="Success"
+								category="Validation">
+								<message>
+									Screenshot of item 'UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines' does contain the specified image.
+								</message>
+								<metainfo
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.cs"
+									codeline="103"
+									loglvl="Success"
+									id="f6db0f9ca52b4c6aa9057535a93915cd"
+									path="/form[@title>'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename>'950   (ANSI/OEM - Traditional']"
+									fullname="UltraEditAutomationRepository.FormCUltraEditFilesUe20241025T06120.Text950ANSIOEMTraditionalChines"
+									itemindex="5">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:14.388"
+								timeRelativeToTestModuleStartTime="00:04.054"
+								timeWallClock="17:24:15"
+								time="02:14.388"
+								level="Info"
+								category="User"
+								errimg="images_UltraEdi_e5b8724\UltraEdi_7f608465_rxlog.jpg"
+								errthumb="images_UltraEdi_e5b8724\UltraEdi_7f608465_rxlog_thumb.jpg">
+								<message>
+									
+								</message>
+								<metainfo
+									itemindex="6"
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.cs"
+									codeline="106"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:20.202"
+								timeRelativeToTestModuleStartTime="00:09.868"
+								timeWallClock="17:24:20"
+								time="02:20.202"
+								level="Info"
+								category="User">
+								<message>
+									Retrieved Text: [RESOURCE]
+CodePage=950
+
+[STRINGTABLE]
+3=&quot;\nEdit\nEDIT Document&quot;
+4=&quot;*.MAC&quot;
+5=&quot;ULTRAEDT.MAC&quot;
+6=&quot;&#36617;&#20837;&#24040;&#38598;&quot;
+7=&quot;&#20786;&#23384;&#24040;&#38598;&quot;
+8=&quot;&#36889;&#26159;&#19968;&#20221;&#26410;&#35387;&#20874;&#30340;&#29256;&#26412;&#12290;&#22914;&#26524;&#24744;&#32380;&#32396;&#20351;&#29992;&#35442;&#31243;&#24207;&#65292;&#35531;&#36092;&#36023;&#20351;&#29992;&#29872;&#31680;&#21644;&#36092;&#36023;&#25353;&#37397;&#22914;&#19979;&#65306;&quot;
+9=&quot;&#26412;&#36575;&#39636;&#25480;&#27402;&#32102;&#65306;&quot;
+10=&quot;&#24863;&#35613;&#24744;&#25903;&#25588;&#20849;&#20139;&#36575;&#39636;&#65281;&quot;
+11=&quot;&#25214;&#19981;&#21040;&#25628;&#23563;&#30340;&#23383;&#20018;&#12300;%s&#12301;!&quot;
+12=&quot;&#21015; &quot;
+13=&quot;&#20462;&#25913;: &quot;
+14=&quot;&#27284;&#26696;&#22823;&#23567;: &quot;
+15=&quot;&#24040;&#38598;&#27284;&#26696; (*.mac)&quot;
+16=&quot;&#25152;&#26377;&#27284;&#26696; (*.*)&quot;
+17=&quot;&#25991;&#23383;&#27284;&#26696; (*.txt)&quot;
+18=&quot;Doc &#27284;&#26696; (*.doc)&quot;
+19=&quot;&#25209;&#27425;&#27284;&#26696; (*.bat)&quot;
+20=&quot;INI &#27284;&#26696; (*.ini)&quot;
+21=&quot;'C' &#27284;&#26696;, (*.c, *.cpp)&quot;
+22=&quot;&#38913;&#39318;&#27284;&#26696; (*.h, *.hpp)&quot;
+23=&quot;HTML/Java &#27284;&#26696;, (*.html, *.java, *.htm, *.jav)&quot;
+24=&quot;&#25353;&#37397;&#38548;&#32218;&quot;
+25=&quot;Dos &#21629;&#20196;&quot;
+26=&quot;&#22519;&#34892; Windows &#31243;&#24335;&quot;
+27=&quot;&#26356;&#26032;&#37679;&#35492;&#27284;&#26696;: &quot;
+28=&quot;&#24314;&#31435;&#36942;&#31243;&#37679;&#35492;&quot;
+29=&quot;&#27284;&#26696;&#25214;&#19981;&#21040;&quot;
+30=&quot;&#21034;&#38500;&#20316;&#29992;&#20013;&#27284;&#26696;&quot;
+31=&quot;&#20320;&#35201;&#21034;&#38500;: &quot;
+32=&quot;\n\n&#23559;&#36986;&#22833;&#20219;&#20309;&#35722;&#26356;&#20006;&#21034;&#38500;&#36889;&#20491;&#27284;&#26696; !&quot;
+33=&quot;&#21462;&#20195;&quot;
+34=&quot; &#20491;&#38917;&#30446;&#34987;&#21462;&#20195;&quot;
+35=&quot;&#21034;&#38500;&quot;
+36=&quot;&#21453;&#21034;&#38500;&quot;
+37=&quot; - &#24050;&#21034;&#38500; !&quot;
+38=&quot;&#36984;&#25799;&#24040;&#38598;&#27284;&#26696;&quot;
+39=&quot;&#36984;&#21462;&#35201;&#21152;&#20837;&#30340;&#35498;&#26126;&#27284;&#26696;&quot;
+40=&quot;&#36984;&#21462;&#35486;&#27861;&#31361;&#39023;&#27284;&#26696;&quot;
+41=&quot;&#36984;&#21462;&#31243;&#24335;&quot;
+42=&quot;&#25628;&#23563;&#12300;&quot;
+43=&quot;&#12301;&#26044;&#12300;&quot;
+44=&quot;&#25214;&#21040; &#12300;&quot;
+45=&quot; &#12301;&#27425;&#12290;&quot;
+46=&quot;&#21015;: &quot;
+47=&quot;** &#25628;&#23563;&#32080;&#26524; ** &quot;
+48=&quot;&#22810;&#37325;&#27284;&#26696;&#21462;&#20195;&quot;
+49=&quot;&#25628;&#23563;&#23436;&#25104;&#65292;&#20849;&#25214;&#21040;&#12300;&quot;
+50=&quot; &#20491;&#38917;&#30446;&#34987;&#21462;&#20195;&#26044; &quot;
+51=&quot; &#20491;&#27284;&#26696;&#12290;&quot;
+52=&quot;&#20013;&#27490;&#20316;&#26989;&quot;
+53=&quot;&#30906;&#23450;&#35201;&#20013;&#27490;&#20316;&#26989;&#21966; ?&quot;
+54=&quot;&#36617;&#20837;&#24040;&#38598;&quot;
+55=&quot;&#38283;&#21855;&#27284;&#26696;&#26178;&#37679;&#35492;: &quot;
+56=&quot;&#28961;&#27861;&#21034;&#38500;&#27284;&#26696;&quot;
+57=&quot;&#27284;&#26696;/&#35037;&#32622;&#26159;&#21807;&#35712;&#30340; !&quot;
+58=&quot;&#31243;&#24335;&#27284;&#26696; (*.EXE)&quot;
+59=&quot;&#36984;&#21462;&#35201;&#27604;&#36611;&#30340;&#27284;&#26696;&quot;
+60=&quot;&#38283;&#21855;&#36984;&#21462;&#30340;/&#28216;&#27161;&#20301;&#32622;&#30340;&#27284;&#26696;&quot;
+61=&quot;&#37325;&#35373;&#37749;&#30436;&#37197;&#32622;&quot;
+62=&quot; &#24050;&#34987;&#20854;&#20182;&#25033;&#29992;&#31243;&#24335;&#35722;&#26356;&#12290;\n\n&#20320;&#35201;&#37325;&#26032;&#36617;&#20837;&#21966; ?\n&quot;
+63=&quot;&#27284;&#26696;&#24049;&#35722;&#26356; !&quot;
+64=&quot;&#27284;&#26696;&#37679;&#35492;&quot;
+65=&quot;&#28961;&#27861;&#38283;&#21855;&#27284;&#26696;&#20379;&#23531;&#20837;: &quot;
+66=&quot;&#35201;&#38364;&#38281;&#32232;&#36655;&#22120;&#21966; ?&quot;
+67=&quot;&#20320;&#24517;&#38920;&#37325;&#26032;&#21855;&#21205; UEStudio &#25165;&#33021;&#36776;&#35672;&#36889;&#20491;&#39511;&#35657;&#30908;&#12290;\n\n&#20320;&#29694;&#22312;&#35201;&#38364;&#38281;&#21966; ?&quot;
+68=&quot;UltraEdit 45 &#22825;&#30340;&#35430;&#29992;&#26399;&#24050;&#32147;&#23622;&#28415;!!!!&quot;
+69=&quot;&#35201;&#32380;&#32396;&#20351;&#29992;&#26412;&#36575;&#39636;&#65292;&#35531;&#25353;&#24213;&#19979;&#30340; [&#31435;&#21363;&#36092;&#36023;] &#25353;&#37397;&#36914;&#34892;&#32218;&#19978;&#35387;&#20874;&#25110;&#20659;&#36865;&#30331;&#37636;&#36039;&#26009;&#21934; %s (Ohio residents add Sales Tax) &#21040;:\n\n IDM Computer Solutions, Inc.\n 5559 Eureka Dr., Ste. B\n Hamilton, OH  45011\n U.S.A.\n&quot;
+70=&quot;&#27284;&#26696;&#24050;&#32147;&#38283;&#21855;!&quot;
+71=&quot;&#37325;&#26032;&#36617;&#20837;&#27284;&#26696;&#20006;&#25918;&#26820;&#25152;&#20570;&#30340;&#35722;&#26356;&#21966; ?&quot;
+72=&quot;&#20840;&#37096;&#21462;&#20195;&quot;
+73=&quot;&#27284;&#26696;&#38283;&#21855;&quot;
+74=&quot;&#36984;&#21462;&#30340;&#27284;&#26696;&#22826;&#22810;&quot;
+75=&quot;&#28961;&#25928;&#30340;&#20989;&#24335;&quot;
+76=&quot;&#36335;&#24465;&#25214;&#19981;&#21040;&quot;
+77=&quot;&#23384;&#21462;&#36973;&#21040;&#25298;&#32085;&quot;
+78=&quot;&#28961;&#25928;&#30340;&#30913;&#30879;&#27231;&quot;
+79=&quot;&#27284;&#26696;: f  %x, %X&quot;
+80=&quot;&amp;r&#38913;&#30908;: &amp;p&quot;
+81=&quot;&#21629;&#20196;&#36664;&#20986;&quot;
+82=&quot;&#35498;&#26126;&#27284; (*.hlp, *.chm, *.col)&quot;
+83=&quot;&#29305;&#27530;&#25554;&#20837;&quot;
+84=&quot;&#22240;&#23383;&#20018;&#25214;&#19981;&#21040;&#32780;&#20572;&#27490;&#65292;&#35201;&#32380;&#32396;&#21966; ?&quot;
+85=&quot;&#35352;&#37636;&#20462;&#25913;&quot;
+86=&quot; &#31558;&#35352;&#37636;&#24050;&#25214;&#21040;&#20006;&#25554;&#20837;&#23383;&#20018;&#12290;&quot;
+87=&quot;&#25340;&#23383;&#27298;&#26597;&quot;
+88=&quot;&#25340;&#23383;&#27298;&#26597;&#23436;&#25104;!&quot;
+89=&quot;&#38283;&#21855;&#27284;&#26696;&quot;
+90=&quot;&#21312;&#22602;&#32232;&#36655;&#27169;&#24335;&#21482;&#20801;&#35377;\&#29992;&#22312;&#22266;&#23450;&#23383;&#23532;&#30340;&#23383;&#22411;&#19978;\n(Courier&#12289;Fixed Sys&#12289;&#32048;&#26126;&#39636;&#31561;)&#65292;&#20006;&#19988;&#19981;&#21487;&#36984;&#25799;&#33258;&#21205;&#25563;&#21015;&#12290;\n\n&#24050;&#38364;&#38281;&#21312;&#22602;&#32232;&#36655;&#27169;&#24335; !&quot;
+91=&quot;UltraEdit - &#21312;&#22602;/&#21312;&#22602;&#27169;&#24335;&quot;
+92=&quot;&#23383;&#25976;: %d\n&#26410;&#25563;&#21015;&#25976;: %d\n&#23383;&#20803;&#25976; (&#19981;&#21547;&#31354;&#26684;): %d&quot;
+93=&quot;&#28961;&#27861;&#20786;&#23384;&#27284;&#26696;&quot;
+94=&quot;&#27284;&#26696;/&#35037;&#32622;&#21487;&#33021;&#21807;&#35712;&#65292;&#25110;&#34987;&#20854;&#20182;&#25033;&#29992;&#31243;&#24335;&#38283;&#21855;&#20358;&#23531;&#20837; !\n&#20351;&#29992;&#12300;&#21478;&#23384;&#26032;&#27284;&#12301;&#23384;&#25104;&#20854;&#20182;&#30340;&#21517;&#31281;&#12290;&quot;
+95=&quot;&#27284;&#26696;/&#35037;&#32622;&#21487;&#33021;&#26159;&#21807;&#35712;&#30340;&#65292;&#25110;&#20854;&#23427;&#25033;&#29992;&#31243;&#24335;&#27491;&#22312;&#23531;&#20837;&#38283;&#21855;&#30340;&#27284;&#26696; !&quot;
+96=&quot;&#28961;&#27861;&#20786;&#23384;&#36984;&#21462;&#21312;&#21040;&#27284;&#26696;&quot;
+97=&quot;&#27284;&#26696;/&#35037;&#32622;&#21487;&#33021;&#26159;&#21807;&#35712;&#30340; !&quot;
+98=&quot;&#25490;&#24207;&#26178;&#28961;&#27861;&#24314;&#31435;&#26283;&#23384;&#27284;&#26696;&quot;
+99=&quot;&#20301;&#32622;: &quot;
+100=&quot;&#34892; &quot;
+101=&quot;&#36664;&#20986;&#35222;&#31383;&quot;
+102=&quot;&#36984;&#21462;&#25105;&#30340;&#26368;&#24859;&#27284;&#26696;&quot;
+103=&quot;DOS&quot;
+104=&quot;&#20351;&#29992;&#21015;&#21360;&#23383;&#22411;&#20316;&#28858;&#39023;&#31034;\n&#23565;&#25033;&#39023;&#31034;&#23383;&#22411;&quot;
+105=&quot;Unix&quot;
+106=&quot;MAC&quot;
+107=&quot; &#20491;&#25214;&#21040;&#30340;&#25152;&#38656;&#23565;&#35937;&#12290;&quot;
+108=&quot;&#24040;&#38598;&#23578;&#26410;&#20786;&#23384;&quot;
+109=&quot;&#24040;&#38598;&#24050;&#32147;&#35722;&#26356;&#20294;&#26159;&#23578;&#26410;&#20786;&#23384;&#12290;&#35201;&#20808;&#23559;&#24040;&#38598;&#20786;&#23384;&#21966; ?&quot;
+110=&quot;&#36984;&#21462;&#35201;&#25628;&#23563;&#30340;&#30446;&#37636;&#12290;&quot;
+111=&quot;&#24040;&#38598;&#24050;&#32147;&#35722;&#26356; !&quot;
+112=&quot;&#35201;&#26356;&#26032;&#36889;&#20491;&#24040;&#38598;&#21966; ?&quot;
+113=&quot;&#22312;&#24040;&#38598;&#21015;&#20013;&#26377;&#19981;&#27491;&#30906;&#30340;&#21443;&#25976;&quot;
+114=&quot;&#22312;&#24040;&#38598;&#21015;&#20013;&#26377;&#19981;&#27491;&#30906;&#30340;&#24040;&#38598;&#21629;&#20196;&quot;
+115=&quot;&#24050;&#35373;&#23450;&#38283;&#21855;&#27284;&#26696;&#19981;&#24314;&#31435;&#26283;&#23384;&#27284;&#36984;&#38917;&#12290;\n&#36889;&#34920;&#31034;&#32232;&#36655;&#23559;&#33258;&#21205;&#22871;&#29992;&#21040;&#36889;&#20491;&#27284;&#26696;&#65292;&#20006;&#19988;&#26159;&#27704;&#20037;&#35722;&#26356;&#12290;\n&#25353; [&#26159;] &#32380;&#32396;&#65292;&#25110;&#25353; [&#21542;] &#20197;&#19968;&#33324;&#26041;&#24335;&#38283;&#21855;&quot;
+116=&quot;&#36889;&#20491;&#27284;&#26696;&#24050;&#34987;&#20854;&#20182;&#25033;&#29992;&#31243;&#24335;&#37782;&#23450;&#23531;&#20837;&#65292;&#22240;&#27492;&#28961;&#27861;&#20877;&#27425;&#37559;&#23450;&#12290;\n&#25353; [&#26159;] &#20197;&#21807;&#35712;&#26041;&#24335;&#32380;&#32396;&#65292;&#25110;&#25353; [&#21542;] &#21462;&#28040;&#12290;&quot;
+117=&quot;&#23560;&#26696;&#27284;&#26696;&quot;
+118=&quot;&#36984;&#21462;&#23560;&#26696;&#27284;&#26696;&quot;
+119=&quot;&#19981;&#26159;&#20491;&#26377;&#25928;&#30340;&#23560;&#26696;&#27284;&#26696; !&quot;
+120=&quot;&#38283;&#21855;&#23560;&#26696;&quot;
+121=&quot;&#25351;&#23450;&#23560;&#26696;&#27284;&#26696;&quot;
+122=&quot;&#38364;&#38281;&#23560;&#26696;&quot;
+123=&quot;&#35201;&#38364;&#38281;&#24050;&#38283;&#21855;&#30340;&#27284;&#26696;&#21966; ?&quot;
+124=&quot;&#21807;&#35712;&quot;
+125=&quot;&#36984;&#21462;&#24037;&#20855;&#21629;&#20196;&quot;
+126=&quot; &#24050;&#34987;&#21034;&#38500;&#65292;&#25110;&#24050;&#28961;&#27861;&#20351;&#29992;&#12290;\n\n&#20320;&#35201;&#22312;&#32232;&#36655;&#22120;&#20013;&#20445;&#25345;&#38283;&#21855;&#36889;&#20491;&#27284;&#26696;&#21966; ?\n&quot;
+127=&quot;Sel: %d/%d (B/Lns)&quot;
+128=&quot;&#21015;&#20986;&#21253;&#21547;&#23383;&#20018;&#30340;&#21015;:&quot;
+129=&quot;&#38283;&#21855;&#27284;&#26696;&quot;
+130=&quot;&#23560;&#26696;&#27284;&#26696;&quot;
+131=&quot;&#27396;&#20301;&#36984;&#25799;: &quot;
+132=&quot;&#36984;&#21462;&#23560;&#26696;&#27284;&#26696;&quot;
+133=&quot;&#36984;&#25799;&#27284;&#26696;&quot;
+134=&quot;&#26410;&#35373;&#23450;&#26283;&#23384;&#27284;&#26696;&#38917;&#26178;&#28961;&#27861;\n&#36681;&#25563;&#21807;&#35712;&#27284;&#26696;&#12290;&quot;
+135=&quot;&#20351;&#29992;&#32773;&#36681;&#25563;&#37679;&#35492; - &#27284;&#26696;&#37679;&#35492; &quot;
+136=&quot;&#36889;&#23559;&#26371;&#37325;&#35373;&#37749;&#30436;&#37197;&#32622;&#12290;&#25152;&#26377;&#35722;&#26356;&#36942;&#30340;&#37749;&#30436;&#37197;&#32622;&#23559;&#26371;&#22833;&#21435; - &#35201;&#32380;&#32396;&#21966; ?&quot;
+137=&quot;** &#28165;&#29702; HTML &#20358;&#28304;&#30908; **&quot;
+138=&quot;&#22312;&#22519;&#34892;&#27492;&#20316;&#26989;&#21069;&#65292;&#27284;&#26696;&#24517;&#38920;&#34987;&#20786;&#23384;&#12290;&quot;
+139=&quot;&#36984;&#21462;&#40670;&#38499;&#22294;/&#22294;&#31034;&#27284;&#26696;:&quot;
+140=&quot;&#40670;&#38499;&#22294;/&#22294;&#31034;&#27284;&#26696; (*.png; *.jpg; *.jpeg; *.tif; *.tiff; *.bmp; *.ico)|*.png; *.jpg; *.jpeg; *.tif; *.tiff; *.bmp; *.ico||&quot;
+141=&quot;&#38283;&#21855;&#25110;&#20999;&#25563;&#23560;&#26696;&#26178;&#38364;&#38281;&#25152;&#26377;&#27284;&#26696;&quot;
+142=&quot;&#27794;&#26377;&#20998;&#38548;&#23383;&#20803; !&quot;
+143=&quot;&#39023;&#31034;&#25110;&#38577;&#34255;&#38283;&#21855;&#27284;&#26696;&#27161;&#31844;\n&#39023;&#31034;&#25110;&#38577;&#34255;&#38283;&#21855;&#27284;&#26696;&#27161;&#31844;&quot;
+144=&quot;&#28961;&#25928;&#30340;&#20998;&#38548;&#23383;&#20803; !&quot;
+145=&quot;&#28961;&#25928;&#30340;&#27396;&#20301;&#38263;&#24230;&#20540; !&quot;
+146=&quot;&#27284;&#26696;&#28165;&#21934;&quot;
+147=&quot;&#24040;&#38598;&#37679;&#35492;&quot;
+148=&quot;&#32380;&#32396;&#24478;&#20854;&#20182;&#27284;&#26696;&#23614;&#31471;&#25628;&#23563;&#21966; ?&quot;
+149=&quot;&#35531;&#27298;&#26597;&#27284;&#21517;&#26159;&#21542;&#26377;&#25928;&#65292;&#20006;&#25793;&#26377;&#37325;&#26032;&#21629;&#21517;&#27284;&#26696;&#30340;&#27402;&#38480;&#12290;&quot;
+150=&quot;&#28961;&#27861;&#37325;&#26032;&#21629;&#21517;&#27284;&#26696;&quot;
+151=&quot;&#39023;&#31034;/&#38577;&#34255;&#36664;&#20986;&#35222;&#31383;\n&#39023;&#31034;/&#38577;&#34255;&#36664;&#20986;&#35222;&#31383;&quot;
+152=&quot;&#39023;&#31034;&#25110;&#38577;&#34255;&#36664;&#20986;&#35222;&#31383;\n&#20999;&#25563;&#36664;&#20986;&#35222;&#31383;&quot;
+153=&quot;&#19981;&#27491;&#30906;&#30340;&#32178;&#22336;&quot;
+154=&quot;&#27491;&#22312;&#36899;&#32218;&#21040; &quot;
+155=&quot;&#36899;&#25509;&#37679;&#35492;&quot;
+156=&quot;&#21478;&#23384;&#26032;&#27284;&quot;
+157=&quot;&#38283;&#21855;&quot;
+158=&quot;&#21517;&#31281;&#23383;&quot;
+159=&quot;&#26085;&#26399;&quot;
+160=&quot;&#22823;&#23567;&quot;
+161=&quot;&#27491;&#22312;&#25509;&#25910;&#27284;&#26696; &quot;
+162=&quot;&#27491;&#22312;&#20659;&#36865;&#27284;&#26696; &quot;
+163=&quot;&#38283;&#21855;&#27284;&#26696;&#23531;&#20837;&#26178;&#37679;&#35492;&quot;
+164=&quot;&#23531;&#20837;&#27284;&#26696;&#26178;&#37679;&#35492;&quot;
+165=&quot;&#35373;&#23450;&#30446;&#37636;&#21040; &quot;
+166=&quot;&#27491;&#22312;&#25628;&#23563;&#27284;&#26696;&#26044; &quot;
+167=&quot;&#24744;&#35201;&#20013;&#26039;&#30446;&#21069;&#30340;&#20316;&#26989;&#21966; ?&quot;
+168=&quot;&#27491;&#22312;&#22519;&#34892;&#25805;&#20316;&quot;
+169=&quot;&#38283;&#21855;/&#35712;&#21462;&#36960;&#31471;&#27284;&#26696;&#26178;&#37679;&#35492;&quot;
+170=&quot;&#35201;&#20786;&#23384;&#35722;&#26356;&#33267;&#29694;&#26377;&#30340;&#32676;&#32068;&#21966; ?&quot;
+171=&quot;&#27161;&#31844;&#24050;&#35722;&#26356;&quot;
+172=&quot;&#24314;&#31435;&#27161;&#31844;&#28165;&#21934;&#27284;&quot;
+173=&quot;&#35201;&#28165;&#38500;&#30446;&#21069;&#30340;&#27161;&#31844;&#21966; ?&quot;
+174=&quot;&#28165;&#38500;&#27161;&#31844;&#28165;&#21934;&quot;
+175=&quot;&#21034;&#38500;&#32676;&#32068;&quot;
+176=&quot;&#30906;&#23450;&#35201;&#21034;&#38500;&#36889;&#20491;&#32676;&#32068;&#21966; ?&quot;
+177=&quot;&#35201;&#20786;&#23384;&#35722;&#26356;&#33267;&#29694;&#26377;&#30340;&#24115;&#34399;&#21966; ?&quot;
+178=&quot;&#36039;&#26009;&#24050;&#35722;&#26356;&quot;
+179=&quot;&#30906;&#23450;&#35201;&#21034;&#38500;&#36889;&#20491;&#24115;&#34399;&#21966; ?&quot;
+180=&quot;&#21034;&#38500;&#24115;&#34399;&quot;
+181=&quot;&#23436;&#25104;!&quot;
+182=&quot;&#37679;&#35492;&#35373;&#23450;&#30446;&#37636;&#21040;: &quot;
+183=&quot;&#30446;&#37636;&#37679;&#35492;&quot;
+184=&quot;&#19981;&#27491;&#30906;&#30340;&#20027;&#38651;&#33126;&#21517;&#31281; &#65293; &#35531;&#27298;&#26597;&#20301;&#22336;&quot;
+185=&quot;&#36899;&#25509;&#22833;&#25943;&quot;
+186=&quot;&#28961;&#38911;&#25033;&quot;
+187=&quot;&#36899;&#25509;&#34987;&#25298;&#32085;&quot;
+188=&quot;&#19981;&#27491;&#30906;&#30340;&#20351;&#29992;&#32773;&#21517;&#31281;&quot;
+189=&quot;&#19981;&#27491;&#30906;&#30340;&#23494;&#30908;&quot;
+190=&quot;&#19981;&#27491;&#30906;&#30340;&#24115;&#34399;&quot;
+191=&quot;&#36039;&#26009;&#36899;&#25509;&#22496;&#28961;&#27861;&#38283;&#21855;&quot;
+192=&quot;PORT &#21629;&#20196;&#22833;&#25943;&quot;
+193=&quot;STOR &#21629;&#20196;&#22833;&#25943;&quot;
+194=&quot;&#20282;&#26381;&#22120;&#22312;&#36039;&#26009;&#36899;&#25509;&#22496;&#36899;&#25509;&#26178;&#22833;&#25943;&quot;
+195=&quot;&#23436;&#25104;&#21069;&#36899;&#25509;&#24050;&#20572;&#27490;&quot;
+196=&quot;&#20786;&#23384;&#36960;&#31471;&#27284;&#26696;&#37679;&#35492;&quot;
+197=&quot;LIST &#21629;&#20196;&#22833;&#25943;&quot;
+198=&quot;&#21462;&#22238;&#30446;&#37636;&#36039;&#35338;&#37679;&#35492;&quot;
+199=&quot;RETR &#21629;&#20196;&#22833;&#25943;&quot;
+200=&quot;&#21462;&#24471;&#36960;&#31471;&#27284;&#26696;&#37679;&#35492;&quot;
+201=&quot;&#35531;&#27714;&#34987;&#25298;&#32085;&quot;
+202=&quot;&#27298;&#32034;&#30446;&#21069;&#30446;&#37636;&#37679;&#35492;&quot;
+203=&quot;&#35373;&#23450;&#30446;&#21069;&#30446;&#37636;&#37679;&#35492;&quot;
+204=&quot;&#38283;&#21855;&#25152;&#36984;&#21462;&#30340;&#27284;&#26696;&quot;
+205=&quot;&#21069;&#19968;&#29256; (11) &#30340;&#26360;&#31844;&#22411;&#24335;&quot;
+206=&quot;&#20839;&#23481;&quot;
+207=&quot;&#38928;&#35373;&quot;
+208=&quot;&#22810;&#37325;&#27284;&#26696;&#21462;&#20195;&#21487;&#33021;&#26371;&#20462;&#25913;&#20320;&#30340;&#30913;&#30879;&#20013;&#30340;&#22810;&#20491;&#27284;&#26696;&#12290;\n\n&#35531;&#30906;&#35469;&#20320;&#35201;&#22312;&#30446;&#27161;&#20013;&#22519;&#34892;&#22810;&#37325;&#27284;&#26696;&#21462;&#20195; - &#20320;&#30906;&#23450;&#21966; ?&quot;
+209=&quot;&#20013;&#27490;&#24040;&#38598;&quot;
+210=&quot;&#35201;&#20013;&#27490;&#24040;&#38598;&#21966; ?&quot;
+211=&quot;&#24040;&#38598;&#28165;&#21934;&quot;
+212=&quot;&#20989;&#24335;&#28165;&#21934;&quot;
+213=&quot;&#27161;&#31844;&#28165;&#21934;&quot;
+214=&quot;&#35201;&#21034;&#38500;&#36889;&#20491;&#21517;&#31281;&#30340;&#29694;&#26377;&#24040;&#38598;&#21966; ?&quot;
+215=&quot;&#24040;&#38598;&#21517;&#31281;&#24050;&#32147;&#23384;&#22312; !&quot;
+216=&quot;&#36984;&#25799;&#33258;&#21205;&#23436;&#25104;&#27284;&#26696;&quot;
+217=&quot;&#36984;&#25799;&#36039;&#26009;&#22846;&quot;
+218=&quot;&#37325;&#26032;&#21629;&#21517;&#27284;&#26696;&#37679;&#35492;&quot;
+219=&quot;&#24314;&#31435;&#30446;&#37636;&#37679;&#35492;&quot;
+220=&quot;&#35722;&#26356;&#27402;&#38480;&#37679;&#35492;&quot;
+221=&quot;&#35486;&#35328; &quot;
+222=&quot;&#21034;&#38500;&#32676;&#32068;&quot;
+223=&quot;&#30906;&#23450;&#35201;&#21034;&#38500;&#36889;&#20491;&#32676;&#32068;&#21966; ?&quot;
+224=&quot;&#20320;&#35201;&#25918;&#26820;&#36617;&#20837;:\n&quot;
+225=&quot;&#36889;&#20491;&#27284;&#26696;&#24050;&#36617;&#20837;&#12290;&#20320;&#35201;&#25918;&#26820;&#36681;&#25563;&#25104; DOS &#21966;&#32;
+								</message>
+								<metainfo
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.UserCode.cs"
+									codeline="44"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:20.246"
+								timeRelativeToTestModuleStartTime="00:09.912"
+								timeWallClock="17:24:20"
+								time="02:20.246"
+								level="Info"
+								category="User">
+								<message>
+									The text contains Chinese characters.
+								</message>
+								<metainfo
+									codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\VerifyTraditionalChineseDetection.UserCode.cs"
+									codeline="59"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="10.48s"
+							durationms="10476"
+							type="teardown-container"
+							rid="10bf2cb729257994"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="1"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0">
+							<activity
+								result="Success"
+								duration="10.47s"
+								durationms="10474"
+								type="test-module"
+								rid="15e96803a1dab853"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesstestcasecount="0"
+								totalfailedtestcasecount="0"
+								totalblockedtestcasecount="0"
+								childsuccesscount="0"
+								childfailedcount="0"
+								childblockedcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								totalmaintenancemodecount="0"
+								modulename="CloseAUT"
+								displayName="CloseAUT"
+								moduleid="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
+								moduletype="Recording"
+								iteration="1"
+								activity-exectype="execute"
+								testentry-activity-type="testmodule">
+								<varbindings>
+									<varbinding
+										name="CloseAutProcessIDVar"
+										value="19636">
+									</varbinding>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="02:20.279"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="17:24:20"
+									time="02:20.279"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$CloseAutProcessIDVar = '19636'
+									</message>
+									<metainfo
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="02:20.313"
+									timeRelativeToTestModuleStartTime="00:00.035"
+									timeWallClock="17:24:20"
+									time="02:20.313"
+									level="Info"
+									category="Application">
+									<message>
+										Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+									</message>
+									<metainfo
+										itemindex="0"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs"
+										codeline="95"
+										loglvl="Info">
+									</metainfo>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="02:20.716"
+									timeRelativeToTestModuleStartTime="00:00.437"
+									timeWallClock="17:24:21"
+									time="02:20.716"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 10s.
+									</message>
+									<metainfo
+										itemindex="1"
+										codefile="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\CloseAUT.cs"
+										codeline="99"
+										loglvl="Info">
+									</metainfo>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

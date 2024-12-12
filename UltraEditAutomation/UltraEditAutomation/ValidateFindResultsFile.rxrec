@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3ffec21c-da52-4b7c-a169-86b7b80ba42e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateFindResultsFile"
+	namespace="UltraEditAutomation">
+	</codegen>
+	<variables>
+		<var
+		id="47b1b3ef-d058-4b07-96b5-1224d4af53a9"
+		name="ValidateText">
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="32c15ad2-8a24-42c4-b7ac-89ac644c0e86"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f8fd989d-f4a0-4541-a3fc-617016d83f93"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="tabpage"
+				rect="2,140,154,21"
+				role="tabpage"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="index"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						** Find Results **&#32;
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Switch
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						** Find Results **&#32;
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PageTab
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'UltraEdit 64-bi']/container[@controlid='59648']//tabpage[@accessiblename='** Find Results ** ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0859b46b-bdad-44a7-9ee7-dbb609f95b36"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f8fd989d-f4a0-4541-a3fc-617016d83f93"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'UltraEdit 64-bi']/container[@controlid='59648']//tabpage[@accessiblename='** Find Results ** ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Title
+			</matchname>
+			<matchvalue>
+				** Find Results **&#32;
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="5a83f425-c93f-4d41-b143-fca89e4da2b8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7dfe2f4a-a1af-49a0-b7e3-4428b27d6888"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="3"
+				prefcap="tabpagelist"
+				rect="0,140,1920,873"
+				role="tabpagelist"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="accessiblehelp"
+					type="System.String">
+						ControlPane
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PageTabList
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						** Find Results **&#32;
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9dea6c53-9a13-4f54-ba47-7da8e4feb4f3"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7dfe2f4a-a1af-49a0-b7e3-4428b27d6888"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="3"
+				prefcap="tabpagelist"
+				rect="0,140,1920,873"
+				role="tabpagelist"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="accessiblehelp"
+					type="System.String">
+						ControlPane
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PageTabList
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						** Find Results **&#32;
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='uedit64']/container[@controlid='59648']/?/?/tabpagelist[@accessiblename='']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9cca8ce6-8271-4332-8880-36ca97351c59"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ValidateText">
+				</binding>
+			</bindings>
+			<info
+			id="029cf37b-d4cf-4e79-8483-a8f2f2a86a29"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/?/?/form[@controlid='65281']/?/?/element[@controlid='59648' and @processname='uedit64']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				WindowText
+			</matchname>
+			<matchvalue>
+				----------------------------------------
+Find 'tests' in 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt' (18-11-2024 11:47:24; 11-11-2024 12:47:07):
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(1): English: This is the source for file tests with many strange characters.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(2): Albanian: Kjo &#235;sht&#235; burim p&#235;r fotografi teste me shum&#235; shenja t&#235; &#231;uditshme.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(3): Arabic: ??? ?? ???? ????? ??????? ?? ?????? ?? ???????? ???????.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(8): Croatian: To je izvor za datoteku testovi sa mnogim cudnim likovima.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(9): Czech: Toto je zdrojov&#253; soubor testu s mnoha divn&#233; znaky.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(10): Danish: Dette er den kilde til fil tests med mange m&#230;rkelige tegn.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(11): Dutch: Dit is de bron voor bestand proeven met veel vreemde tekens.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(12): Estonian: See on allikas faili testid paljude kummaline t&#228;hem&#228;rki.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(13): Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(14): Finnish: T&#228;m&#228; on l&#228;hde tiedosto testit monia outoja merkkej&#228;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(15): French: C'est la source pour le fichier des tests avec de nombreux personnages &#233;tranges.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(16): Galician: Este &#233; o ficheiro fonte para probas con moitos caracteres raro.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(17): German: Dies ist die Quelle f&#252;r die Datei-Tests mit vielen seltsamen Zeichen.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(18): Greek: ??t? e??a? ? p??? ??a t? a??e?? &#181;e p????? d???&#181;?? pe??e??? ?a?a?t??e?.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt(19): Hebrew: ??? ????? ???? ???? ?????? ???? ?? ????? ??????
+Found 'tests' 4 time(s).
+----------------------------------------
+Find 'tests' in 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt' (18-11-2024 11:47:24; 11-11-2024 12:47:07):
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(1): &#228;a&#228;&#245;
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(2): 
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(3): English: This is the source for file tests with many strange characters.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(4): Albanian: Kjo &#235;sht&#235; burim p&#235;r fotografi teste me shum&#235; shenja t&#235; &#231;uditshme.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(5): Arabic: &#1607;&#1584;&#1575; &#1607;&#1608; &#1605;&#1589;&#1583;&#1585; &#1604;&#1604;&#1605;&#1604;&#1601; &#1575;&#1604;&#1578;&#1580;&#1575;&#1585;&#1576; &#1605;&#1593; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1588;&#1582;&#1589;&#1610;&#1575;&#1578; &#1575;&#1604;&#1594;&#1585;&#1610;&#1576;&#1577;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(10): Croatian: To je izvor za datoteku testovi sa mnogim &#269;udnim likovima.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(11): Czech: Toto je zdrojov&#253; soubor test&#367; s mnoha divn&#233; znaky.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(12): Danish: Dette er den kilde til fil tests med mange m&#230;rkelige tegn.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(13): Dutch: Dit is de bron voor bestand proeven met veel vreemde tekens.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(14): Estonian: See on allikas faili testid paljude kummaline t&#228;hem&#228;rki.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(15): Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(16): Finnish: T&#228;m&#228; on l&#228;hde tiedosto testit monia outoja merkkej&#228;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(17): French: C'est la source pour le fichier des tests avec de nombreux personnages &#233;tranges.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(18): Galician: Este &#233; o ficheiro fonte para probas con moitos caracteres raro.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(19): German: Dies ist die Quelle f&#252;r die Datei-Tests mit vielen seltsamen Zeichen.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(20): Greek: &#913;&#965;&#964;&#942; &#949;&#943;&#957;&#945;&#953; &#951; &#960;&#951;&#947;&#942; &#947;&#953;&#945; &#964;&#959; &#945;&#961;&#967;&#949;&#943;&#959; &#956;&#949; &#960;&#959;&#955;&#955;&#941;&#962; &#948;&#959;&#954;&#953;&#956;&#941;&#962; &#960;&#949;&#961;&#943;&#949;&#961;&#947;&#959; &#967;&#945;&#961;&#945;&#954;&#964;&#942;&#961;&#949;&#962;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_HexTest.txt(21): Hebrew: &#1494;&#1492;&#1493; &#1492;&#1502;&#1511;&#1493;&#1512; &#1506;&#1489;&#1493;&#1512; &#1511;&#1493;&#1489;&#1509; &#1489;&#1491;&#1497;&#1511;&#1493;&#1514; &#1512;&#1489;&#1493;&#1514; &#1506;&#1501; &#1514;&#1493;&#1493;&#1497;&#1501; &#1502;&#1493;&#1494;&#1512;&#1497;&#1501;
+Found 'tests' 4 time(s).
+----------------------------------------
+Find 'tests' in 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt' (18-11-2024 11:47:24; 11-11-2024 12:47:07):
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(1): &#228;a&#228;&#245;
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(2): 
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(3): English: This is the source for file tests with many strange characters.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(4): Albanian: Kjo &#235;sht&#235; burim p&#235;r fotografi teste me shum&#235; shenja t&#235; &#231;uditshme.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(5): Arabic: &#1607;&#1584;&#1575; &#1607;&#1608; &#1605;&#1589;&#1583;&#1585; &#1604;&#1604;&#1605;&#1604;&#1601; &#1575;&#1604;&#1578;&#1580;&#1575;&#1585;&#1576; &#1605;&#1593; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1588;&#1582;&#1589;&#1610;&#1575;&#1578; &#1575;&#1604;&#1594;&#1585;&#1610;&#1576;&#1577;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(10): Croatian: To je izvor za datoteku testovi sa mnogim &#269;udnim likovima.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(11): Czech: Toto je zdrojov&#253; soubor test&#367; s mnoha divn&#233; znaky.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(12): Danish: Dette er den kilde til fil tests med mange m&#230;rkelige tegn.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(13): Dutch: Dit is de bron voor bestand proeven met veel vreemde tekens.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(14): Estonian: See on allikas faili testid paljude kummaline t&#228;hem&#228;rki.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(15): Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(16): Finnish: T&#228;m&#228; on l&#228;hde tiedosto testit monia outoja merkkej&#228;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(17): French: C'est la source pour le fichier des tests avec de nombreux personnages &#233;tranges.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(18): Galician: Este &#233; o ficheiro fonte para probas con moitos caracteres raro.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(19): German: Dies ist die Quelle f&#252;r die Datei-Tests mit vielen seltsamen Zeichen.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(20): Greek: &#913;&#965;&#964;&#942; &#949;&#943;&#957;&#945;&#953; &#951; &#960;&#951;&#947;&#942; &#947;&#953;&#945; &#964;&#959; &#945;&#961;&#967;&#949;&#943;&#959; &#956;&#949; &#960;&#959;&#955;&#955;&#941;&#962; &#948;&#959;&#954;&#953;&#956;&#941;&#962; &#960;&#949;&#961;&#943;&#949;&#961;&#947;&#959; &#967;&#945;&#961;&#945;&#954;&#964;&#942;&#961;&#949;&#962;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\langFile_UTF8_UNIX_noHexTest.txt(21): Hebrew: &#1494;&#1492;&#1493; &#1492;&#1502;&#1511;&#1493;&#1512; &#1506;&#1489;&#1493;&#1512; &#1511;&#1493;&#1489;&#1509; &#1489;&#1491;&#1497;&#1511;&#1493;&#1514; &#1512;&#1489;&#1493;&#1514; &#1506;&#1501; &#1514;&#1493;&#1493;&#1497;&#1501; &#1502;&#1493;&#1494;&#1512;&#1497;&#1501;
+Found 'tests' 4 time(s).
+----------------------------------------
+Find 'tests' in 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt' (18-11-2024 11:47:24; 11-11-2024 12:47:07):
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(1): &#228;&#245;
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(2): 
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(3): English: This is the source for file tests with many strange characters.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(4): English: THIS IS THE SOURCE FOR FILE TESTS WITH MANY STRANGE CHARACTERS.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(5): Albanian: Kjo &#235;sht&#235; burim p&#235;r fotografi teste me shum&#235; shenja t&#235; &#231;uditshme.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(6): Arabic: &#1607;&#1584;&#1575; &#1607;&#1608; &#1605;&#1589;&#1583;&#1585; &#1604;&#1604;&#1605;&#1604;&#1601; &#1575;&#1604;&#1578;&#1580;&#1575;&#1585;&#1576; &#1605;&#1593; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1588;&#1582;&#1589;&#1610;&#1575;&#1578; &#1575;&#1604;&#1594;&#1585;&#1610;&#1576;&#1577;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(11): Croatian: To je izvor za datoteku testovi sa mnogim &#269;udnim likovima.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(12): Czech: Toto je zdrojov&#253; soubor test&#367; s mnoha divn&#233; znaky.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(13): Danish: Dette er den kilde til fil tests med mange m&#230;rkelige tegn.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(14): Dutch: Dit is de bron voor bestand proeven met veel vreemde tekens.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(15): Estonian: See on allikas faili testid paljude kummaline t&#228;hem&#228;rki.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(16): Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(17): Finnish: T&#228;m&#228; on l&#228;hde tiedosto testit monia outoja merkkej&#228;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(18): French: C'est la source pour le fichier des tests avec de nombreux personnages &#233;tranges.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(19): Galician: Este &#233; o ficheiro fonte para probas con moitos caracteres raro.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(20): German: Dies ist die Quelle f&#252;r die Datei-Tests mit vielen seltsamen Zeichen.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(21): Greek: &#913;&#965;&#964;&#942; &#949;&#943;&#957;&#945;&#953; &#951; &#960;&#951;&#947;&#942; &#947;&#953;&#945; &#964;&#959; &#945;&#961;&#967;&#949;&#943;&#959; &#956;&#949; &#960;&#959;&#955;&#955;&#941;&#962; &#948;&#959;&#954;&#953;&#956;&#941;&#962; &#960;&#949;&#961;&#943;&#949;&#961;&#947;&#959; &#967;&#945;&#961;&#945;&#954;&#964;&#942;&#961;&#949;&#962;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\bigEndian\langFile_UTF16BE_UNIX.txt(22): Hebrew: &#1494;&#1492;&#1493; &#1492;&#1502;&#1511;&#1493;&#1512; &#1506;&#1489;&#1493;&#1512; &#1511;&#1493;&#1489;&#1509; &#1489;&#1491;&#1497;&#1511;&#1493;&#1514; &#1512;&#1489;&#1493;&#1514; &#1506;&#1501; &#1514;&#1493;&#1493;&#1497;&#1501; &#1502;&#1493;&#1494;&#1512;&#1497;&#1501;
+Found 'tests' 5 time(s).
+----------------------------------------
+Find 'tests' in 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt' (18-11-2024 11:47:24; 11-11-2024 12:47:07):
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(1): English: This is the source for file tests with many strange characters.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(2): Albanian: Kjo &#235;sht&#235; burim p&#235;r fotografi teste me shum&#235; shenja t&#235; &#231;uditshme.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(3): Arabic: &#1607;&#1584;&#1575; &#1607;&#1608; &#1605;&#1589;&#1583;&#1585; &#1604;&#1604;&#1605;&#1604;&#1601; &#1575;&#1604;&#1578;&#1580;&#1575;&#1585;&#1576; &#1605;&#1593; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1588;&#1582;&#1589;&#1610;&#1575;&#1578; &#1575;&#1604;&#1594;&#1585;&#1610;&#1576;&#1577;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(8): Croatian: To je izvor za datoteku testovi sa mnogim &#269;udnim likovima.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(9): Czech: Toto je zdrojov&#253; soubor test&#367; s mnoha divn&#233; znaky.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(10): Danish: Dette er den kilde til fil tests med mange m&#230;rkelige tegn.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(11): Dutch: Dit is de bron voor bestand proeven met veel vreemde tekens.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(12): Estonian: See on allikas faili testid paljude kummaline t&#228;hem&#228;rki.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(13): Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(14): Finnish: T&#228;m&#228; on l&#228;hde tiedosto testit monia outoja merkkej&#228;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(15): French: C'est la source pour le fichier des tests avec de nombreux personnages &#233;tranges.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(16): Galician: Este &#233; o ficheiro fonte para probas con moitos caracteres raro.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(17): German: Dies ist die Quelle f&#252;r die Datei-Tests mit vielen seltsamen Zeichen.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(18): Greek: &#913;&#965;&#964;&#942; &#949;&#943;&#957;&#945;&#953; &#951; &#960;&#951;&#947;&#942; &#947;&#953;&#945; &#964;&#959; &#945;&#961;&#967;&#949;&#943;&#959; &#956;&#949; &#960;&#959;&#955;&#955;&#941;&#962; &#948;&#959;&#954;&#953;&#956;&#941;&#962; &#960;&#949;&#961;&#943;&#949;&#961;&#947;&#959; &#967;&#945;&#961;&#945;&#954;&#964;&#942;&#961;&#949;&#962;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\langFile_UTF16LE_UNIX.txt(19): Hebrew: &#1494;&#1492;&#1493; &#1492;&#1502;&#1511;&#1493;&#1512; &#1506;&#1489;&#1493;&#1512; &#1511;&#1493;&#1489;&#1509; &#1489;&#1491;&#1497;&#1511;&#1493;&#1514; &#1512;&#1489;&#1493;&#1514; &#1506;&#1501; &#1514;&#1493;&#1493;&#1497;&#1501; &#1502;&#1493;&#1494;&#1512;&#1497;&#1501;
+Found 'tests' 4 time(s).
+----------------------------------------
+Find 'tests' in 'C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt' (18-11-2024 11:47:24; 11-11-2024 12:47:07):
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(1): English: This is the source for file tests with many strange characters.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(2): Albanian: Kjo &#235;sht&#235; burim p&#235;r fotografi teste me shum&#235; shenja t&#235; &#231;uditshme.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(3): Arabic: &#1607;&#1584;&#1575; &#1607;&#1608; &#1605;&#1589;&#1583;&#1585; &#1604;&#1604;&#1605;&#1604;&#1601; &#1575;&#1604;&#1578;&#1580;&#1575;&#1585;&#1576; &#1605;&#1593; &#1575;&#1604;&#1593;&#1583;&#1610;&#1583; &#1605;&#1606; &#1575;&#1604;&#1588;&#1582;&#1589;&#1610;&#1575;&#1578; &#1575;&#1604;&#1594;&#1585;&#1610;&#1576;&#1577;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(8): Croatian: To je izvor za datoteku testovi sa mnogim &#269;udnim likovima.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(9): Czech: Toto je zdrojov&#253; soubor test&#367; s mnoha divn&#233; znaky.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(10): Danish: Dette er den kilde til fil tests med mange m&#230;rkelige tegn.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(11): Dutch: Dit is de bron voor bestand proeven met veel vreemde tekens.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(12): Estonian: See on allikas faili testid paljude kummaline t&#228;hem&#228;rki.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(13): Filipino: Ito ay ang mga pinagkukunan para sa mga file na pagsusulit na may maraming mga kakaibang karakter.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(14): Finnish: T&#228;m&#228; on l&#228;hde tiedosto testit monia outoja merkkej&#228;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(15): French: C'est la source pour le fichier des tests avec de nombreux personnages &#233;tranges.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(16): Galician: Este &#233; o ficheiro fonte para probas con moitos caracteres raro.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(17): German: Dies ist die Quelle f&#252;r die Datei-Tests mit vielen seltsamen Zeichen.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(18): Greek: &#913;&#965;&#964;&#942; &#949;&#943;&#957;&#945;&#953; &#951; &#960;&#951;&#947;&#942; &#947;&#953;&#945; &#964;&#959; &#945;&#961;&#967;&#949;&#943;&#959; &#956;&#949; &#960;&#959;&#955;&#955;&#941;&#962; &#948;&#959;&#954;&#953;&#956;&#941;&#962; &#960;&#949;&#961;&#943;&#949;&#961;&#947;&#959; &#967;&#945;&#961;&#945;&#954;&#964;&#942;&#961;&#949;&#962;.
+C:\UltraEditFiles\ue-20241025T061201Z-004\ue\encodingTestsBOM\16-bit\UNIX\&#229;langFile_UTF16LE_UNIX.txt(19): Hebrew: &#1494;&#1492;&#1493; &#1492;&#1502;&#1511;&#1493;&#1512; &#1506;&#1489;&#1493;&#1512; &#1511;&#1493;&#1489;&#1509; &#1489;&#1491;&#1497;&#1511;&#1493;&#1514; &#1512;&#1489;&#1493;&#1514; &#1506;&#1501; &#1514;&#1493;&#1493;&#1497;&#1501; &#1502;&#1493;&#1494;&#1512;&#1497;&#1501;
+Found 'tests' 4 time(s).
+Search complete. Found 'tests' 25 time(s). (6 file(s)).&#10;
+			</matchvalue>
+		</validationitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateFindResultsFile.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

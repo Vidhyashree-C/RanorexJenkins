@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a90b4107-da59-4b80-8a3e-ba6086021c1b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ChangingSettingsForClearHistory"
+	namespace="UltraEditAutomation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Select"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8b41d45f-91c2-4f43-92c6-e4d4ef205ff3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b290e99f-589f-4e87-88fb-a2d242a49c65"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="8"
+				prefcap="tabpage"
+				rect="544,24,80,23"
+				role="tabpage"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="index"
+					type="System.Int32">
+						8
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Advanced
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Switch
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt, A
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Advanced
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PageTab
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'[Edit1] - UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Advanced']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="a2b4fdfc-a398-421b-bb3e-76bfc45fd9be">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="Press"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d02b3560-109c-49c2-8036-b5292f5c60e9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9ec04721-07bf-4077-a211-2778158b3893"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'[Edit1] - UltraEdit 64-bi']//toolbar[@accessiblename='Advanced']/toolbar[@accessiblename='Configure']/button[@accessiblename='Settings']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="5577f5fc-7571-43b0-b0e6-fc5cccc4cbe6">
+			</arguments>
+		</invokeactionrecorditem>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5de0b175-8eb1-4ba8-9d86-6c7f1f25570d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4f410600-a255-44ab-8914-3dd365be13de"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="11"
+				prefcap="treeitem"
+				rect="661,583,96,18"
+				role="treeitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Toolbars / menus
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Configuration']/tree/treeitem[@text='Toolbars / menus']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="d3531b26-4f13-4c44-b424-a63252d7c77a">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8f778c5f-a4da-451a-bd3e-a1798707ecde"
+		sx="709"
+		sy="592"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4f410600-a255-44ab-8914-3dd365be13de"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="11"
+				prefcap="treeitem"
+				rect="661,583,96,18"
+				role="treeitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Toolbars / menus
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Configuration']/tree/treeitem[@text='Toolbars / menus']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e4ca48f3-4283-4764-8755-3713846faefb"
+		sx="719"
+		sy="610"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7b0a9047-2a77-4f1b-895c-262359510d47"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="treeitem"
+				rect="680,601,79,18"
+				role="treeitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Miscellaneous
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Configuration']/tree[@controlid='8190']/treeitem[@text='Toolbars / menus']/treeitem[@text='Miscellaneous']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e79bd597-cc57-44a1-ac60-4a21d91cfeac"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f0f3a2aa-e0c1-4bf2-8bb1-9825fb1e82f4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Configuration']/?/?/button[@controlid='1732']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c5a74453-c975-4a8a-9e39-2ffc02599e4a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f0f3a2aa-e0c1-4bf2-8bb1-9825fb1e82f4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Configuration']/?/?/button[@controlid='1732']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="Close"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f333de33-3c8a-43e2-8edb-086bdd61512f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ca512b33-999f-4b0a-ba72-dc6c3edacfc9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="form"
+				rect="1242,173,678,458"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						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
+RK5CYII=
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Configuration
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						#32770
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Win32
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						dialogue
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Configuration
+					</attribute>
+					<attribute
+					name="nativewindowhandle"
+					type="System.Int32">
+						2560202
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						32516
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Configuration']/form[@name='Configuration']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="9fea1796-f695-4d26-b4be-79b20615f9ae">
+			</arguments>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ChangingSettingsForClearHistory.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

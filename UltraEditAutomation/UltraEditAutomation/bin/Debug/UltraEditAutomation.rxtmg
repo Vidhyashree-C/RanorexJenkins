@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="UltraEditAutomation"
+      id="4e5342a4-5f95-4366-bf82-50259280e5d4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="UltraEditAutomation"
+      id="4e5342a4-5f95-4366-bf82-50259280e5d4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

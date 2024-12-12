@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2bed0fef-c9ef-4068-a575-e58d9050fbc9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ModifyTheFile"
+	namespace="UltraEditAutomation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="32;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="16898115-d8bf-4aba-a817-42e1d0f1e30d"
+		sx="146"
+		sy="40"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="62a4a2f3-5b66-4f17-977b-398980f4076f"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="tabpage"
+				rect="114,24,48,23"
+				role="tabpage"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="index"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Switch
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt, E
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PageTab
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Edit']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="95e48f52-4432-4cc2-ae12-87597bb68172">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="28;39"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7539be68-c536-4983-bb0b-626ee2019b91"
+		sx="469"
+		sy="91"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2d400b82-4917-472e-8a1b-5a0b9f63ecf1"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="True"
+				index="2"
+				prefcap="button"
+				rect="441,52,53,66"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Duplicate
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Duplicate active line
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt, E, P
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Duplicate
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']//toolbar[@accessiblename='Edit']/toolbar[@accessiblename='Selected line(s)']/button[@accessiblename='Duplicate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="42e1143f-a050-4d3f-a0d9-11e2a0e24634">
+				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
+xWR//9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ModifyTheFile.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

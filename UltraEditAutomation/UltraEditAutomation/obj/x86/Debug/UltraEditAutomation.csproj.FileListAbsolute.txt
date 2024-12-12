@@ -1,0 +1,14 @@
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\UltraEditAutomation.rxtmg
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\UltraEditAutomation.rxtst
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\RepositoryImages\UltraEditAutomationRepository53beb013.rximgres
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\Common\ProcessNames.txt
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\UltraEditAutomation.exe.config
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\UltraEditAutomation.xml
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\UltraEditAutomation.exe
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\UltraEditAutomation.pdb
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\bin\Debug\Ranorex.Core.Resolver.dll
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csproj.AssemblyReference.cache
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csproj.CoreCompileInputs.cache
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csproj.CopyComplete
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.exe
+C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.pdb

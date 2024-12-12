@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="46cded95-f243-4a5b-bc15-d66e3844059a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyThaiDetection"
+	namespace="UltraEditAutomation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b79c509b-5c9c-4827-91f5-737003302ece"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8cda95b8-c2b5-464d-9764-bd975c3af9b9"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="4"
+				prefcap="text"
+				rect="1173,1023,126,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						StaticText
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9a09b42e-6bf0-4007-b522-f87b282c93af">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAC7ARQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDDoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoq/9hi/vP+Yo+wxf3n/MUAUKKv8A2GL+8/5i
+j7DF/ef8xQBQoq/9hi/vP+Yo+wxf3n/MUAUKKv8A2GL+8/5ij7DF/ef8xQBQoq/9hi/vP+Yo+wxf
+3n/MUAUKKv8A2GL+8/5iq1xB5LgZyD0NAENFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAaX2qD+/wDoaPtUH9/9DWdg+lGD6UAaP2qD+/8AoaPtUH9/9DWdg+lG
+D6UAaP2qD+/+ho+1Qf3/ANDWdg+lGD6UAaP2qD+/+ho+1Qf3/wBDWdg+lGD6UAaP2qD+/wDoaPtU
+H9/9DWdg+lLsb+6fypBc0PtUH9/9DVS6mEzjb91ai2N/dP5UbG/un8qLoV0Nop2xv7p/KjY390/l
+RdBdDaKdsb+6fyo2N/dP5UXQXQ2inbG/un8qNjf3T+VF0F0Nop2xv7p/KjY390/lRdBdDaKdsb+6
+fyo2N/dP5UXQXQ2inbG/un8qNjf3T+VF0F0Nop2xv7p/KkKsOqkfhRdBdCUUuD6UYPpTGJRS4PpR
+g+lACUUuD6UYPpQAlFLg+lGD6UAJRS4PpRQA+iiimAUtJS+lACsjqMsjKPcUbGC7tp2+uOKmkIVp
+SWUhugBznmgkCR5NwKkHAzyfbFAEJRgu4qdp744ptSvhowzY3cAYbOR9KioAKlctvCrk57AVFU/A
+m5I+6eveoavJXM5JOSuNAmJICsSOvy03c/PXjrx0qRiok3ZGVXoD3oDR+QyhiDgZBHU5+tPlXYrl
+j2IvMb1pd0h9fXpTKs7lQ7ixHCgYGe1HKuwcsexDufGecdM4pR5pzgNx146VJlAmzcNpY/h0waVy
+HZwxXZkkHcM5/rRyrsHLHsQ7nzjnP0pcyhd2Dt9ccU5iAN3XKhR+QzTiQJHk3AqQcDPJ9sUcq7By
+x7DP32AdrYPQ7etNDSEkDOR1GKmJG+JvkwNuW3c/zoV13FsjLg5/L+tPlj2Dlj2IPMb1p480ruCs
+R67ajG3BySD2wKepHkuM85H9aXKuwcsewhdx14/CgO56HP4VKzKwKnbwgwe+eKcwjyudnG4dRzxx
+0p8q7Byx7EO9wcHt2xSscxgn1ok++PXaM/lT4ZhDET5aOSMDeMhTnriokkmrEySTViDt0oxk4AyT
+R/CfrToiBMhPAyK0NBuDzweOtJVjcjISxHLDcP60ybGB9zdk/dxjH4UARkEdRiggg4IwanZlZSDt
+4QYPfPFOQIZSFCH5+QcdPagRWwQBkdelBUgZINT7lKqp242tn264oJjONxH8H5Y5oGV6K0YI1ZCX
+SMnPBAHSigVzL3n2o3n2qS5tpLWTZIB0yCDkEVFSKasLvPtRvPtSUUCF3n2o3n2ojRpHCIpZmOAB
+3rag0D5A1xNtP91R0/GplJR3Glcxd59qN59q1brRWjQtBJvx/CRg1kkEEgjBHalCpGfwsGmtxd59
+qnfaxz5iiq9FNq5Djd3Jtq/89Fo2r/z0WoaKLPuLll3Jtq/89FpdoP8Ay1WoKKLPuHLLuTbV/wCe
+i0bV/wCei1DRRZ9w5Zdybav/AD0Wjav/AD0WoaKLPuHLLuTbV/56LRtX/notQ0UWfcOWXcm2r/z0
+Wjav/PRahoos+4csu5NtX/notG1f+ei1DRRZ9w5ZdyfAzkyqT7//AK6JGCxgAq3NQUUcr6sOV9WO
+3nGMCjefam0VRYu8+1G8+1JRQAu8+1OErqCFYgHqAaZRQAu8+1LvIptFADzNIxyzE/U0UyigC7fW
+lzJcfNMCVBOG+XCg9R7VQU5XNWp5biGTMc5+bJOQM8nn8KrAYGKS20KmmpNS3Fooopkmt4fRQ887
+f8slGPxz/hU8mpTjT/N3Dez7V47VQ0qdI5JIZDtSZduff/Jq4mlsrp5k5eNDlUxXJVkua0jSKb2I
+TqFzJemFZkQAheV61Bq8YS8yP41yfrVqCxlt5zIZ0KltzDZ/WqN/OJ7kspyoGAaKSXP7u1hy0jqV
+qKKK6zIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+Aksck5NFdH9mt/8AnhF/3wKgeCHzGHkx9f7o9K09mZ+0uYdFWtRRUnUIoUbegGO5qfR4o5PO8xFf
+G3G4Zx1qVHWxTlpczqsw6hcxLtD7h6NzW19mt/8AnhF/3wKPs1v/AM8Iv++BTdFS3JVW2xhzXk84
+w7/L6DgVBXR/Zrf/AJ4Rf98Cj7Nb/wDPCL/vgUKjbRA6t9znKStLWIo4/J8uNUznO0Yz0rOqWrOx
+ad1cKKKKQwooooAKKKKACiiigAopKKAFooooAKKKKACiiigAooooAKKSloAKKKKACiiigAooooA/
+/9k=
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				874   (ANSI/OEM - Thai)
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="ContainsImage"
+		codegenpropertyname="Text874ANSIOEMThai_Screenshot1"
+		duration="100ms"
+		enabled="True"
+		imagerect="0,0,126,17"
+		optional="False"
+		screenshotguid="12daeb6a-465a-48d3-aceb-1fe6eb82a22f"
+		screenshotname="Screenshot1"
+		searchpropertyid="b11e8822-75dd-453e-b355-f2a9a38a83c3"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8cda95b8-c2b5-464d-9764-bd975c3af9b9"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="4"
+				prefcap="text"
+				rect="1173,1023,126,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						874   (ANSI/OEM - Thai)
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						StaticText
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="231c6c2f-c081-443c-a135-9749fd7add83">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAC7ARQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDDoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoq/9hi/vP+Yo+wxf3n/MUAUKKv8A2GL+8/5i
+j7DF/ef8xQBQoq/9hi/vP+Yo+wxf3n/MUAUKKv8A2GL+8/5ij7DF/ef8xQBQoq/9hi/vP+Yo+wxf
+3n/MUAUKKv8A2GL+8/5iq1xB5LgZyD0NAENFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAaX2qD+/wDoaPtUH9/9DWdg+lGD6UAaP2qD+/8AoaPtUH9/9DWdg+lG
+D6UAaP2qD+/+ho+1Qf3/ANDWdg+lGD6UAaP2qD+/+ho+1Qf3/wBDWdg+lGD6UAaP2qD+/wDoaPtU
+H9/9DWdg+lLsb+6fypBc0PtUH9/9DVS6mEzjb91ai2N/dP5UbG/un8qLoV0Nop2xv7p/KjY390/l
+RdBdDaKdsb+6fyo2N/dP5UXQXQ2inbG/un8qNjf3T+VF0F0Nop2xv7p/KjY390/lRdBdDaKdsb+6
+fyo2N/dP5UXQXQ2inbG/un8qNjf3T+VF0F0Nop2xv7p/KkKsOqkfhRdBdCUUuD6UYPpTGJRS4PpR
+g+lACUUuD6UYPpQAlFLg+lGD6UAJRS4PpRQA+iiimAUtJS+lACsjqMsjKPcUbGC7tp2+uOKmkIVp
+SWUhugBznmgkCR5NwKkHAzyfbFAEJRgu4qdp744ptSvhowzY3cAYbOR9KioAKlctvCrk57AVFU/A
+m5I+6eveoavJXM5JOSuNAmJICsSOvy03c/PXjrx0qRiok3ZGVXoD3oDR+QyhiDgZBHU5+tPlXYrl
+j2IvMb1pd0h9fXpTKs7lQ7ixHCgYGe1HKuwcsexDufGecdM4pR5pzgNx146VJlAmzcNpY/h0waVy
+HZwxXZkkHcM5/rRyrsHLHsQ7nzjnP0pcyhd2Dt9ccU5iAN3XKhR+QzTiQJHk3AqQcDPJ9sUcq7By
+x7DP32AdrYPQ7etNDSEkDOR1GKmJG+JvkwNuW3c/zoV13FsjLg5/L+tPlj2Dlj2IPMb1p480ruCs
+R67ajG3BySD2wKepHkuM85H9aXKuwcsewhdx14/CgO56HP4VKzKwKnbwgwe+eKcwjyudnG4dRzxx
+0p8q7Byx7EO9wcHt2xSscxgn1ok++PXaM/lT4ZhDET5aOSMDeMhTnriokkmrEySTViDt0oxk4AyT
+R/CfrToiBMhPAyK0NBuDzweOtJVjcjISxHLDcP60ybGB9zdk/dxjH4UARkEdRiggg4IwanZlZSDt
+4QYPfPFOQIZSFCH5+QcdPagRWwQBkdelBUgZINT7lKqp242tn264oJjONxH8H5Y5oGV6K0YI1ZCX
+SMnPBAHSigVzL3n2o3n2qS5tpLWTZIB0yCDkEVFSKasLvPtRvPtSUUCF3n2o3n2ojRpHCIpZmOAB
+3rag0D5A1xNtP91R0/GplJR3Glcxd59qN59q1brRWjQtBJvx/CRg1kkEEgjBHalCpGfwsGmtxd59
+qnfaxz5iiq9FNq5Djd3Jtq/89Fo2r/z0WoaKLPuLll3Jtq/89FpdoP8Ay1WoKKLPuHLLuTbV/wCe
+i0bV/wCei1DRRZ9w5Zdybav/AD0Wjav/AD0WoaKLPuHLLuTbV/56LRtX/notQ0UWfcOWXcm2r/z0
+Wjav/PRahoos+4csu5NtX/notG1f+ei1DRRZ9w5ZdyfAzkyqT7//AK6JGCxgAq3NQUUcr6sOV9WO
+3nGMCjefam0VRYu8+1G8+1JRQAu8+1OErqCFYgHqAaZRQAu8+1LvIptFADzNIxyzE/U0UyigC7fW
+lzJcfNMCVBOG+XCg9R7VQU5XNWp5biGTMc5+bJOQM8nn8KrAYGKS20KmmpNS3Fooopkmt4fRQ887
+f8slGPxz/hU8mpTjT/N3Dez7V47VQ0qdI5JIZDtSZduff/Jq4mlsrp5k5eNDlUxXJVkua0jSKb2I
+TqFzJemFZkQAheV61Bq8YS8yP41yfrVqCxlt5zIZ0KltzDZ/WqN/OJ7kspyoGAaKSXP7u1hy0jqV
+qKKK6zIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+Aksck5NFdH9mt/8AnhF/3wKgeCHzGHkx9f7o9K09mZ+0uYdFWtRRUnUIoUbegGO5qfR4o5PO8xFf
+G3G4Zx1qVHWxTlpczqsw6hcxLtD7h6NzW19mt/8AnhF/3wKPs1v/AM8Iv++BTdFS3JVW2xhzXk84
+w7/L6DgVBXR/Zrf/AJ4Rf98Cj7Nb/wDPCL/vgUKjbRA6t9znKStLWIo4/J8uNUznO0Yz0rOqWrOx
+ad1cKKKKQwooooAKKKKACiiigAopKKAFooooAKKKKACiiigAooooAKKSloAKKKKACiiigAooooA/
+/9k=
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1cdb6de0-7fa4-4754-8fdd-8bc582f7a4e1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8cda95b8-c2b5-464d-9764-bd975c3af9b9"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<userrecorditem
+		classname="VerifyThaiDetection"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ThaiLanguage"
+		namespace="UltraEditAutomation"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="caba42ed-460b-4cf9-be25-63092b3045b2">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyThaiDetection.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
