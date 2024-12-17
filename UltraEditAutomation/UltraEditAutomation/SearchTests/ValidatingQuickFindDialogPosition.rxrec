@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="599e747d-5423-4b6d-abef-ac8a1f3576fd"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidatingQuickFindDialogPosition"
+	namespace="UltraEditAutomation.SearchTests">
+	</codegen>
+	<variables>
+		<var
+		id="8424cf30-149e-4a04-ad9b-3ac7b7bc7265"
+		name="tolerance">
+			20
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ValidatingQuickFindDialogPosition"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ValidatePosition"
+		namespace="UltraEditAutomation.SearchTests"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="b4317e02-4bc6-4ed4-8669-ada4507c630c">
+				<argument
+				argname="editWindow"
+				id="3d252b80-1faa-4382-b9fe-eb163e91784d">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="becd838c-de34-42a1-a51c-9f8355ed6db4"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='uedit64']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="quickFind"
+				id="ec02d924-b3f6-4b89-987c-6050ebcea2fd">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="c579d8e5-9792-4914-b0ae-47a8040b906e"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='uedit64']/container[@controlid='59648']/form[@controlid='65280']//element[@controlid='118' and @processname='uedit64']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="tolerance"
+				id="57d155fa-e877-402d-bf35-aa08f9a2e473"
+				variable="tolerance">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						20
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="6df384d5-35a0-41cc-8676-a3b7645b444e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="becd838c-de34-42a1-a51c-9f8355ed6db4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="unknown"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						EditControl
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						329948
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Overlapped
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@processname='uedit64']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidatingQuickFindDialogPosition.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7ef26525-6370-4726-bb94-d4fed520d5f3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseCommandPrompt"
+	namespace="UltraEditAutomation.FileHandling">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Close"
+		enabled="False"
+		optional="False"
+		searchpropertyid="0e55ecfa-75a8-4c90-aa19-1352948360de">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="12637a40-349c-4377-8b59-359116562e64"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Administrator: C:\Windows']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="9beaa4dc-f359-4e50-82f6-0307b2de2d35">
+			</arguments>
+		</invokeactionrecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="ba9e4033-e68a-4753-a10f-cf4b5c04811c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="12637a40-349c-4377-8b59-359116562e64"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Administrator: C:\Windows']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseCommandPrompt.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

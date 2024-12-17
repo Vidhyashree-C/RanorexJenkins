@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5db27ace-d5e9-49ff-b48b-17e55ddda857"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyBlockComment"
+	namespace="UltraEditAutomation.Editing">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="VerifyBlockComment"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="VerifyBlockCommentContent"
+		namespace="UltraEditAutomation.Editing"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="ff0bef5f-25b5-4bb8-a8ba-826cdee50544">
+				<argument
+				argname="argument1"
+				id="683cc672-cc50-4bc9-b431-115349c633cb">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="c8bae7c5-30ed-4ea8-ab97-1774ad21b3bc"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyBlockComment.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4d9e273e-afd2-4c3c-8628-930f9032d013"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyPromptForSaveState"
+	namespace="UltraEditAutomation.FileHandling">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c2b938de-ba64-47c6-a92b-a08ce6abe50c"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dfe90453-3eae-43b1-b2e4-163b5d8103f1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/form[@name='Save state is enabled']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyPromptForSaveState.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

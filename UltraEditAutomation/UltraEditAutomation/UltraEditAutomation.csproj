@@ -1,1584 +1,1590 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<PropertyGroup>
-		<ProjectGuid>{50896D4D-A4F9-43BC-A540-AD33AEDAC8A6}</ProjectGuid>
-		<TargetFrameworkProfile></TargetFrameworkProfile>
-		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-		<Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-		<OutputType>Exe</OutputType>
-		<RootNamespace>UltraEditAutomation</RootNamespace>
-		<AssemblyName>UltraEditAutomation</AssemblyName>
-		<NoWarn>1591</NoWarn>
-		<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-		<RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
-		<RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-		<projectdefaultrepository>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</projectdefaultrepository>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Platform)' == 'x86' ">
-		<PlatformTarget>x86</PlatformTarget>
-		<Prefer32Bit>True</Prefer32Bit>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-		<OutputPath>bin\Debug\</OutputPath>
-		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
-		<DebugSymbols>True</DebugSymbols>
-		<DebugType>Full</DebugType>
-		<Optimize>False</Optimize>
-		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
-		<DefineConstants>DEBUG;TRACE</DefineConstants>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-		<OutputPath>bin\Release\</OutputPath>
-		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
-		<DebugSymbols>False</DebugSymbols>
-		<DebugType>None</DebugType>
-		<Optimize>True</Optimize>
-		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-		<DefineConstants>TRACE</DefineConstants>
-	</PropertyGroup>
-	<ItemGroup>
-		<Reference Include="Ranorex.Bootstrapper">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Core.Resolver">
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Cef">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.ChromeWeb">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Delphi">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.FirefoxWeb">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Flex">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Java">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Mobile">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Msaa">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Office">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Qt">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.RawText">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Sap">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Uia">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Web">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WebDriver">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Win32">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WinForms">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WinForms.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Wpf">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Wpf.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="System"></Reference>
-		<Reference Include="System.Core">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-		<Reference Include="System.Data"></Reference>
-		<Reference Include="System.Data.DataSetExtensions">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-		<Reference Include="System.Drawing"></Reference>
-		<Reference Include="System.Windows.Forms"></Reference>
-		<Reference Include="System.Xml"></Reference>
-		<Reference Include="System.Xml.Linq">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-	</ItemGroup>
-	<ItemGroup>
-		<Compile Include="AdvancedSettingtoPerformJunk.cs">
-			<BoundTo>6178812e-ec2a-415f-b28d-cf5bfaa9271f</BoundTo>
-			<DependentUpon>AdvancedSettingtoPerformJunk.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0442d20f-8b6a-4a9a-bc3f-38c1700207ad</id>
-		</Compile>
-		<Compile Include="AdvancedSettingtoPerformJunk.UserCode.cs">
-			<BoundTo>6178812e-ec2a-415f-b28d-cf5bfaa9271f</BoundTo>
-			<DependentUpon>AdvancedSettingtoPerformJunk.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>f17b799b-b3bf-49ce-8eae-64a7be847d8e</id>
-		</Compile>
-		<Compile Include="ASCIItoEBCDICConversion.cs">
-			<BoundTo>8e22c2bc-4a86-4fa0-86c5-731a2ec18798</BoundTo>
-			<DependentUpon>ASCIItoEBCDICConversion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>c20a994b-23c3-48f2-ad7b-51fde4940a3d</id>
-		</Compile>
-		<Compile Include="ASCIItoEBCDICConversion.UserCode.cs">
-			<BoundTo>8e22c2bc-4a86-4fa0-86c5-731a2ec18798</BoundTo>
-			<DependentUpon>ASCIItoEBCDICConversion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>111cefa2-5598-47d1-bba9-0eeed335a6ac</id>
-		</Compile>
-		<Compile Include="AssemblyInfo.cs">
-			<id>bce20b21-88e6-4491-bcfb-d4f94916cf59</id>
-		</Compile>
-		<Compile Include="AutomaticallyDetectEncoding_IsSelected.cs">
-			<BoundTo>bd8b7b91-d58f-4c20-a2a3-3e0edcc2e68c</BoundTo>
-			<DependentUpon>AutomaticallyDetectEncoding_IsSelected.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>3e306de2-c89c-4828-beb9-da40c4813bc7</id>
-		</Compile>
-		<Compile Include="AutomaticallyDetectEncoding_IsSelected.UserCode.cs">
-			<BoundTo>bd8b7b91-d58f-4c20-a2a3-3e0edcc2e68c</BoundTo>
-			<DependentUpon>AutomaticallyDetectEncoding_IsSelected.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>876ec9bd-4aa3-4ec5-9c83-65ec8862b59b</id>
-		</Compile>
-		<Compile Include="BackupFileDefaultDirectory.cs">
-			<BoundTo>57acc811-05c9-42c0-8eb8-9521a5d5ffd5</BoundTo>
-			<DependentUpon>BackupFileDefaultDirectory.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>f2790c3d-f9d6-462a-8f62-7c90df814e9b</id>
-		</Compile>
-		<Compile Include="BackupFileDefaultDirectory.UserCode.cs">
-			<BoundTo>57acc811-05c9-42c0-8eb8-9521a5d5ffd5</BoundTo>
-			<DependentUpon>BackupFileDefaultDirectory.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>115be63e-52f1-44e2-a5c3-be98e82368c2</id>
-		</Compile>
-		<Compile Include="BackupSettingsWithReplaceExtension.cs">
-			<BoundTo>f380e44f-fa9c-4fb0-aeaf-4d86e0d0f578</BoundTo>
-			<DependentUpon>BackupSettingsWithReplaceExtension.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>25d36455-089c-4cff-828a-8a4432f9217a</id>
-		</Compile>
-		<Compile Include="BackupSettingsWithReplaceExtension.UserCode.cs">
-			<BoundTo>f380e44f-fa9c-4fb0-aeaf-4d86e0d0f578</BoundTo>
-			<DependentUpon>BackupSettingsWithReplaceExtension.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>93f936da-1a44-44fb-aa8f-94865c864998</id>
-		</Compile>
-		<Compile Include="Case1_IBM500Conversion.cs">
-			<BoundTo>afe4e64f-9623-4736-be9b-3ac7dc0fcb80</BoundTo>
-			<DependentUpon>Case1_IBM500Conversion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>af58d83a-1dd0-4d99-9fdd-2a28a0f132d4</id>
-		</Compile>
-		<Compile Include="Case1_IBM500Conversion.UserCode.cs">
-			<BoundTo>afe4e64f-9623-4736-be9b-3ac7dc0fcb80</BoundTo>
-			<DependentUpon>Case1_IBM500Conversion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>60371b29-3ad2-4b77-ab30-e40886128cec</id>
-		</Compile>
-		<Compile Include="Case2_NonIBM500Conversion.cs">
-			<BoundTo>9e8033fb-4f88-460f-9439-44e6ca4be95a</BoundTo>
-			<DependentUpon>Case2_NonIBM500Conversion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d039f474-dc8d-45e4-b864-b6bb9eb05a63</id>
-		</Compile>
-		<Compile Include="Case2_NonIBM500Conversion.UserCode.cs">
-			<BoundTo>9e8033fb-4f88-460f-9439-44e6ca4be95a</BoundTo>
-			<DependentUpon>Case2_NonIBM500Conversion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>eb1aeb3b-f021-425a-8b53-68947f55f8b1</id>
-		</Compile>
-		<Compile Include="BlockComment.cs">
-			<BoundTo>5847b289-6c8e-4728-8397-f8ce592ecfa1</BoundTo>
-			<DependentUpon>BlockComment.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0ef44b31-45b6-4a5d-8ea3-8e5dc9269983</id>
-		</Compile>
-		<Compile Include="BlockComment.UserCode.cs">
-			<BoundTo>5847b289-6c8e-4728-8397-f8ce592ecfa1</BoundTo>
-			<DependentUpon>BlockComment.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>6b6f7eb7-8e94-47b4-8cd0-1543f744cc1f</id>
-		</Compile>
-		<Compile Include="ChangingSettingsForClearHistory.cs">
-			<BoundTo>6dac777f-1464-40e7-8cc7-fbe5b89dc9eb</BoundTo>
-			<DependentUpon>ChangingSettingsForClearHistory.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>84d8def4-bcd1-4e70-aeb4-833e01997360</id>
-		</Compile>
-		<Compile Include="ChangingSettingsForClearHistory.UserCode.cs">
-			<BoundTo>6dac777f-1464-40e7-8cc7-fbe5b89dc9eb</BoundTo>
-			<DependentUpon>ChangingSettingsForClearHistory.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>41a30bcd-a30a-4912-9619-10b0854b51f3</id>
-		</Compile>
-		<Compile Include="CheckFileExistence.cs">
-			<id>e7b9d637-6292-4ea8-9772-d1e9116f72a4</id>
-		</Compile>
-		<Compile Include="CloseAllTabs.cs">
-			<BoundTo>7baf1ccf-2128-49ba-9cf6-52deb88bcc35</BoundTo>
-			<DependentUpon>CloseAllTabs.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>2c7775c4-6ae6-485e-be96-34f32f637a02</id>
-		</Compile>
-		<Compile Include="CloseAllTabs.UserCode.cs">
-			<BoundTo>7baf1ccf-2128-49ba-9cf6-52deb88bcc35</BoundTo>
-			<DependentUpon>CloseAllTabs.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>d29ce748-5dfc-4624-9f6f-59e58dcff44a</id>
-		</Compile>
-		<Compile Include="CloseAUT.cs">
-			<BoundTo>d3fcb87c-9269-404f-a1b8-232e7fc0095c</BoundTo>
-			<DependentUpon>CloseAUT.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>bc1c87b8-39f1-45da-b06e-1c9a4e9e4fc0</id>
-		</Compile>
-		<Compile Include="CloseAUT.UserCode.cs">
-			<BoundTo>d3fcb87c-9269-404f-a1b8-232e7fc0095c</BoundTo>
-			<DependentUpon>CloseAUT.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>5902a06f-15b2-40d9-bdd7-24a5f7857113</id>
-		</Compile>
-		<Compile Include="CloseCommandPrompt.cs">
-			<BoundTo>539a8df6-ca8d-4eac-af9b-a29029d3510c</BoundTo>
-			<DependentUpon>CloseCommandPrompt.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>acf70b22-9ed6-41e7-a7e4-c00bb5a0d0de</id>
-		</Compile>
-		<Compile Include="CloseCommandPrompt.UserCode.cs">
-			<BoundTo>539a8df6-ca8d-4eac-af9b-a29029d3510c</BoundTo>
-			<DependentUpon>CloseCommandPrompt.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>b85d2e8d-55f6-4c7b-9a60-3e1d937acfc4</id>
-		</Compile>
-		<Compile Include="CloseQuickFindandValidate.cs">
-			<BoundTo>e95ce4e2-b90b-468f-92fd-868519bf86ab</BoundTo>
-			<DependentUpon>CloseQuickFindandValidate.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>80747113-11db-4634-8eeb-65e398da9cd2</id>
-		</Compile>
-		<Compile Include="CloseQuickFindandValidate.UserCode.cs">
-			<BoundTo>e95ce4e2-b90b-468f-92fd-868519bf86ab</BoundTo>
-			<DependentUpon>CloseQuickFindandValidate.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>2184a4b1-3ba3-4fa1-898a-2b70f91f01a2</id>
-		</Compile>
-		<Compile Include="CloseUltraCompareAUT.cs">
-			<BoundTo>c41e6f84-8f32-413b-a8a5-382395ac95f7</BoundTo>
-			<DependentUpon>CloseUltraCompareAUT.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>51de983d-e58e-453d-a184-ccb544b004e4</id>
-		</Compile>
-		<Compile Include="CloseUltraCompareAUT.UserCode.cs">
-			<BoundTo>c41e6f84-8f32-413b-a8a5-382395ac95f7</BoundTo>
-			<DependentUpon>CloseUltraCompareAUT.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1b66f510-47de-4d35-bffb-0e94581b7c41</id>
-		</Compile>
-		<Compile Include="CloseWindow.cs">
-			<BoundTo>75aec542-573b-4efa-bd7c-1616906a7429</BoundTo>
-			<DependentUpon>CloseWindow.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>8bed31f4-686b-4f78-ae35-ba7578d581c0</id>
-		</Compile>
-		<Compile Include="CloseWindow.UserCode.cs">
-			<BoundTo>75aec542-573b-4efa-bd7c-1616906a7429</BoundTo>
-			<DependentUpon>CloseWindow.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>0b7e2974-caec-408c-9869-fbcf65709b68</id>
-		</Compile>
-		<Compile Include="CommentSpecificLine.cs">
-			<BoundTo>35bcc0bc-31ff-43c7-bf6c-3cea8cda73ba</BoundTo>
-			<DependentUpon>CommentSpecificLine.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>f9496260-8696-4a8c-9974-fd9f9ed61f56</id>
-		</Compile>
-		<Compile Include="CommentSpecificLine.UserCode.cs">
-			<BoundTo>35bcc0bc-31ff-43c7-bf6c-3cea8cda73ba</BoundTo>
-			<DependentUpon>CommentSpecificLine.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>acfee085-0181-4208-9c4b-31de204219fa</id>
-		</Compile>
-		<Compile Include="Common\KillRunningProcesses.cs">
-			<id>8fec0d21-8452-40d0-936b-5cab622debac</id>
-		</Compile>
-		<Compile Include="Common\RestoreDefaultSettings.cs">
-			<id>3b9b0ad9-0167-4613-b590-affb599f547b</id>
-		</Compile>
-		<Compile Include="CompareConversion.cs">
-			<BoundTo>d4a85d57-2461-4831-bea3-b313a4b3bd8f</BoundTo>
-			<DependentUpon>CompareConversion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>53f35d4f-d201-4cf2-a8b6-ad782fc73c97</id>
-		</Compile>
-		<Compile Include="CompareConversion.UserCode.cs">
-			<BoundTo>d4a85d57-2461-4831-bea3-b313a4b3bd8f</BoundTo>
-			<DependentUpon>CompareConversion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1cbd69fa-caab-4b46-ae68-e7c32dba5c61</id>
-		</Compile>
-		<Compile Include="comparetext.cs">
-			<BoundTo>0aa98ac2-d67d-46ab-b2b7-edb98d7aa20c</BoundTo>
-			<DependentUpon>comparetext.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>92266f50-b2e2-4968-8a02-07c51fbb913e</id>
-		</Compile>
-		<Compile Include="comparetext.UserCode.cs">
-			<BoundTo>0aa98ac2-d67d-46ab-b2b7-edb98d7aa20c</BoundTo>
-			<DependentUpon>comparetext.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>6b375d19-af8a-4a98-a95d-4d2ec66938b8</id>
-		</Compile>
-		<Compile Include="CompareTheFiles.cs">
-			<BoundTo>719b1214-45c2-4be3-8a7f-6fd45c730cf3</BoundTo>
-			<DependentUpon>CompareTheFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>df136b72-c8e6-4cf8-aca0-9fb44bc93853</id>
-		</Compile>
-		<Compile Include="CompareTheFiles.UserCode.cs">
-			<BoundTo>719b1214-45c2-4be3-8a7f-6fd45c730cf3</BoundTo>
-			<DependentUpon>CompareTheFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>4f786783-e9fb-43a6-a7e9-e3e74d5036c4</id>
-		</Compile>
-		<Compile Include="ConvertTargetToUTF8.cs">
-			<BoundTo>6e7d936d-853a-4ee3-9f51-5318bd64accb</BoundTo>
-			<DependentUpon>ConvertTargetToUTF8.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>5871e6f0-be7d-4e2b-aaba-aa78cf28378b</id>
-		</Compile>
-		<Compile Include="ConvertTargetToUTF8.UserCode.cs">
-			<BoundTo>6e7d936d-853a-4ee3-9f51-5318bd64accb</BoundTo>
-			<DependentUpon>ConvertTargetToUTF8.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>22ec6c70-0629-4c7a-8388-f3e7ea5fa2a9</id>
-		</Compile>
-		<Compile Include="CreateNewEditFile.cs">
-			<BoundTo>71b3c342-dbec-4dcd-a539-874854beb286</BoundTo>
-			<DependentUpon>CreateNewEditFile.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>e44415b4-ecba-4c4e-833e-9bad2f3d9821</id>
-		</Compile>
-		<Compile Include="CreateNewEditFile.UserCode.cs">
-			<BoundTo>71b3c342-dbec-4dcd-a539-874854beb286</BoundTo>
-			<DependentUpon>CreateNewEditFile.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>94a66ddf-f056-41cb-a70e-090ce5bc954b</id>
-		</Compile>
-		<Compile Include="CreateNewFileInCommandPrompt.cs">
-			<BoundTo>f18d9688-be1e-42e9-975c-6a87c14fbe14</BoundTo>
-			<DependentUpon>CreateNewFileInCommandPrompt.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>c45308c3-a8bc-4108-8f8b-42414e700238</id>
-		</Compile>
-		<Compile Include="CreateNewFileInCommandPrompt.UserCode.cs">
-			<BoundTo>f18d9688-be1e-42e9-975c-6a87c14fbe14</BoundTo>
-			<DependentUpon>CreateNewFileInCommandPrompt.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>2f8606c6-26f7-400b-98a3-b364c6ad49f6</id>
-		</Compile>
-		<Compile Include="CreateNewProject.cs">
-			<BoundTo>54fd7263-f2b8-4242-ad6d-f344cca7ddb9</BoundTo>
-			<DependentUpon>CreateNewProject.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>9ccaf772-ce96-46ff-8874-39b3a4bbb7f3</id>
-		</Compile>
-		<Compile Include="CreateNewProject.UserCode.cs">
-			<BoundTo>54fd7263-f2b8-4242-ad6d-f344cca7ddb9</BoundTo>
-			<DependentUpon>CreateNewProject.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>2fb62f19-3e80-4fcc-9976-c2b54d1b179d</id>
-		</Compile>
-		<Compile Include="DeleteToEnd.cs">
-			<BoundTo>b636d35b-4bc0-411d-a989-84a4d4e98082</BoundTo>
-			<DependentUpon>DeleteToEnd.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>cb125f28-9be8-408d-8824-ab01f160a79b</id>
-		</Compile>
-		<Compile Include="DeleteToEnd.UserCode.cs">
-			<BoundTo>b636d35b-4bc0-411d-a989-84a4d4e98082</BoundTo>
-			<DependentUpon>DeleteToEnd.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>dfe3b499-f493-4620-9ad2-7481f5df0122</id>
-		</Compile>
-		<Compile Include="Delete_BeginingofTheWord.cs">
-			<BoundTo>679ed7ea-9e7d-4e2f-b258-bb1e37fc0b9a</BoundTo>
-			<DependentUpon>Delete_BeginingofTheWord.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>31ad9cf6-00cf-4c5f-a224-e82a262f8adf</id>
-		</Compile>
-		<Compile Include="Delete_BeginingofTheWord.UserCode.cs">
-			<BoundTo>679ed7ea-9e7d-4e2f-b258-bb1e37fc0b9a</BoundTo>
-			<DependentUpon>Delete_BeginingofTheWord.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>960972ee-f816-4d10-a7b3-fd7a25e34098</id>
-		</Compile>
-		<Compile Include="EBCDICtoASCII.cs">
-			<BoundTo>ae80675d-a9c9-412b-b64b-686cbb76c756</BoundTo>
-			<DependentUpon>EBCDICtoASCII.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>4352f285-f66d-4395-b00a-e318f2b49e90</id>
-		</Compile>
-		<Compile Include="EBCDICtoASCII.UserCode.cs">
-			<BoundTo>ae80675d-a9c9-412b-b64b-686cbb76c756</BoundTo>
-			<DependentUpon>EBCDICtoASCII.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>8148ff16-223e-441a-b0ca-d4df0c91b0c1</id>
-		</Compile>
-		<Compile Include="MakeChangesToLocalFile.cs">
-			<BoundTo>d848852c-3c72-424a-bce0-e4f2cb66c1b0</BoundTo>
-			<DependentUpon>MakeChangesToLocalFile.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d28287e5-4a79-46ed-b6cd-36bb131511f6</id>
-		</Compile>
-		<Compile Include="MakeChangesToLocalFile.UserCode.cs">
-			<BoundTo>d848852c-3c72-424a-bce0-e4f2cb66c1b0</BoundTo>
-			<DependentUpon>MakeChangesToLocalFile.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>4c1dad2d-bd81-49fe-bd9b-887e9118ff45</id>
-		</Compile>
-		<Compile Include="NewDocumentCreatetionandotheractions.cs">
-			<BoundTo>509faf85-f457-44d8-8a64-6755eebb7770</BoundTo>
-			<DependentUpon>NewDocumentCreatetionandotheractions.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>ed6df4cb-d35f-4b2b-9189-fd6b4e2b47df</id>
-		</Compile>
-		<Compile Include="NewDocumentCreatetionandotheractions.UserCode.cs">
-			<BoundTo>509faf85-f457-44d8-8a64-6755eebb7770</BoundTo>
-			<DependentUpon>NewDocumentCreatetionandotheractions.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>61d2184b-69bf-41a4-a48c-cb903b57c033</id>
-		</Compile>
-		<Compile Include="FileDeletion.cs">
-			<id>da85d1b8-0f9c-4cd4-b26f-6e1b89ec46a5</id>
-		</Compile>
-		<Compile Include="ModifyTheFile.cs">
-			<BoundTo>5a9d917e-4e54-4ce7-8256-fdc65e82925e</BoundTo>
-			<DependentUpon>ModifyTheFile.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>a01f3aab-d9a9-4f20-a1f9-4cbbc0626481</id>
-		</Compile>
-		<Compile Include="ModifyTheFile.UserCode.cs">
-			<BoundTo>5a9d917e-4e54-4ce7-8256-fdc65e82925e</BoundTo>
-			<DependentUpon>ModifyTheFile.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>997bc506-fee8-4eaf-9edd-1e32b5761d9d</id>
-		</Compile>
-		<Compile Include="OpenFile.cs">
-			<BoundTo>c7bedab4-f7b6-4ad4-987d-625a4c70bfa0</BoundTo>
-			<DependentUpon>OpenFile.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>3f0e7d5a-1b00-40c1-8e53-46c2f4fe88fb</id>
-		</Compile>
-		<Compile Include="OpenFile.UserCode.cs">
-			<BoundTo>c7bedab4-f7b6-4ad4-987d-625a4c70bfa0</BoundTo>
-			<DependentUpon>OpenFile.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>6f9d5c1c-31c7-43ef-bc69-b024fdba449e</id>
-		</Compile>
-		<Compile Include="OpenFiles.cs">
-			<BoundTo>6abb87bd-9a6c-4378-8e1c-b7786c04b7e9</BoundTo>
-			<DependentUpon>OpenFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>4a263747-5725-42d9-88c9-fe4e7d830b91</id>
-		</Compile>
-		<Compile Include="OpenFiles.UserCode.cs">
-			<BoundTo>6abb87bd-9a6c-4378-8e1c-b7786c04b7e9</BoundTo>
-			<DependentUpon>OpenFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>fd0d58b2-da0d-49b7-918c-f1d2aec14a43</id>
-		</Compile>
-		<Compile Include="PasteFullLineContent.cs">
-			<BoundTo>da5434ca-1e7b-4c74-bccb-0673c5b140d0</BoundTo>
-			<DependentUpon>PasteFullLineContent.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>a399f6c1-7ec5-46e9-8e47-3b5d3de70d09</id>
-		</Compile>
-		<Compile Include="PasteFullLineContent.UserCode.cs">
-			<BoundTo>da5434ca-1e7b-4c74-bccb-0673c5b140d0</BoundTo>
-			<DependentUpon>PasteFullLineContent.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>e6a05156-ad47-43b5-a011-298e5a46131f</id>
-		</Compile>
-		<Compile Include="OpenQuickFind.cs">
-			<BoundTo>3b8010fb-3ae3-4704-9558-c34d17b6cdc1</BoundTo>
-			<DependentUpon>OpenQuickFind.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>87c46035-2943-40bb-814f-f418e97ae011</id>
-		</Compile>
-		<Compile Include="OpenQuickFind.UserCode.cs">
-			<BoundTo>3b8010fb-3ae3-4704-9558-c34d17b6cdc1</BoundTo>
-			<DependentUpon>OpenQuickFind.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1dbea547-7324-4ff9-9539-6e0cc37e03e1</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForEditWindow.cs">
-			<BoundTo>841b0c9b-4a7e-4e59-8924-d8c4a5ac47d8</BoundTo>
-			<DependentUpon>SearchCriteriaForEditWindow.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>de665715-a7d1-42d8-875a-e0a85013f724</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForEditWindow.UserCode.cs">
-			<BoundTo>841b0c9b-4a7e-4e59-8924-d8c4a5ac47d8</BoundTo>
-			<DependentUpon>SearchCriteriaForEditWindow.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>a202cd09-a28e-418f-bfff-c7f4955a19a3</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForOpenFiles.cs">
-			<BoundTo>5767b75e-71fd-4cee-9a68-a83222e64337</BoundTo>
-			<DependentUpon>SearchCriteriaForOpenFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>6b2aeced-916e-4ea7-a7c4-13465d6d39de</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForOpenFiles.UserCode.cs">
-			<BoundTo>5767b75e-71fd-4cee-9a68-a83222e64337</BoundTo>
-			<DependentUpon>SearchCriteriaForOpenFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>f1aac8ec-d64f-41f0-ae6f-075699a55bd2</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForProjectFiles.cs">
-			<BoundTo>ef5dc00b-3bb9-4d20-8b84-154890584d5e</BoundTo>
-			<DependentUpon>SearchCriteriaForProjectFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0707a78c-33f3-4b68-b47b-68ab81667fa2</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForProjectFiles.UserCode.cs">
-			<BoundTo>ef5dc00b-3bb9-4d20-8b84-154890584d5e</BoundTo>
-			<DependentUpon>SearchCriteriaForProjectFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>dda4c3ca-05c1-4703-90c4-3f5cb383aecf</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForStringNotFoundInFiles.cs">
-			<BoundTo>a62c8e41-0554-4ac9-bdbb-ece8ca7de98a</BoundTo>
-			<DependentUpon>SearchCriteriaForStringNotFoundInFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>87e3b21e-ade2-4574-b6c5-a7a94c005611</id>
-		</Compile>
-		<Compile Include="SearchCriteriaForStringNotFoundInFiles.UserCode.cs">
-			<BoundTo>a62c8e41-0554-4ac9-bdbb-ece8ca7de98a</BoundTo>
-			<DependentUpon>SearchCriteriaForStringNotFoundInFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>c2a9f2af-a640-441b-850a-0cf8ee064b82</id>
-		</Compile>
-		<Compile Include="SelectDiscardUnsavedEditFiles.cs">
-			<BoundTo>46986aa3-5200-4ce1-acf8-ce468fa9742c</BoundTo>
-			<DependentUpon>SelectDiscardUnsavedEditFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>c7012014-f2ff-4391-b7a9-d5637b849410</id>
-		</Compile>
-		<Compile Include="SelectDiscardUnsavedEditFiles.UserCode.cs">
-			<BoundTo>46986aa3-5200-4ce1-acf8-ce468fa9742c</BoundTo>
-			<DependentUpon>SelectDiscardUnsavedEditFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>84d39dd1-4c79-4972-a691-83a8fc6ab88e</id>
-		</Compile>
-		<Compile Include="ValidateBakBackupFileCreatedOrNot.cs">
-			<id>f59b63e8-22ca-4af5-9c92-1b2bd5f59b88</id>
-		</Compile>
-		<Compile Include="ValidateOutputWindowStringNotFound.cs">
-			<BoundTo>e86746a3-95ec-4fb1-b5ec-dfe0e676a80c</BoundTo>
-			<DependentUpon>ValidateOutputWindowStringNotFound.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>a58e8969-de96-4888-b26b-a277b2c0199a</id>
-		</Compile>
-		<Compile Include="ValidateOutputWindowStringNotFound.UserCode.cs">
-			<BoundTo>e86746a3-95ec-4fb1-b5ec-dfe0e676a80c</BoundTo>
-			<DependentUpon>ValidateOutputWindowStringNotFound.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>7ba4a6c9-04c1-46d8-94ce-6e89b5c70ff0</id>
-		</Compile>
-		<Compile Include="ValidateFindResultsFile.cs">
-			<BoundTo>7822de85-e7b5-4696-bd09-4120d612b964</BoundTo>
-			<DependentUpon>ValidateFindResultsFile.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0aca0af8-3cc0-4c10-84ec-f49a195caa0a</id>
-		</Compile>
-		<Compile Include="ValidateFindResultsFile.UserCode.cs">
-			<BoundTo>7822de85-e7b5-4696-bd09-4120d612b964</BoundTo>
-			<DependentUpon>ValidateFindResultsFile.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>e54a4a30-bddd-4f43-9093-907f3942a7e3</id>
-		</Compile>
-		<Compile Include="VerifyEncodingValue.cs">
-			<BoundTo>c5aa5656-27a0-4608-9ce2-e40e84b0515e</BoundTo>
-			<DependentUpon>VerifyEncodingValue.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>47bbf63a-0d1d-4210-86ed-b9bdc8bd98f2</id>
-		</Compile>
-		<Compile Include="VerifyEncodingValue.UserCode.cs">
-			<BoundTo>c5aa5656-27a0-4608-9ce2-e40e84b0515e</BoundTo>
-			<DependentUpon>VerifyEncodingValue.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>53391672-d1a1-4183-ad32-3389569060df</id>
-		</Compile>
-		<Compile Include="VerifyCloseTag.cs">
-			<BoundTo>47a53060-3d26-49d9-99fd-e89993691ad1</BoundTo>
-			<DependentUpon>VerifyCloseTag.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>e57641d5-dc9a-4a9d-a92c-46382d685697</id>
-		</Compile>
-		<Compile Include="VerifyCloseTag.UserCode.cs">
-			<BoundTo>47a53060-3d26-49d9-99fd-e89993691ad1</BoundTo>
-			<DependentUpon>VerifyCloseTag.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>3318497f-8544-4b14-9b26-5d888e77fbb0</id>
-		</Compile>
-		<Compile Include="VerifyEnabled_CutCopy_Setting.cs">
-			<BoundTo>d653020f-e0eb-487e-845a-3863f5637059</BoundTo>
-			<DependentUpon>VerifyEnabled_CutCopy_Setting.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>837f537f-dfe9-4041-88f3-7c77de1699c4</id>
-		</Compile>
-		<Compile Include="VerifyEnabled_CutCopy_Setting.UserCode.cs">
-			<BoundTo>d653020f-e0eb-487e-845a-3863f5637059</BoundTo>
-			<DependentUpon>VerifyEnabled_CutCopy_Setting.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>bfc8ce91-5c97-4253-871c-36746f25b61d</id>
-		</Compile>
-		<Compile Include="ValidateTheSameFileShouldOpen.cs">
-			<BoundTo>c8bb32d9-f840-4582-872b-3185631dbaf1</BoundTo>
-			<DependentUpon>ValidateTheSameFileShouldOpen.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>be05cfc5-cd2e-44e1-bc3c-64c15c6224b1</id>
-		</Compile>
-		<Compile Include="ValidateTheSameFileShouldOpen.UserCode.cs">
-			<BoundTo>c8bb32d9-f840-4582-872b-3185631dbaf1</BoundTo>
-			<DependentUpon>ValidateTheSameFileShouldOpen.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1ec049bd-7064-4c86-b21b-bc2a428da673</id>
-		</Compile>
-		<Compile Include="ValidatingQuickFindDialogPosition.cs">
-			<BoundTo>8eaabc14-07b8-453d-9a15-f50a571f1154</BoundTo>
-			<DependentUpon>ValidatingQuickFindDialogPosition.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>1c243acd-f14c-40de-8bca-ccafec297180</id>
-		</Compile>
-		<Compile Include="ValidatingQuickFindDialogPosition.UserCode.cs">
-			<BoundTo>8eaabc14-07b8-453d-9a15-f50a571f1154</BoundTo>
-			<DependentUpon>ValidatingQuickFindDialogPosition.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>93a66395-0d8e-4e8f-86d1-ded8287ba93b</id>
-		</Compile>
-		<Compile Include="VerifyEncryptedFileCreation.cs">
-			<BoundTo>d66dc45a-d2dc-45d5-85f9-63c1ab751bcb</BoundTo>
-			<DependentUpon>VerifyEncryptedFileCreation.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d35f2281-c573-42b7-aeec-2d0c29840c16</id>
-		</Compile>
-		<Compile Include="VerifyEncryptedFileCreation.UserCode.cs">
-			<BoundTo>d66dc45a-d2dc-45d5-85f9-63c1ab751bcb</BoundTo>
-			<DependentUpon>VerifyEncryptedFileCreation.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>c4f54f20-c8d5-40f0-9351-0c2b0ab70f2e</id>
-		</Compile>
-		<Compile Include="VerifyFileCreationAndModifiedFiles.cs">
-			<BoundTo>508f590e-61ac-40cf-baa2-c79ae8d97d15</BoundTo>
-			<DependentUpon>VerifyFileCreationAndModifiedFiles.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>5ffae93e-7eea-41d9-a8bd-d4aa021bbd13</id>
-		</Compile>
-		<Compile Include="VerifyFileCreationAndModifiedFiles.UserCode.cs">
-			<BoundTo>508f590e-61ac-40cf-baa2-c79ae8d97d15</BoundTo>
-			<DependentUpon>VerifyFileCreationAndModifiedFiles.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>c308c7ae-0cd6-4efa-9fe5-12f67eb4371f</id>
-		</Compile>
-		<Compile Include="VerifyFileIsDecrypted.cs">
-			<BoundTo>5ac22671-af13-43cc-8c3f-141511b9d0c0</BoundTo>
-			<DependentUpon>VerifyFileIsDecrypted.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>5e25f02f-bda5-446e-a247-136a3e5fad9c</id>
-		</Compile>
-		<Compile Include="VerifyFileIsDecrypted.UserCode.cs">
-			<BoundTo>5ac22671-af13-43cc-8c3f-141511b9d0c0</BoundTo>
-			<DependentUpon>VerifyFileIsDecrypted.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>e574d01c-1038-4be5-8763-0a76090585c1</id>
-		</Compile>
-		<Compile Include="VerifyModifiedFile.cs">
-			<BoundTo>bcf3ab31-0850-4dc3-a631-7a034e6ce359</BoundTo>
-			<DependentUpon>VerifyModifiedFile.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>aef3b024-ebe6-4495-a04e-7c622f74de0d</id>
-		</Compile>
-		<Compile Include="VerifyModifiedFile.UserCode.cs">
-			<BoundTo>bcf3ab31-0850-4dc3-a631-7a034e6ce359</BoundTo>
-			<DependentUpon>VerifyModifiedFile.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>5800315c-e2e6-4087-a77b-30914c0c08df</id>
-		</Compile>
-		<Compile Include="VerifyPromptForSaveState.cs">
-			<BoundTo>7fd36959-89e0-4098-8166-84d91683d985</BoundTo>
-			<DependentUpon>VerifyPromptForSaveState.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>4fb4e5d5-8df9-42ac-8912-8604298d4826</id>
-		</Compile>
-		<Compile Include="VerifyPromptForSaveState.UserCode.cs">
-			<BoundTo>7fd36959-89e0-4098-8166-84d91683d985</BoundTo>
-			<DependentUpon>VerifyPromptForSaveState.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>28ae1805-2614-48ab-bf1c-48b40cbbd6b0</id>
-		</Compile>
-		<Compile Include="VerifySaveStateDialog.cs">
-			<BoundTo>fdfa58a8-5497-40d9-bd23-15f415de3eb3</BoundTo>
-			<DependentUpon>VerifySaveStateDialog.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>53b79716-0d72-469f-bceb-75851c21b64a</id>
-		</Compile>
-		<Compile Include="VerifySaveStateDialog.UserCode.cs">
-			<BoundTo>fdfa58a8-5497-40d9-bd23-15f415de3eb3</BoundTo>
-			<DependentUpon>VerifySaveStateDialog.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>bac0b876-8268-4472-aa89-7b5834cc8b32</id>
-		</Compile>
-		<Compile Include="VerifySessionOptions.cs">
-			<BoundTo>cd655c3b-6ed5-49e4-8edf-48e74acebbc6</BoundTo>
-			<DependentUpon>VerifySessionOptions.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>2f579ff8-468a-4e9c-8883-cb62a3e4d421</id>
-		</Compile>
-		<Compile Include="VerifySessionOptions.UserCode.cs">
-			<BoundTo>cd655c3b-6ed5-49e4-8edf-48e74acebbc6</BoundTo>
-			<DependentUpon>VerifySessionOptions.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>7f9cc145-2884-4fc2-b836-207b5b7eae42</id>
-		</Compile>
-		<Compile Include="VerifyFile_inMultipleLine.cs">
-			<BoundTo>305a2ffb-267d-41cb-b86a-130b9572478a</BoundTo>
-			<DependentUpon>VerifyFile_inMultipleLine.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>c38cbdb2-6bfa-45e4-8cb0-3cd2a552ca62</id>
-		</Compile>
-		<Compile Include="VerifyFile_inMultipleLine.UserCode.cs">
-			<BoundTo>305a2ffb-267d-41cb-b86a-130b9572478a</BoundTo>
-			<DependentUpon>VerifyFile_inMultipleLine.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>995dc7f1-9d49-415f-a4d8-dea2309084f0</id>
-		</Compile>
-		<Compile Include="VerifyThaiDetection.cs">
-			<BoundTo>5f697b24-a25d-4211-a660-036471b1c564</BoundTo>
-			<DependentUpon>VerifyThaiDetection.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>4404a369-1516-4773-b91c-d0d87f1eb500</id>
-		</Compile>
-		<Compile Include="VerifyThaiDetection.UserCode.cs">
-			<BoundTo>5f697b24-a25d-4211-a660-036471b1c564</BoundTo>
-			<DependentUpon>VerifyThaiDetection.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>3fea5f96-a9e5-4ffb-a22c-3f97295febb9</id>
-		</Compile>
-		<Compile Include="VerifyTraditionalChineseDetection.cs">
-			<BoundTo>f3cb670c-f2eb-44b7-8edf-29aa275d29e9</BoundTo>
-			<DependentUpon>VerifyTraditionalChineseDetection.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>b89392cc-3548-4865-8cfb-784e90a55000</id>
-		</Compile>
-		<Compile Include="VerifyTraditionalChineseDetection.UserCode.cs">
-			<BoundTo>f3cb670c-f2eb-44b7-8edf-29aa275d29e9</BoundTo>
-			<DependentUpon>VerifyTraditionalChineseDetection.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>2bb390df-9826-4213-9cdb-fb46964d0b61</id>
-		</Compile>
-		<Compile Include="FindTabRegularExpression.cs">
-			<BoundTo>04e0f81a-6d8c-4fb9-9755-3def931f3c3b</BoundTo>
-			<DependentUpon>FindTabRegularExpression.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>1b9325ea-bf75-41d9-bce2-c71f005bcfef</id>
-		</Compile>
-		<Compile Include="FindTabRegularExpression.UserCode.cs">
-			<BoundTo>04e0f81a-6d8c-4fb9-9755-3def931f3c3b</BoundTo>
-			<DependentUpon>FindTabRegularExpression.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>c3efec6a-47c5-4e36-ab26-85366f1a38dd</id>
-		</Compile>
-		<Compile Include="MatchCase.cs">
-			<BoundTo>47cb5bea-8824-4903-a0b3-d1752ee0bf02</BoundTo>
-			<DependentUpon>MatchCase.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>2b9aa5b6-9262-4900-bf35-4450ae3b1858</id>
-		</Compile>
-		<Compile Include="MatchCase.UserCode.cs">
-			<BoundTo>47cb5bea-8824-4903-a0b3-d1752ee0bf02</BoundTo>
-			<DependentUpon>MatchCase.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>06b9f3cd-d40f-4fd1-a7ee-a510389aea03</id>
-		</Compile>
-		<Compile Include="OpenFindAndReplaceDialog.cs">
-			<BoundTo>4f98fd45-a04e-4d35-a743-246c500711e4</BoundTo>
-			<DependentUpon>OpenFindAndReplaceDialog.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>f9aac8dd-138a-41f7-94b2-1d2a2ea22481</id>
-		</Compile>
-		<Compile Include="OpenFindAndReplaceDialog.UserCode.cs">
-			<BoundTo>4f98fd45-a04e-4d35-a743-246c500711e4</BoundTo>
-			<DependentUpon>OpenFindAndReplaceDialog.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>78fb77f3-438b-481f-b640-39f6ab85756b</id>
-		</Compile>
-		<Compile Include="PerformRemove_Line_Comment_Action.cs">
-			<BoundTo>1049b2d8-fddd-4c8c-a14d-fa0de5f2e5b6</BoundTo>
-			<DependentUpon>PerformRemove_Line_Comment_Action.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>cb929a09-0e79-4511-9ee6-e73acbb0da8c</id>
-		</Compile>
-		<Compile Include="PerformRemove_Line_Comment_Action.UserCode.cs">
-			<BoundTo>1049b2d8-fddd-4c8c-a14d-fa0de5f2e5b6</BoundTo>
-			<DependentUpon>PerformRemove_Line_Comment_Action.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1d6c3fa0-86f7-4f56-9efd-a237092e7153</id>
-		</Compile>
-		<Compile Include="OpenFindDialog.cs">
-			<BoundTo>aacb9529-c786-443f-9fc2-085fb8a8072c</BoundTo>
-			<DependentUpon>OpenFindDialog.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>93b8ad8b-0618-4492-aeaf-49d569a392d4</id>
-		</Compile>
-		<Compile Include="OpenFindDialog.UserCode.cs">
-			<BoundTo>aacb9529-c786-443f-9fc2-085fb8a8072c</BoundTo>
-			<DependentUpon>OpenFindDialog.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>6913b88e-c397-4d7c-8621-a8e42ef8cc36</id>
-		</Compile>
-		<Compile Include="OpenHexFindAndReplaceDialog.cs">
-			<BoundTo>398cbad3-292d-4ee3-9400-683d2aa90a42</BoundTo>
-			<DependentUpon>OpenHexFindAndReplaceDialog.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>3429ced8-6508-450e-8ce9-89ff2560a7aa</id>
-		</Compile>
-		<Compile Include="OpenHexFindAndReplaceDialog.UserCode.cs">
-			<BoundTo>398cbad3-292d-4ee3-9400-683d2aa90a42</BoundTo>
-			<DependentUpon>OpenHexFindAndReplaceDialog.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1f3b1187-9d49-4469-8b7e-3bcf82ce8632</id>
-		</Compile>
-		<Compile Include="Program.cs">
-			<id>fef12304-5856-4124-8d18-eed1bebb33ca</id>
-		</Compile>
-		<Compile Include="PerformSearchCriteria.cs">
-			<BoundTo>23143db3-5c7d-4b51-842f-090d46315624</BoundTo>
-			<DependentUpon>PerformSearchCriteria.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d10e95f8-2940-4510-8832-5a1922f560c1</id>
-		</Compile>
-		<Compile Include="PerformSearchCriteria.UserCode.cs">
-			<BoundTo>23143db3-5c7d-4b51-842f-090d46315624</BoundTo>
-			<DependentUpon>PerformSearchCriteria.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>916ff61d-d113-41ad-b395-022c56e552be</id>
-		</Compile>
-		<Compile Include="RemoveBlockComment.cs">
-			<BoundTo>ec074ed5-4cc6-4935-8ae1-250d5306eb85</BoundTo>
-			<DependentUpon>RemoveBlockComment.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>ec8877a0-63c8-4f39-8f49-0300e618053a</id>
-		</Compile>
-		<Compile Include="RemoveBlockComment.UserCode.cs">
-			<BoundTo>ec074ed5-4cc6-4935-8ae1-250d5306eb85</BoundTo>
-			<DependentUpon>RemoveBlockComment.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>544e4373-c5d1-4d59-8fcc-34f61008202d</id>
-		</Compile>
-		<Compile Include="ReplaceTabRegularExpression.cs">
-			<BoundTo>4e1aa0ac-dbba-4996-85fa-72f5da7e2ca4</BoundTo>
-			<DependentUpon>ReplaceTabRegularExpression.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>4db3bd32-8d55-498e-9707-d6d0436de737</id>
-		</Compile>
-		<Compile Include="ReplaceTabRegularExpression.UserCode.cs">
-			<BoundTo>4e1aa0ac-dbba-4996-85fa-72f5da7e2ca4</BoundTo>
-			<DependentUpon>ReplaceTabRegularExpression.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>f555a71e-263a-4377-b152-119ded06086d</id>
-		</Compile>
-		<Compile Include="StartAUT.cs">
-			<BoundTo>ad411d09-6dcb-48df-a8cd-3d8c2d3e3902</BoundTo>
-			<DependentUpon>StartAUT.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>2b2ecafe-0d76-4ef5-b477-b8d5e3407e8e</id>
-		</Compile>
-		<Compile Include="StartAUT.UserCode.cs">
-			<BoundTo>ad411d09-6dcb-48df-a8cd-3d8c2d3e3902</BoundTo>
-			<DependentUpon>StartAUT.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>842f256e-55d7-4a2d-976b-adc25eed2b83</id>
-		</Compile>
-		<Compile Include="ValidateDefaultValuesForLinesBeforeAfter.cs">
-			<BoundTo>ae8e15dd-acde-4254-8464-123121e1a0cf</BoundTo>
-			<DependentUpon>ValidateDefaultValuesForLinesBeforeAfter.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>5a2e3173-744a-4088-8d2f-8e7e103a2864</id>
-		</Compile>
-		<Compile Include="ValidateDefaultValuesForLinesBeforeAfter.UserCode.cs">
-			<BoundTo>ae8e15dd-acde-4254-8464-123121e1a0cf</BoundTo>
-			<DependentUpon>ValidateDefaultValuesForLinesBeforeAfter.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>2b4793a9-4ff0-4a64-8a20-94d59033f282</id>
-		</Compile>
-		<Compile Include="UltraEditAutomationRepository.cs">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<DependentUpon>UltraEditAutomationRepository.rxrep</DependentUpon>
-			<RepositoryCode>true</RepositoryCode>
-			<id>d0a8a3fd-1c55-4043-83b1-46280a511a21</id>
-		</Compile>
-		<Compile Include="ValidateMatchStringCount.cs">
-			<BoundTo>deef877f-b4af-476c-ab04-4f1075d45470</BoundTo>
-			<DependentUpon>ValidateMatchStringCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>89053183-249d-4eea-9631-a453741b7683</id>
-		</Compile>
-		<Compile Include="ValidateMatchStringCount.UserCode.cs">
-			<BoundTo>deef877f-b4af-476c-ab04-4f1075d45470</BoundTo>
-			<DependentUpon>ValidateMatchStringCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>e222197e-8d3a-4148-86eb-46b4ff186f82</id>
-		</Compile>
-		<Compile Include="ValidatePerlRegularExpressionCount.cs">
-			<BoundTo>18d8794b-4699-47d8-b7e2-6fe392d84439</BoundTo>
-			<DependentUpon>ValidatePerlRegularExpressionCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>169897da-6245-4e15-b758-c268225e3876</id>
-		</Compile>
-		<Compile Include="ValidatePerlRegularExpressionCount.UserCode.cs">
-			<BoundTo>18d8794b-4699-47d8-b7e2-6fe392d84439</BoundTo>
-			<DependentUpon>ValidatePerlRegularExpressionCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>d450e9ef-19d9-49f3-9c4d-19f01c0afcfc</id>
-		</Compile>
-		<Compile Include="ValidatePerlRegularExpression_MatchStringCount.cs">
-			<BoundTo>4be08020-0ff9-4035-b39c-edc05ec8b007</BoundTo>
-			<DependentUpon>ValidatePerlRegularExpression_MatchStringCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>b458802c-557c-45eb-a564-581c2fa84954</id>
-		</Compile>
-		<Compile Include="ValidatePerlRegularExpression_MatchStringCount.UserCode.cs">
-			<BoundTo>4be08020-0ff9-4035-b39c-edc05ec8b007</BoundTo>
-			<DependentUpon>ValidatePerlRegularExpression_MatchStringCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>6a160b7d-76a5-4d0f-b57c-f76f943def90</id>
-		</Compile>
-		<Compile Include="ValidateResultsUnderOutputWindow.cs">
-			<BoundTo>b0b557cc-a597-4c94-b8e6-5f470c82aaf5</BoundTo>
-			<DependentUpon>ValidateResultsUnderOutputWindow.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>8f2d31c8-9912-45f6-b75d-c1cb901155ec</id>
-		</Compile>
-		<Compile Include="ValidateResultsUnderOutputWindow.UserCode.cs">
-			<BoundTo>b0b557cc-a597-4c94-b8e6-5f470c82aaf5</BoundTo>
-			<DependentUpon>ValidateResultsUnderOutputWindow.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>bc021b75-df46-4d89-a06e-890031d0f5e2</id>
-		</Compile>
-		<Compile Include="VerifyBlockComment.cs">
-			<BoundTo>9255a2ca-d857-4351-8400-ff3417a5398d</BoundTo>
-			<DependentUpon>VerifyBlockComment.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>dba390a9-4114-469b-8081-b7b0c38cd4e6</id>
-		</Compile>
-		<Compile Include="VerifyBlockComment.UserCode.cs">
-			<BoundTo>9255a2ca-d857-4351-8400-ff3417a5398d</BoundTo>
-			<DependentUpon>VerifyBlockComment.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>9bec1263-c6cd-40aa-a738-065cedc53d9d</id>
-		</Compile>
-		<Compile Include="VerifyBlockComment_Removed.cs">
-			<BoundTo>d89075e5-e5f8-48ae-b16e-9f2895116c05</BoundTo>
-			<DependentUpon>VerifyBlockComment_Removed.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>2c673fe5-431b-4ef8-96ad-d1b8cfd074ad</id>
-		</Compile>
-		<Compile Include="VerifyBlockComment_Removed.UserCode.cs">
-			<BoundTo>d89075e5-e5f8-48ae-b16e-9f2895116c05</BoundTo>
-			<DependentUpon>VerifyBlockComment_Removed.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1a42f047-7a06-4a3c-baee-cde58413e833</id>
-		</Compile>
-		<Compile Include="VerifyCommentedLine.cs">
-			<BoundTo>fc05dfb0-3c08-4a2b-ab16-6f9378ac8dba</BoundTo>
-			<DependentUpon>VerifyCommentedLine.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d3093d24-9462-43af-b712-a9b09c30034c</id>
-		</Compile>
-		<Compile Include="VerifyCommentedLine.UserCode.cs">
-			<BoundTo>fc05dfb0-3c08-4a2b-ab16-6f9378ac8dba</BoundTo>
-			<DependentUpon>VerifyCommentedLine.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>10a5bd23-cf11-40e0-9f17-10c2fc498670</id>
-		</Compile>
-		<Compile Include="VerifyUTF8Detection.cs">
-			<BoundTo>b497932c-564d-4e59-989b-6d2b957ae0a5</BoundTo>
-			<DependentUpon>VerifyUTF8Detection.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>7398fba0-8b90-4fea-9cb4-c5fb5e5cde94</id>
-		</Compile>
-		<Compile Include="VerifyUTF8Detection.UserCode.cs">
-			<BoundTo>b497932c-564d-4e59-989b-6d2b957ae0a5</BoundTo>
-			<DependentUpon>VerifyUTF8Detection.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1cb1d838-7f42-4e89-9e80-ff98230a8538</id>
-		</Compile>
-		<Compile Include="Verify_PasteFullLineContent.cs">
-			<BoundTo>6f0d3e5f-a0cd-4eb0-8937-ad99082dd4b4</BoundTo>
-			<DependentUpon>Verify_PasteFullLineContent.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>74725c8c-965b-47c3-bf81-cba1280f20af</id>
-		</Compile>
-		<Compile Include="Verify_PasteFullLineContent.UserCode.cs">
-			<BoundTo>6f0d3e5f-a0cd-4eb0-8937-ad99082dd4b4</BoundTo>
-			<DependentUpon>Verify_PasteFullLineContent.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>6d7c786f-9eac-4072-96c2-10e4696aeb4a</id>
-		</Compile>
-		<Compile Include="Verify_Remove_Line_Comment.cs">
-			<BoundTo>233d9a3b-e286-434f-8cff-78094d47aa67</BoundTo>
-			<DependentUpon>Verify_Remove_Line_Comment.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>8e6b6d5e-b359-46ee-adc0-ac1785425036</id>
-		</Compile>
-		<Compile Include="Verify_Remove_Line_Comment.UserCode.cs">
-			<BoundTo>233d9a3b-e286-434f-8cff-78094d47aa67</BoundTo>
-			<DependentUpon>Verify_Remove_Line_Comment.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>0964f14e-7571-46b2-8607-8a9271f23314</id>
-		</Compile>
-		<Compile Include="ValidateUltraEditRegularExpressionCount.cs">
-			<BoundTo>5095fada-7618-4dc8-98bf-874764ed3256</BoundTo>
-			<DependentUpon>ValidateUltraEditRegularExpressionCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>ee097fb7-ebdd-4731-bf8f-b6dab6a0ff8d</id>
-		</Compile>
-		<Compile Include="ValidateUltraEditRegularExpressionCount.UserCode.cs">
-			<BoundTo>5095fada-7618-4dc8-98bf-874764ed3256</BoundTo>
-			<DependentUpon>ValidateUltraEditRegularExpressionCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>5ac1adf3-658e-4847-b469-bb66fdfb3d89</id>
-		</Compile>
-		<Compile Include="ValidateUltraEditRegularExpression_MatchStringCount.cs">
-			<BoundTo>8559f116-4961-4057-bb2e-b8e13742cb07</BoundTo>
-			<DependentUpon>ValidateUltraEditRegularExpression_MatchStringCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>b2881336-3431-4b8c-adc6-4defc6fff505</id>
-		</Compile>
-		<Compile Include="ValidateUltraEditRegularExpression_MatchStringCount.UserCode.cs">
-			<BoundTo>8559f116-4961-4057-bb2e-b8e13742cb07</BoundTo>
-			<DependentUpon>ValidateUltraEditRegularExpression_MatchStringCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>115e5150-be9d-4fa9-98de-5253e2c2314d</id>
-		</Compile>
-		<Compile Include="ValidateUnixRegularExpressionCount.cs">
-			<BoundTo>52419ae0-bbdb-4c94-be2d-82db8714cb6b</BoundTo>
-			<DependentUpon>ValidateUnixRegularExpressionCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>a3456927-ca24-43c9-a8b5-ca18ed591016</id>
-		</Compile>
-		<Compile Include="ValidateUnixRegularExpressionCount.UserCode.cs">
-			<BoundTo>52419ae0-bbdb-4c94-be2d-82db8714cb6b</BoundTo>
-			<DependentUpon>ValidateUnixRegularExpressionCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>f8ecbf1f-5529-42f9-a027-bd9b8c219069</id>
-		</Compile>
-		<Compile Include="ValidateUnixRegularExpression_MatchStringCount.cs">
-			<BoundTo>c27f8246-3cb3-4931-8884-32c9353ab6c8</BoundTo>
-			<DependentUpon>ValidateUnixRegularExpression_MatchStringCount.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>6969ab61-e3f2-4beb-8841-11c53979f6fe</id>
-		</Compile>
-		<Compile Include="ValidateUnixRegularExpression_MatchStringCount.UserCode.cs">
-			<BoundTo>c27f8246-3cb3-4931-8884-32c9353ab6c8</BoundTo>
-			<DependentUpon>ValidateUnixRegularExpression_MatchStringCount.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>ba2cd855-8514-4ff2-a0b3-f39f2b888812</id>
-		</Compile>
-		<Compile Include="VerifyHistoryAfterChangingSettings.cs">
-			<BoundTo>73b9d8cb-fd22-46b7-8ab4-3de9d3334928</BoundTo>
-			<DependentUpon>VerifyHistoryAfterChangingSettings.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>356c0f44-b0e6-496a-9fe8-199e98347e6e</id>
-		</Compile>
-		<Compile Include="VerifyHistoryAfterChangingSettings.UserCode.cs">
-			<BoundTo>73b9d8cb-fd22-46b7-8ab4-3de9d3334928</BoundTo>
-			<DependentUpon>VerifyHistoryAfterChangingSettings.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>d8829826-75aa-4ea8-8124-76ebcff2741b</id>
-		</Compile>
-		<Compile Include="VerifyHistoryBeforeChangingSettings.cs">
-			<BoundTo>8349d696-ede0-4f2d-83d8-a386e05a0680</BoundTo>
-			<DependentUpon>VerifyHistoryBeforeChangingSettings.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>680b6389-e605-4fda-b245-cb0bd1a50ca0</id>
-		</Compile>
-		<Compile Include="VerifyHistoryBeforeChangingSettings.UserCode.cs">
-			<BoundTo>8349d696-ede0-4f2d-83d8-a386e05a0680</BoundTo>
-			<DependentUpon>VerifyHistoryBeforeChangingSettings.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>07e8873b-ef98-4f39-8eb5-b879dbe8efb5</id>
-		</Compile>
-	</ItemGroup>
-	<ItemGroup>
-		<None Include="AdvancedSettingtoPerformJunk.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>6178812e-ec2a-415f-b28d-cf5bfaa9271f</id>
-			<recordtableid>aecca4da-b82f-4f69-a825-8960a7f38b1b</recordtableid>
-		</None>
-		<None Include="app.config">
-			<id>49540ff0-d6e4-4c32-a191-b39eb061c306</id>
-		</None>
-		<None Include="ASCIItoEBCDICConversion.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>8e22c2bc-4a86-4fa0-86c5-731a2ec18798</id>
-			<recordtableid>098dd6ea-7519-49d0-8eb4-233ff75f85b3</recordtableid>
-		</None>
-		<None Include="AutomaticallyDetectEncoding_IsSelected.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>bd8b7b91-d58f-4c20-a2a3-3e0edcc2e68c</id>
-			<recordtableid>875812ad-0ca5-43e5-a4bf-15077eeaaa73</recordtableid>
-		</None>
-		<None Include="BackupFileDefaultDirectory.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>57acc811-05c9-42c0-8eb8-9521a5d5ffd5</id>
-			<recordtableid>404df1b2-38d3-490c-a383-d196ede2e0c6</recordtableid>
-		</None>
-		<None Include="BackupSettingsWithReplaceExtension.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>f380e44f-fa9c-4fb0-aeaf-4d86e0d0f578</id>
-			<recordtableid>432d8fa3-c71b-4c47-8314-f2194497c8e5</recordtableid>
-		</None>
-		<None Include="Case1_IBM500Conversion.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>afe4e64f-9623-4736-be9b-3ac7dc0fcb80</id>
-			<recordtableid>08593478-1057-4d9d-a0cb-3d260bc44698</recordtableid>
-		</None>
-		<None Include="Case2_NonIBM500Conversion.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>9e8033fb-4f88-460f-9439-44e6ca4be95a</id>
-			<recordtableid>b596690a-84cb-4914-80f2-48ed9792ec5a</recordtableid>
-		</None>
-		<None Include="BlockComment.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>5847b289-6c8e-4728-8397-f8ce592ecfa1</id>
-			<recordtableid>87020684-07d5-494c-ab73-4720950f7270</recordtableid>
-		</None>
-		<None Include="ChangingSettingsForClearHistory.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>6dac777f-1464-40e7-8cc7-fbe5b89dc9eb</id>
-			<recordtableid>a90b4107-da59-4b80-8a3e-ba6086021c1b</recordtableid>
-		</None>
-		<None Include="CloseAllTabs.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>7baf1ccf-2128-49ba-9cf6-52deb88bcc35</id>
-			<recordtableid>ac95e0b1-adb3-4393-98fa-39469d0158e6</recordtableid>
-		</None>
-		<None Include="CloseAUT.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>d3fcb87c-9269-404f-a1b8-232e7fc0095c</id>
-			<recordtableid>1bf7a2c8-a5e7-4a64-91f7-f31777f468e7</recordtableid>
-		</None>
-		<None Include="CloseCommandPrompt.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>539a8df6-ca8d-4eac-af9b-a29029d3510c</id>
-			<recordtableid>7ef26525-6370-4726-bb94-d4fed520d5f3</recordtableid>
-		</None>
-		<None Include="CloseQuickFindandValidate.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>e95ce4e2-b90b-468f-92fd-868519bf86ab</id>
-			<recordtableid>3af88c2c-0385-41c5-9620-e68a632529ed</recordtableid>
-		</None>
-		<None Include="CloseUltraCompareAUT.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>c41e6f84-8f32-413b-a8a5-382395ac95f7</id>
-			<recordtableid>4d45d98c-9798-4f49-8831-58aef5e14c1c</recordtableid>
-		</None>
-		<None Include="CloseWindow.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>75aec542-573b-4efa-bd7c-1616906a7429</id>
-			<recordtableid>95084b25-0b93-4f8f-9e9e-e31ad38bcccb</recordtableid>
-		</None>
-		<None Include="CommentSpecificLine.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>35bcc0bc-31ff-43c7-bf6c-3cea8cda73ba</id>
-			<recordtableid>dc03bf4b-bb16-4b68-90a0-08d8ad3b6d27</recordtableid>
-		</None>
-		<None Include="Common\ProcessNames.txt">
-			<id>610cdded-4c32-4773-b868-70725563cbe6</id>
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Include="CompareConversion.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>d4a85d57-2461-4831-bea3-b313a4b3bd8f</id>
-			<recordtableid>27f730cf-944d-48f1-ad4e-fd3e4f57632e</recordtableid>
-		</None>
-		<None Include="comparetext.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>0aa98ac2-d67d-46ab-b2b7-edb98d7aa20c</id>
-			<recordtableid>f7391458-ddea-4db5-a9e2-44ac69e0ad3b</recordtableid>
-		</None>
-		<None Include="CompareTheFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>719b1214-45c2-4be3-8a7f-6fd45c730cf3</id>
-			<recordtableid>2b4cc9f0-17b1-4ced-9c18-59ea46d5b0ed</recordtableid>
-		</None>
-		<None Include="ConvertTargetToUTF8.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>6e7d936d-853a-4ee3-9f51-5318bd64accb</id>
-			<recordtableid>0b042a5e-65f1-4ebd-a3de-8ff6d9de2b24</recordtableid>
-		</None>
-		<None Include="CreateNewEditFile.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>71b3c342-dbec-4dcd-a539-874854beb286</id>
-			<recordtableid>bc39ae22-0ade-45b7-bc49-09de583621a8</recordtableid>
-		</None>
-		<None Include="CreateNewFileInCommandPrompt.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>f18d9688-be1e-42e9-975c-6a87c14fbe14</id>
-			<recordtableid>2c83e4bd-d1d8-4250-991d-6ed73cb9fdde</recordtableid>
-		</None>
-		<None Include="CreateNewProject.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>54fd7263-f2b8-4242-ad6d-f344cca7ddb9</id>
-			<recordtableid>7c6a1689-f1e2-49ff-ac4b-2c81fbe3c7c5</recordtableid>
-		</None>
-		<None Include="DeleteToEnd.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>b636d35b-4bc0-411d-a989-84a4d4e98082</id>
-			<recordtableid>f2280f39-fd10-4608-81ba-9d233103227a</recordtableid>
-		</None>
-		<None Include="Delete_BeginingofTheWord.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>679ed7ea-9e7d-4e2f-b258-bb1e37fc0b9a</id>
-			<recordtableid>30592967-c650-4a79-9a04-973ba9ba242b</recordtableid>
-		</None>
-		<None Include="EBCDICtoASCII.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>ae80675d-a9c9-412b-b64b-686cbb76c756</id>
-			<recordtableid>cf658415-57a9-4c67-9c94-50349029e570</recordtableid>
-		</None>
-		<None Include="MakeChangesToLocalFile.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>d848852c-3c72-424a-bce0-e4f2cb66c1b0</id>
-			<recordtableid>69132b06-cc37-44f9-99e9-f9b8f7afe170</recordtableid>
-		</None>
-		<None Include="NewDocumentCreatetionandotheractions.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>509faf85-f457-44d8-8a64-6755eebb7770</id>
-			<recordtableid>ed936a00-3c61-4458-b79f-d8ab8dc3079b</recordtableid>
-		</None>
-		<None Include="ModifyTheFile.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>5a9d917e-4e54-4ce7-8256-fdc65e82925e</id>
-			<recordtableid>2bed0fef-c9ef-4068-a575-e58d9050fbc9</recordtableid>
-		</None>
-		<None Include="OpenFile.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>c7bedab4-f7b6-4ad4-987d-625a4c70bfa0</id>
-			<recordtableid>86a4a5f3-5d95-466e-838a-0c9261985152</recordtableid>
-		</None>
-		<None Include="OpenFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>6abb87bd-9a6c-4378-8e1c-b7786c04b7e9</id>
-			<recordtableid>7a5ab324-ab0e-4bf2-bc8f-6fcc72fcf84e</recordtableid>
-		</None>
-		<None Include="PasteFullLineContent.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>da5434ca-1e7b-4c74-bccb-0673c5b140d0</id>
-			<recordtableid>080266c3-b53a-40a5-89b1-7bc05f4d283f</recordtableid>
-		</None>
-		<None Include="OpenQuickFind.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>3b8010fb-3ae3-4704-9558-c34d17b6cdc1</id>
-			<recordtableid>dfcde82f-883f-4d9a-ba67-27a762c8c55a</recordtableid>
-		</None>
-		<None Include="SearchCriteriaForEditWindow.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>841b0c9b-4a7e-4e59-8924-d8c4a5ac47d8</id>
-			<recordtableid>85b28673-7b93-435c-b571-826a70cf5480</recordtableid>
-		</None>
-		<None Include="SearchCriteriaForOpenFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>5767b75e-71fd-4cee-9a68-a83222e64337</id>
-			<recordtableid>69b8997f-3ff0-4671-bc3f-121b027a9d81</recordtableid>
-		</None>
-		<None Include="SearchCriteriaForProjectFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>ef5dc00b-3bb9-4d20-8b84-154890584d5e</id>
-			<recordtableid>4218b1e6-9d62-474e-b606-2117335f2fa8</recordtableid>
-		</None>
-		<None Include="SearchCriteriaForStringNotFoundInFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>a62c8e41-0554-4ac9-bdbb-ece8ca7de98a</id>
-			<recordtableid>df8813d7-4ecf-4cf3-b72d-6e66074d3dbb</recordtableid>
-		</None>
-		<None Include="SelectDiscardUnsavedEditFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>46986aa3-5200-4ce1-acf8-ce468fa9742c</id>
-			<recordtableid>1b535571-9ccc-40ef-860f-193527cdaf2e</recordtableid>
-		</None>
-		<None Include="ValidateOutputWindowStringNotFound.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>e86746a3-95ec-4fb1-b5ec-dfe0e676a80c</id>
-			<recordtableid>2d258ea4-5e6a-4a1c-9093-0f42fabf3265</recordtableid>
-		</None>
-		<None Include="ValidateFindResultsFile.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>7822de85-e7b5-4696-bd09-4120d612b964</id>
-			<recordtableid>3ffec21c-da52-4b7c-a169-86b7b80ba42e</recordtableid>
-		</None>
-		<None Include="VerifyEncodingValue.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>c5aa5656-27a0-4608-9ce2-e40e84b0515e</id>
-			<recordtableid>c9302e3b-67ba-4cde-8906-9752d24ee409</recordtableid>
-		</None>
-		<None Include="VerifyCloseTag.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>47a53060-3d26-49d9-99fd-e89993691ad1</id>
-			<recordtableid>65cbedfa-0485-4e10-944e-ec709981d248</recordtableid>
-		</None>
-		<None Include="VerifyEnabled_CutCopy_Setting.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>d653020f-e0eb-487e-845a-3863f5637059</id>
-			<recordtableid>d1ab732f-fe38-40f0-b962-936cdbaedf8c</recordtableid>
-		</None>
-		<None Include="ValidateTheSameFileShouldOpen.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>c8bb32d9-f840-4582-872b-3185631dbaf1</id>
-			<recordtableid>44411f4e-c2d1-4eb6-a4c6-8dbb15b4ee5d</recordtableid>
-		</None>
-		<None Include="ValidatingQuickFindDialogPosition.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>8eaabc14-07b8-453d-9a15-f50a571f1154</id>
-			<recordtableid>599e747d-5423-4b6d-abef-ac8a1f3576fd</recordtableid>
-		</None>
-		<None Include="VerifyEncryptedFileCreation.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>d66dc45a-d2dc-45d5-85f9-63c1ab751bcb</id>
-			<recordtableid>c9bbd87d-1783-4752-9a9e-c73ee90aae15</recordtableid>
-		</None>
-		<None Include="VerifyFileCreationAndModifiedFiles.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>508f590e-61ac-40cf-baa2-c79ae8d97d15</id>
-			<recordtableid>4dce27ff-e640-47f3-a591-c4b76a1447d3</recordtableid>
-		</None>
-		<None Include="VerifyFileIsDecrypted.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>5ac22671-af13-43cc-8c3f-141511b9d0c0</id>
-			<recordtableid>7b5efe65-4f67-48f1-a069-be48e7278b81</recordtableid>
-		</None>
-		<None Include="VerifyModifiedFile.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>bcf3ab31-0850-4dc3-a631-7a034e6ce359</id>
-			<recordtableid>027abb78-9640-4226-97e2-751409629dbc</recordtableid>
-		</None>
-		<None Include="VerifyPromptForSaveState.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>7fd36959-89e0-4098-8166-84d91683d985</id>
-			<recordtableid>4d9e273e-afd2-4c3c-8628-930f9032d013</recordtableid>
-		</None>
-		<None Include="VerifySaveStateDialog.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>fdfa58a8-5497-40d9-bd23-15f415de3eb3</id>
-			<recordtableid>4acfad82-c6e6-414d-987f-b59ffe890293</recordtableid>
-		</None>
-		<None Include="VerifySessionOptions.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>cd655c3b-6ed5-49e4-8edf-48e74acebbc6</id>
-			<recordtableid>3db627bd-46a4-4294-b830-0cb100ef1ef6</recordtableid>
-		</None>
-		<None Include="VerifyFile_inMultipleLine.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>305a2ffb-267d-41cb-b86a-130b9572478a</id>
-			<recordtableid>094bf8ee-a30a-488a-bdd8-ff93c5858b44</recordtableid>
-		</None>
-		<None Include="VerifyThaiDetection.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>5f697b24-a25d-4211-a660-036471b1c564</id>
-			<recordtableid>46cded95-f243-4a5b-bc15-d66e3844059a</recordtableid>
-		</None>
-		<None Include="VerifyTraditionalChineseDetection.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>f3cb670c-f2eb-44b7-8edf-29aa275d29e9</id>
-			<recordtableid>4242176f-e1fd-484f-940a-8a565bd9da2c</recordtableid>
-		</None>
-		<None Include="FindTabRegularExpression.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>04e0f81a-6d8c-4fb9-9755-3def931f3c3b</id>
-			<recordtableid>3e0e4776-bfc2-404b-9fa5-a8c702b234c3</recordtableid>
-		</None>
-		<None Include="MatchCase.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>47cb5bea-8824-4903-a0b3-d1752ee0bf02</id>
-			<recordtableid>e6385fd6-39e2-46c1-86fe-44094e989c26</recordtableid>
-		</None>
-		<None Include="OpenFindAndReplaceDialog.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>4f98fd45-a04e-4d35-a743-246c500711e4</id>
-			<recordtableid>52bd87ad-316e-4894-b0bc-2d499a91bfc5</recordtableid>
-		</None>
-		<None Include="PerformRemove_Line_Comment_Action.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>1049b2d8-fddd-4c8c-a14d-fa0de5f2e5b6</id>
-			<recordtableid>1f12b93a-582c-4da1-b3b8-c8bd1b59524e</recordtableid>
-		</None>
-		<None Include="OpenFindDialog.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>aacb9529-c786-443f-9fc2-085fb8a8072c</id>
-			<recordtableid>97666bd3-d9e1-4855-b687-7c24f4429f6c</recordtableid>
-		</None>
-		<None Include="OpenHexFindAndReplaceDialog.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>398cbad3-292d-4ee3-9400-683d2aa90a42</id>
-			<recordtableid>9d8cc124-2259-47d8-b082-64c86ec1eb68</recordtableid>
-		</None>
-		<None Include="PerformSearchCriteria.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>23143db3-5c7d-4b51-842f-090d46315624</id>
-			<recordtableid>11ed9aa5-4ddf-4d81-9451-3977c3bdb6e3</recordtableid>
-		</None>
-		<None Include="RemoveBlockComment.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>ec074ed5-4cc6-4935-8ae1-250d5306eb85</id>
-			<recordtableid>c5a419f7-a789-472a-b557-876c6c6e2339</recordtableid>
-		</None>
-		<None Include="ReplaceTabRegularExpression.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>4e1aa0ac-dbba-4996-85fa-72f5da7e2ca4</id>
-			<recordtableid>103f669d-51d0-4654-989f-5c5de6474b6e</recordtableid>
-		</None>
-		<None Include="StartAUT.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>ad411d09-6dcb-48df-a8cd-3d8c2d3e3902</id>
-			<recordtableid>e2650338-2dbb-41bb-a3a6-4798caf81207</recordtableid>
-		</None>
-		<None Include="ValidateDefaultValuesForLinesBeforeAfter.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>ae8e15dd-acde-4254-8464-123121e1a0cf</id>
-			<recordtableid>404092f4-ac78-4d02-a306-520be121d188</recordtableid>
-		</None>
-		<None Include="UltraEditAutomationRepository.rximg">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<DependentUpon>UltraEditAutomationRepository.rxrep</DependentUpon>
-			<imageblob>true</imageblob>
-			<id>321fd5ef-fa0e-4943-b4ca-36f3ba154203</id>
-		</None>
-		<None Include="UltraEditAutomationRepository.rxrep">
-			<id>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</id>
-			<repoid>b697612f-b6e1-428c-a528-831bd57006ad</repoid>
-			<reporootid>53beb013-b633-4b2b-a168-b0173ef46ccf</reporootid>
-		</None>
-		<None Include="ValidateMatchStringCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>deef877f-b4af-476c-ab04-4f1075d45470</id>
-			<recordtableid>69850bed-bb16-49e1-b33e-174fea4c5691</recordtableid>
-		</None>
-		<None Include="ValidatePerlRegularExpressionCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>18d8794b-4699-47d8-b7e2-6fe392d84439</id>
-			<recordtableid>2fa6c601-7500-4a23-aed3-1c330cf91b92</recordtableid>
-		</None>
-		<None Include="ValidatePerlRegularExpression_MatchStringCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>4be08020-0ff9-4035-b39c-edc05ec8b007</id>
-			<recordtableid>6ec00d98-45d4-4414-aa36-1c9b86266973</recordtableid>
-		</None>
-		<None Include="ValidateResultsUnderOutputWindow.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>b0b557cc-a597-4c94-b8e6-5f470c82aaf5</id>
-			<recordtableid>ac540112-662b-4521-bc2b-05443ff3f890</recordtableid>
-		</None>
-		<None Include="VerifyBlockComment.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>9255a2ca-d857-4351-8400-ff3417a5398d</id>
-			<recordtableid>5db27ace-d5e9-49ff-b48b-17e55ddda857</recordtableid>
-		</None>
-		<None Include="VerifyBlockComment_Removed.rxrec">
-			<id>d89075e5-e5f8-48ae-b16e-9f2895116c05</id>
-			<recordtableid>bdc42b2f-7a3c-44d0-ba97-edc75c88278e</recordtableid>
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-		</None>
-		<None Include="VerifyCommentedLine.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>fc05dfb0-3c08-4a2b-ab16-6f9378ac8dba</id>
-			<recordtableid>50015fca-4ddb-4ed9-a934-12c461a76c65</recordtableid>
-		</None>
-		<None Include="VerifyUTF8Detection.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>b497932c-564d-4e59-989b-6d2b957ae0a5</id>
-			<recordtableid>7e96d2c8-1b86-4dc5-a878-b344fdb71477</recordtableid>
-		</None>
-		<None Include="Verify_PasteFullLineContent.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>6f0d3e5f-a0cd-4eb0-8937-ad99082dd4b4</id>
-			<recordtableid>f3551a65-41a2-4117-a2c3-2069be88c7f2</recordtableid>
-		</None>
-		<None Include="Verify_Remove_Line_Comment.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>233d9a3b-e286-434f-8cff-78094d47aa67</id>
-			<recordtableid>d131c938-266d-41d6-b4e7-0edf93a07911</recordtableid>
-		</None>
-		<None Include="ValidateUltraEditRegularExpressionCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>5095fada-7618-4dc8-98bf-874764ed3256</id>
-			<recordtableid>3663032b-ec34-435a-adf2-f476ceab34e4</recordtableid>
-		</None>
-		<None Include="ValidateUltraEditRegularExpression_MatchStringCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>8559f116-4961-4057-bb2e-b8e13742cb07</id>
-			<recordtableid>df9b4d3f-127f-4e4d-9916-6b04b2aaf3b0</recordtableid>
-		</None>
-		<None Include="ValidateUnixRegularExpressionCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>52419ae0-bbdb-4c94-be2d-82db8714cb6b</id>
-			<recordtableid>e8b28476-17e8-42c5-b71f-b93aba1c4d3a</recordtableid>
-		</None>
-		<None Include="ValidateUnixRegularExpression_MatchStringCount.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>c27f8246-3cb3-4931-8884-32c9353ab6c8</id>
-			<recordtableid>e4b93ddb-9f3a-4174-b608-21c0a1fd174f</recordtableid>
-		</None>
-		<None Include="VerifyHistoryAfterChangingSettings.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>73b9d8cb-fd22-46b7-8ab4-3de9d3334928</id>
-			<recordtableid>564a15cb-08d2-4503-975c-fdcfa624652c</recordtableid>
-		</None>
-		<None Include="VerifyHistoryBeforeChangingSettings.rxrec">
-			<BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
-			<id>8349d696-ede0-4f2d-83d8-a386e05a0680</id>
-			<recordtableid>dc6151b8-f755-4c33-af46-dcc38882c83b</recordtableid>
-		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<Content Include="UltraEditAutomation.rxtmg">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>f4d18708-b254-497a-af05-9d31b873cea0</id>
-		</Content>
-		<Content Include="UltraEditAutomation.rxtst">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>935998ad-183d-4ca1-a518-8a3f4b8253df</id>
-		</Content>
-	</ItemGroup>
-	<ItemGroup>
-		<Folder Include="Common">
-			<id>162aa2c0-11f7-48d2-bdde-3205bec2b4e3</id>
-		</Folder>
-	</ItemGroup>
-	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"></Import>
-	<Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)"></Import>
+  <PropertyGroup>
+    <ProjectGuid>{50896D4D-A4F9-43BC-A540-AD33AEDAC8A6}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UltraEditAutomation</RootNamespace>
+    <AssemblyName>UltraEditAutomation</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>bce20b21-88e6-4491-bcfb-d4f94916cf59</id>
+    </Compile>
+    <Compile Include="Common\CommonModules.cs">
+      <id>d8f509dc-11d2-4adc-aed1-710833f5524e</id>
+    </Compile>
+    <Compile Include="Common\FileDeletion.cs">
+      <id>da85d1b8-0f9c-4cd4-b26f-6e1b89ec46a5</id>
+    </Compile>
+    <Compile Include="Common\KillRunningProcesses.cs">
+      <id>8fec0d21-8452-40d0-936b-5cab622debac</id>
+    </Compile>
+    <Compile Include="Common\RestoreDefaultSettings.cs">
+      <id>3b9b0ad9-0167-4613-b590-affb599f547b</id>
+    </Compile>
+    <Compile Include="Editing\AdvancedSettingtoPerformJunk.cs">
+      <DependentUpon>AdvancedSettingtoPerformJunk.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0442d20f-8b6a-4a9a-bc3f-38c1700207ad</id>
+      <BoundTo>6178812e-ec2a-415f-b28d-cf5bfaa9271f</BoundTo>
+    </Compile>
+    <Compile Include="Editing\AdvancedSettingtoPerformJunk.UserCode.cs">
+      <DependentUpon>AdvancedSettingtoPerformJunk.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f17b799b-b3bf-49ce-8eae-64a7be847d8e</id>
+      <BoundTo>6178812e-ec2a-415f-b28d-cf5bfaa9271f</BoundTo>
+    </Compile>
+    <Compile Include="Editing\BlockComment.cs">
+      <DependentUpon>BlockComment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ef44b31-45b6-4a5d-8ea3-8e5dc9269983</id>
+      <BoundTo>5847b289-6c8e-4728-8397-f8ce592ecfa1</BoundTo>
+    </Compile>
+    <Compile Include="Editing\BlockComment.UserCode.cs">
+      <DependentUpon>BlockComment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6b6f7eb7-8e94-47b4-8cd0-1543f744cc1f</id>
+      <BoundTo>5847b289-6c8e-4728-8397-f8ce592ecfa1</BoundTo>
+    </Compile>
+    <Compile Include="Editing\CloseAllTabs.cs">
+      <DependentUpon>CloseAllTabs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c7775c4-6ae6-485e-be96-34f32f637a02</id>
+      <BoundTo>7baf1ccf-2128-49ba-9cf6-52deb88bcc35</BoundTo>
+    </Compile>
+    <Compile Include="Editing\CloseAllTabs.UserCode.cs">
+      <DependentUpon>CloseAllTabs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d29ce748-5dfc-4624-9f6f-59e58dcff44a</id>
+      <BoundTo>7baf1ccf-2128-49ba-9cf6-52deb88bcc35</BoundTo>
+    </Compile>
+    <Compile Include="Editing\CommentSpecificLine.cs">
+      <DependentUpon>CommentSpecificLine.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9496260-8696-4a8c-9974-fd9f9ed61f56</id>
+      <BoundTo>35bcc0bc-31ff-43c7-bf6c-3cea8cda73ba</BoundTo>
+    </Compile>
+    <Compile Include="Editing\CommentSpecificLine.UserCode.cs">
+      <DependentUpon>CommentSpecificLine.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>acfee085-0181-4208-9c4b-31de204219fa</id>
+      <BoundTo>35bcc0bc-31ff-43c7-bf6c-3cea8cda73ba</BoundTo>
+    </Compile>
+    <Compile Include="Editing\comparetext.cs">
+      <DependentUpon>comparetext.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>92266f50-b2e2-4968-8a02-07c51fbb913e</id>
+      <BoundTo>0aa98ac2-d67d-46ab-b2b7-edb98d7aa20c</BoundTo>
+    </Compile>
+    <Compile Include="Editing\comparetext.UserCode.cs">
+      <DependentUpon>comparetext.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6b375d19-af8a-4a98-a95d-4d2ec66938b8</id>
+      <BoundTo>0aa98ac2-d67d-46ab-b2b7-edb98d7aa20c</BoundTo>
+    </Compile>
+    <Compile Include="Editing\DeleteToEnd.cs">
+      <DependentUpon>DeleteToEnd.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cb125f28-9be8-408d-8824-ab01f160a79b</id>
+      <BoundTo>b636d35b-4bc0-411d-a989-84a4d4e98082</BoundTo>
+    </Compile>
+    <Compile Include="Editing\DeleteToEnd.UserCode.cs">
+      <DependentUpon>DeleteToEnd.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dfe3b499-f493-4620-9ad2-7481f5df0122</id>
+      <BoundTo>b636d35b-4bc0-411d-a989-84a4d4e98082</BoundTo>
+    </Compile>
+    <Compile Include="Editing\Delete_BeginingofTheWord.cs">
+      <DependentUpon>Delete_BeginingofTheWord.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>31ad9cf6-00cf-4c5f-a224-e82a262f8adf</id>
+      <BoundTo>679ed7ea-9e7d-4e2f-b258-bb1e37fc0b9a</BoundTo>
+    </Compile>
+    <Compile Include="Editing\Delete_BeginingofTheWord.UserCode.cs">
+      <DependentUpon>Delete_BeginingofTheWord.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>960972ee-f816-4d10-a7b3-fd7a25e34098</id>
+      <BoundTo>679ed7ea-9e7d-4e2f-b258-bb1e37fc0b9a</BoundTo>
+    </Compile>
+    <Compile Include="Editing\NewDocumentCreatetionandotheractions.cs">
+      <DependentUpon>NewDocumentCreatetionandotheractions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed6df4cb-d35f-4b2b-9189-fd6b4e2b47df</id>
+      <BoundTo>509faf85-f457-44d8-8a64-6755eebb7770</BoundTo>
+    </Compile>
+    <Compile Include="Editing\NewDocumentCreatetionandotheractions.UserCode.cs">
+      <DependentUpon>NewDocumentCreatetionandotheractions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>61d2184b-69bf-41a4-a48c-cb903b57c033</id>
+      <BoundTo>509faf85-f457-44d8-8a64-6755eebb7770</BoundTo>
+    </Compile>
+    <Compile Include="Editing\PasteFullLineContent.cs">
+      <DependentUpon>PasteFullLineContent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a399f6c1-7ec5-46e9-8e47-3b5d3de70d09</id>
+      <BoundTo>da5434ca-1e7b-4c74-bccb-0673c5b140d0</BoundTo>
+    </Compile>
+    <Compile Include="Editing\PasteFullLineContent.UserCode.cs">
+      <DependentUpon>PasteFullLineContent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6a05156-ad47-43b5-a011-298e5a46131f</id>
+      <BoundTo>da5434ca-1e7b-4c74-bccb-0673c5b140d0</BoundTo>
+    </Compile>
+    <Compile Include="Editing\PerformRemove_Line_Comment_Action.cs">
+      <DependentUpon>PerformRemove_Line_Comment_Action.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cb929a09-0e79-4511-9ee6-e73acbb0da8c</id>
+      <BoundTo>1049b2d8-fddd-4c8c-a14d-fa0de5f2e5b6</BoundTo>
+    </Compile>
+    <Compile Include="Editing\PerformRemove_Line_Comment_Action.UserCode.cs">
+      <DependentUpon>PerformRemove_Line_Comment_Action.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1d6c3fa0-86f7-4f56-9efd-a237092e7153</id>
+      <BoundTo>1049b2d8-fddd-4c8c-a14d-fa0de5f2e5b6</BoundTo>
+    </Compile>
+    <Compile Include="Editing\RemoveBlockComment.cs">
+      <DependentUpon>RemoveBlockComment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ec8877a0-63c8-4f39-8f49-0300e618053a</id>
+      <BoundTo>ec074ed5-4cc6-4935-8ae1-250d5306eb85</BoundTo>
+    </Compile>
+    <Compile Include="Editing\RemoveBlockComment.UserCode.cs">
+      <DependentUpon>RemoveBlockComment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>544e4373-c5d1-4d59-8fcc-34f61008202d</id>
+      <BoundTo>ec074ed5-4cc6-4935-8ae1-250d5306eb85</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyBlockComment.cs">
+      <DependentUpon>VerifyBlockComment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dba390a9-4114-469b-8081-b7b0c38cd4e6</id>
+      <BoundTo>9255a2ca-d857-4351-8400-ff3417a5398d</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyBlockComment.UserCode.cs">
+      <DependentUpon>VerifyBlockComment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9bec1263-c6cd-40aa-a738-065cedc53d9d</id>
+      <BoundTo>9255a2ca-d857-4351-8400-ff3417a5398d</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyBlockComment_Removed.cs">
+      <DependentUpon>VerifyBlockComment_Removed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c673fe5-431b-4ef8-96ad-d1b8cfd074ad</id>
+      <BoundTo>d89075e5-e5f8-48ae-b16e-9f2895116c05</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyBlockComment_Removed.UserCode.cs">
+      <DependentUpon>VerifyBlockComment_Removed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a42f047-7a06-4a3c-baee-cde58413e833</id>
+      <BoundTo>d89075e5-e5f8-48ae-b16e-9f2895116c05</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyCloseTag.cs">
+      <DependentUpon>VerifyCloseTag.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e57641d5-dc9a-4a9d-a92c-46382d685697</id>
+      <BoundTo>47a53060-3d26-49d9-99fd-e89993691ad1</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyCloseTag.UserCode.cs">
+      <DependentUpon>VerifyCloseTag.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3318497f-8544-4b14-9b26-5d888e77fbb0</id>
+      <BoundTo>47a53060-3d26-49d9-99fd-e89993691ad1</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyCommentedLine.cs">
+      <DependentUpon>VerifyCommentedLine.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3093d24-9462-43af-b712-a9b09c30034c</id>
+      <BoundTo>fc05dfb0-3c08-4a2b-ab16-6f9378ac8dba</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyCommentedLine.UserCode.cs">
+      <DependentUpon>VerifyCommentedLine.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>10a5bd23-cf11-40e0-9f17-10c2fc498670</id>
+      <BoundTo>fc05dfb0-3c08-4a2b-ab16-6f9378ac8dba</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyEnabled_CutCopy_Setting.cs">
+      <DependentUpon>VerifyEnabled_CutCopy_Setting.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>837f537f-dfe9-4041-88f3-7c77de1699c4</id>
+      <BoundTo>d653020f-e0eb-487e-845a-3863f5637059</BoundTo>
+    </Compile>
+    <Compile Include="Editing\VerifyEnabled_CutCopy_Setting.UserCode.cs">
+      <DependentUpon>VerifyEnabled_CutCopy_Setting.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bfc8ce91-5c97-4253-871c-36746f25b61d</id>
+      <BoundTo>d653020f-e0eb-487e-845a-3863f5637059</BoundTo>
+    </Compile>
+    <Compile Include="Editing\Verify_PasteFullLineContent.cs">
+      <DependentUpon>Verify_PasteFullLineContent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>74725c8c-965b-47c3-bf81-cba1280f20af</id>
+      <BoundTo>6f0d3e5f-a0cd-4eb0-8937-ad99082dd4b4</BoundTo>
+    </Compile>
+    <Compile Include="Editing\Verify_PasteFullLineContent.UserCode.cs">
+      <DependentUpon>Verify_PasteFullLineContent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d7c786f-9eac-4072-96c2-10e4696aeb4a</id>
+      <BoundTo>6f0d3e5f-a0cd-4eb0-8937-ad99082dd4b4</BoundTo>
+    </Compile>
+    <Compile Include="Editing\Verify_Remove_Line_Comment.cs">
+      <DependentUpon>Verify_Remove_Line_Comment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8e6b6d5e-b359-46ee-adc0-ac1785425036</id>
+      <BoundTo>233d9a3b-e286-434f-8cff-78094d47aa67</BoundTo>
+    </Compile>
+    <Compile Include="Editing\Verify_Remove_Line_Comment.UserCode.cs">
+      <DependentUpon>Verify_Remove_Line_Comment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0964f14e-7571-46b2-8607-8a9271f23314</id>
+      <BoundTo>233d9a3b-e286-434f-8cff-78094d47aa67</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ASCIItoEBCDICConversion.cs">
+      <DependentUpon>ASCIItoEBCDICConversion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c20a994b-23c3-48f2-ad7b-51fde4940a3d</id>
+      <BoundTo>8e22c2bc-4a86-4fa0-86c5-731a2ec18798</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ASCIItoEBCDICConversion.UserCode.cs">
+      <DependentUpon>ASCIItoEBCDICConversion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>111cefa2-5598-47d1-bba9-0eeed335a6ac</id>
+      <BoundTo>8e22c2bc-4a86-4fa0-86c5-731a2ec18798</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\AutomaticallyDetectEncoding_IsSelected.cs">
+      <DependentUpon>AutomaticallyDetectEncoding_IsSelected.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3e306de2-c89c-4828-beb9-da40c4813bc7</id>
+      <BoundTo>bd8b7b91-d58f-4c20-a2a3-3e0edcc2e68c</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\AutomaticallyDetectEncoding_IsSelected.UserCode.cs">
+      <DependentUpon>AutomaticallyDetectEncoding_IsSelected.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>876ec9bd-4aa3-4ec5-9c83-65ec8862b59b</id>
+      <BoundTo>bd8b7b91-d58f-4c20-a2a3-3e0edcc2e68c</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\BackupFileDefaultDirectory.cs">
+      <DependentUpon>BackupFileDefaultDirectory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2790c3d-f9d6-462a-8f62-7c90df814e9b</id>
+      <BoundTo>57acc811-05c9-42c0-8eb8-9521a5d5ffd5</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\BackupFileDefaultDirectory.UserCode.cs">
+      <DependentUpon>BackupFileDefaultDirectory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>115be63e-52f1-44e2-a5c3-be98e82368c2</id>
+      <BoundTo>57acc811-05c9-42c0-8eb8-9521a5d5ffd5</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\BackupSettingsWithReplaceExtension.cs">
+      <DependentUpon>BackupSettingsWithReplaceExtension.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>25d36455-089c-4cff-828a-8a4432f9217a</id>
+      <BoundTo>f380e44f-fa9c-4fb0-aeaf-4d86e0d0f578</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\BackupSettingsWithReplaceExtension.UserCode.cs">
+      <DependentUpon>BackupSettingsWithReplaceExtension.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>93f936da-1a44-44fb-aa8f-94865c864998</id>
+      <BoundTo>f380e44f-fa9c-4fb0-aeaf-4d86e0d0f578</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\Case1_IBM500Conversion.cs">
+      <DependentUpon>Case1_IBM500Conversion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af58d83a-1dd0-4d99-9fdd-2a28a0f132d4</id>
+      <BoundTo>afe4e64f-9623-4736-be9b-3ac7dc0fcb80</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\Case1_IBM500Conversion.UserCode.cs">
+      <DependentUpon>Case1_IBM500Conversion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>60371b29-3ad2-4b77-ab30-e40886128cec</id>
+      <BoundTo>afe4e64f-9623-4736-be9b-3ac7dc0fcb80</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\Case2_NonIBM500Conversion.cs">
+      <DependentUpon>Case2_NonIBM500Conversion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d039f474-dc8d-45e4-b864-b6bb9eb05a63</id>
+      <BoundTo>9e8033fb-4f88-460f-9439-44e6ca4be95a</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\Case2_NonIBM500Conversion.UserCode.cs">
+      <DependentUpon>Case2_NonIBM500Conversion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb1aeb3b-f021-425a-8b53-68947f55f8b1</id>
+      <BoundTo>9e8033fb-4f88-460f-9439-44e6ca4be95a</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CheckFileExistence.cs">
+      <id>e7b9d637-6292-4ea8-9772-d1e9116f72a4</id>
+    </Compile>
+    <Compile Include="FileHandling\CloseCommandPrompt.cs">
+      <DependentUpon>CloseCommandPrompt.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>acf70b22-9ed6-41e7-a7e4-c00bb5a0d0de</id>
+      <BoundTo>539a8df6-ca8d-4eac-af9b-a29029d3510c</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CloseCommandPrompt.UserCode.cs">
+      <DependentUpon>CloseCommandPrompt.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b85d2e8d-55f6-4c7b-9a60-3e1d937acfc4</id>
+      <BoundTo>539a8df6-ca8d-4eac-af9b-a29029d3510c</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CloseUltraCompareAUT.cs">
+      <DependentUpon>CloseUltraCompareAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>51de983d-e58e-453d-a184-ccb544b004e4</id>
+      <BoundTo>c41e6f84-8f32-413b-a8a5-382395ac95f7</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CloseUltraCompareAUT.UserCode.cs">
+      <DependentUpon>CloseUltraCompareAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b66f510-47de-4d35-bffb-0e94581b7c41</id>
+      <BoundTo>c41e6f84-8f32-413b-a8a5-382395ac95f7</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CompareConversion.cs">
+      <DependentUpon>CompareConversion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>53f35d4f-d201-4cf2-a8b6-ad782fc73c97</id>
+      <BoundTo>d4a85d57-2461-4831-bea3-b313a4b3bd8f</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CompareConversion.UserCode.cs">
+      <DependentUpon>CompareConversion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1cbd69fa-caab-4b46-ae68-e7c32dba5c61</id>
+      <BoundTo>d4a85d57-2461-4831-bea3-b313a4b3bd8f</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CompareTheFiles.cs">
+      <DependentUpon>CompareTheFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df136b72-c8e6-4cf8-aca0-9fb44bc93853</id>
+      <BoundTo>719b1214-45c2-4be3-8a7f-6fd45c730cf3</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CompareTheFiles.UserCode.cs">
+      <DependentUpon>CompareTheFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f786783-e9fb-43a6-a7e9-e3e74d5036c4</id>
+      <BoundTo>719b1214-45c2-4be3-8a7f-6fd45c730cf3</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ConvertTargetToUTF8.cs">
+      <DependentUpon>ConvertTargetToUTF8.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5871e6f0-be7d-4e2b-aaba-aa78cf28378b</id>
+      <BoundTo>6e7d936d-853a-4ee3-9f51-5318bd64accb</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ConvertTargetToUTF8.UserCode.cs">
+      <DependentUpon>ConvertTargetToUTF8.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>22ec6c70-0629-4c7a-8388-f3e7ea5fa2a9</id>
+      <BoundTo>6e7d936d-853a-4ee3-9f51-5318bd64accb</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CreateNewEditFile.cs">
+      <DependentUpon>CreateNewEditFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e44415b4-ecba-4c4e-833e-9bad2f3d9821</id>
+      <BoundTo>71b3c342-dbec-4dcd-a539-874854beb286</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CreateNewEditFile.UserCode.cs">
+      <DependentUpon>CreateNewEditFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94a66ddf-f056-41cb-a70e-090ce5bc954b</id>
+      <BoundTo>71b3c342-dbec-4dcd-a539-874854beb286</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CreateNewFileInCommandPrompt.cs">
+      <DependentUpon>CreateNewFileInCommandPrompt.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c45308c3-a8bc-4108-8f8b-42414e700238</id>
+      <BoundTo>f18d9688-be1e-42e9-975c-6a87c14fbe14</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CreateNewFileInCommandPrompt.UserCode.cs">
+      <DependentUpon>CreateNewFileInCommandPrompt.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2f8606c6-26f7-400b-98a3-b364c6ad49f6</id>
+      <BoundTo>f18d9688-be1e-42e9-975c-6a87c14fbe14</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CreateNewFilesAndPasteTheData.cs">
+      <DependentUpon>CreateNewFilesAndPasteTheData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>68cf1ffb-72b0-4dc0-9de6-08fc32043f7f</id>
+      <BoundTo>833757f7-d0b4-409d-b3b1-9123c0e234b1</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\CreateNewFilesAndPasteTheData.UserCode.cs">
+      <DependentUpon>CreateNewFilesAndPasteTheData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cff5a1b9-a5a1-470c-b802-973a024ab4b2</id>
+      <BoundTo>833757f7-d0b4-409d-b3b1-9123c0e234b1</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\EBCDICtoASCII.cs">
+      <DependentUpon>EBCDICtoASCII.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4352f285-f66d-4395-b00a-e318f2b49e90</id>
+      <BoundTo>ae80675d-a9c9-412b-b64b-686cbb76c756</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\EBCDICtoASCII.UserCode.cs">
+      <DependentUpon>EBCDICtoASCII.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8148ff16-223e-441a-b0ca-d4df0c91b0c1</id>
+      <BoundTo>ae80675d-a9c9-412b-b64b-686cbb76c756</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\MakeChangesToLocalFile.cs">
+      <DependentUpon>MakeChangesToLocalFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d28287e5-4a79-46ed-b6cd-36bb131511f6</id>
+      <BoundTo>d848852c-3c72-424a-bce0-e4f2cb66c1b0</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\MakeChangesToLocalFile.UserCode.cs">
+      <DependentUpon>MakeChangesToLocalFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c1dad2d-bd81-49fe-bd9b-887e9118ff45</id>
+      <BoundTo>d848852c-3c72-424a-bce0-e4f2cb66c1b0</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ModifyTheFile.cs">
+      <DependentUpon>ModifyTheFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a01f3aab-d9a9-4f20-a1f9-4cbbc0626481</id>
+      <BoundTo>5a9d917e-4e54-4ce7-8256-fdc65e82925e</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ModifyTheFile.UserCode.cs">
+      <DependentUpon>ModifyTheFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>997bc506-fee8-4eaf-9edd-1e32b5761d9d</id>
+      <BoundTo>5a9d917e-4e54-4ce7-8256-fdc65e82925e</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\SelectDiscardUnsavedEditFiles.cs">
+      <DependentUpon>SelectDiscardUnsavedEditFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c7012014-f2ff-4391-b7a9-d5637b849410</id>
+      <BoundTo>46986aa3-5200-4ce1-acf8-ce468fa9742c</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\SelectDiscardUnsavedEditFiles.UserCode.cs">
+      <DependentUpon>SelectDiscardUnsavedEditFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84d39dd1-4c79-4972-a691-83a8fc6ab88e</id>
+      <BoundTo>46986aa3-5200-4ce1-acf8-ce468fa9742c</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ValidateBakBackupFileCreated.cs">
+      <id>f59b63e8-22ca-4af5-9c92-1b2bd5f59b88</id>
+    </Compile>
+    <Compile Include="FileHandling\ValidateTheDataPresentInTheFile.cs">
+      <DependentUpon>ValidateTheDataPresentInTheFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be05cfc5-cd2e-44e1-bc3c-64c15c6224b1</id>
+      <BoundTo>c8bb32d9-f840-4582-872b-3185631dbaf1</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\ValidateTheDataPresentInTheFile.UserCode.cs">
+      <DependentUpon>ValidateTheDataPresentInTheFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1ec049bd-7064-4c86-b21b-bc2a428da673</id>
+      <BoundTo>c8bb32d9-f840-4582-872b-3185631dbaf1</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyEncodingValue.cs">
+      <DependentUpon>VerifyEncodingValue.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47bbf63a-0d1d-4210-86ed-b9bdc8bd98f2</id>
+      <BoundTo>c5aa5656-27a0-4608-9ce2-e40e84b0515e</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyEncodingValue.UserCode.cs">
+      <DependentUpon>VerifyEncodingValue.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>53391672-d1a1-4183-ad32-3389569060df</id>
+      <BoundTo>c5aa5656-27a0-4608-9ce2-e40e84b0515e</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyEncryptedFileCreation.cs">
+      <DependentUpon>VerifyEncryptedFileCreation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d35f2281-c573-42b7-aeec-2d0c29840c16</id>
+      <BoundTo>d66dc45a-d2dc-45d5-85f9-63c1ab751bcb</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyEncryptedFileCreation.UserCode.cs">
+      <DependentUpon>VerifyEncryptedFileCreation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4f54f20-c8d5-40f0-9351-0c2b0ab70f2e</id>
+      <BoundTo>d66dc45a-d2dc-45d5-85f9-63c1ab751bcb</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyFileCreationAndModifiedFiles.cs">
+      <DependentUpon>VerifyFileCreationAndModifiedFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5ffae93e-7eea-41d9-a8bd-d4aa021bbd13</id>
+      <BoundTo>508f590e-61ac-40cf-baa2-c79ae8d97d15</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyFileCreationAndModifiedFiles.UserCode.cs">
+      <DependentUpon>VerifyFileCreationAndModifiedFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c308c7ae-0cd6-4efa-9fe5-12f67eb4371f</id>
+      <BoundTo>508f590e-61ac-40cf-baa2-c79ae8d97d15</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyFileIsDecrypted.cs">
+      <DependentUpon>VerifyFileIsDecrypted.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5e25f02f-bda5-446e-a247-136a3e5fad9c</id>
+      <BoundTo>5ac22671-af13-43cc-8c3f-141511b9d0c0</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyFileIsDecrypted.UserCode.cs">
+      <DependentUpon>VerifyFileIsDecrypted.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e574d01c-1038-4be5-8763-0a76090585c1</id>
+      <BoundTo>5ac22671-af13-43cc-8c3f-141511b9d0c0</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyModifiedFile.cs">
+      <DependentUpon>VerifyModifiedFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aef3b024-ebe6-4495-a04e-7c622f74de0d</id>
+      <BoundTo>bcf3ab31-0850-4dc3-a631-7a034e6ce359</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyModifiedFile.UserCode.cs">
+      <DependentUpon>VerifyModifiedFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5800315c-e2e6-4087-a77b-30914c0c08df</id>
+      <BoundTo>bcf3ab31-0850-4dc3-a631-7a034e6ce359</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyPromptForSaveState.cs">
+      <DependentUpon>VerifyPromptForSaveState.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4fb4e5d5-8df9-42ac-8912-8604298d4826</id>
+      <BoundTo>7fd36959-89e0-4098-8166-84d91683d985</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyPromptForSaveState.UserCode.cs">
+      <DependentUpon>VerifyPromptForSaveState.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>28ae1805-2614-48ab-bf1c-48b40cbbd6b0</id>
+      <BoundTo>7fd36959-89e0-4098-8166-84d91683d985</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifySaveStateDialog.cs">
+      <DependentUpon>VerifySaveStateDialog.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>53b79716-0d72-469f-bceb-75851c21b64a</id>
+      <BoundTo>fdfa58a8-5497-40d9-bd23-15f415de3eb3</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifySaveStateDialog.UserCode.cs">
+      <DependentUpon>VerifySaveStateDialog.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bac0b876-8268-4472-aa89-7b5834cc8b32</id>
+      <BoundTo>fdfa58a8-5497-40d9-bd23-15f415de3eb3</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifySessionOptions.cs">
+      <DependentUpon>VerifySessionOptions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2f579ff8-468a-4e9c-8883-cb62a3e4d421</id>
+      <BoundTo>cd655c3b-6ed5-49e4-8edf-48e74acebbc6</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifySessionOptions.UserCode.cs">
+      <DependentUpon>VerifySessionOptions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7f9cc145-2884-4fc2-b836-207b5b7eae42</id>
+      <BoundTo>cd655c3b-6ed5-49e4-8edf-48e74acebbc6</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyThaiDetection.cs">
+      <DependentUpon>VerifyThaiDetection.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4404a369-1516-4773-b91c-d0d87f1eb500</id>
+      <BoundTo>5f697b24-a25d-4211-a660-036471b1c564</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyThaiDetection.UserCode.cs">
+      <DependentUpon>VerifyThaiDetection.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3fea5f96-a9e5-4ffb-a22c-3f97295febb9</id>
+      <BoundTo>5f697b24-a25d-4211-a660-036471b1c564</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyTraditionalChineseDetection.cs">
+      <DependentUpon>VerifyTraditionalChineseDetection.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b89392cc-3548-4865-8cfb-784e90a55000</id>
+      <BoundTo>f3cb670c-f2eb-44b7-8edf-29aa275d29e9</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyTraditionalChineseDetection.UserCode.cs">
+      <DependentUpon>VerifyTraditionalChineseDetection.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2bb390df-9826-4213-9cdb-fb46964d0b61</id>
+      <BoundTo>f3cb670c-f2eb-44b7-8edf-29aa275d29e9</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyUTF8Detection.cs">
+      <DependentUpon>VerifyUTF8Detection.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7398fba0-8b90-4fea-9cb4-c5fb5e5cde94</id>
+      <BoundTo>b497932c-564d-4e59-989b-6d2b957ae0a5</BoundTo>
+    </Compile>
+    <Compile Include="FileHandling\VerifyUTF8Detection.UserCode.cs">
+      <DependentUpon>VerifyUTF8Detection.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1cb1d838-7f42-4e89-9e80-ff98230a8538</id>
+      <BoundTo>b497932c-564d-4e59-989b-6d2b957ae0a5</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\CloseAUT.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bc1c87b8-39f1-45da-b06e-1c9a4e9e4fc0</id>
+      <BoundTo>d3fcb87c-9269-404f-a1b8-232e7fc0095c</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\CloseAUT.UserCode.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5902a06f-15b2-40d9-bdd7-24a5f7857113</id>
+      <BoundTo>d3fcb87c-9269-404f-a1b8-232e7fc0095c</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\OpenFile.cs">
+      <DependentUpon>OpenFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3f0e7d5a-1b00-40c1-8e53-46c2f4fe88fb</id>
+      <BoundTo>c7bedab4-f7b6-4ad4-987d-625a4c70bfa0</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\OpenFile.UserCode.cs">
+      <DependentUpon>OpenFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f9d5c1c-31c7-43ef-bc69-b024fdba449e</id>
+      <BoundTo>c7bedab4-f7b6-4ad4-987d-625a4c70bfa0</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\OpenFiles.cs">
+      <DependentUpon>OpenFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a263747-5725-42d9-88c9-fe4e7d830b91</id>
+      <BoundTo>6abb87bd-9a6c-4378-8e1c-b7786c04b7e9</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\OpenFiles.UserCode.cs">
+      <DependentUpon>OpenFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fd0d58b2-da0d-49b7-918c-f1d2aec14a43</id>
+      <BoundTo>6abb87bd-9a6c-4378-8e1c-b7786c04b7e9</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\OpenFindAndReplaceDialog.cs">
+      <DependentUpon>OpenFindAndReplaceDialog.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9aac8dd-138a-41f7-94b2-1d2a2ea22481</id>
+      <BoundTo>4f98fd45-a04e-4d35-a743-246c500711e4</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\OpenFindAndReplaceDialog.UserCode.cs">
+      <DependentUpon>OpenFindAndReplaceDialog.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>78fb77f3-438b-481f-b640-39f6ab85756b</id>
+      <BoundTo>4f98fd45-a04e-4d35-a743-246c500711e4</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\StartAUT.cs">
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b2ecafe-0d76-4ef5-b477-b8d5e3407e8e</id>
+      <BoundTo>ad411d09-6dcb-48df-a8cd-3d8c2d3e3902</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\StartAUT.UserCode.cs">
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>842f256e-55d7-4a2d-976b-adc25eed2b83</id>
+      <BoundTo>ad411d09-6dcb-48df-a8cd-3d8c2d3e3902</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\ValidateOutputWindowText.cs">
+      <DependentUpon>ValidateOutputWindowText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8f2d31c8-9912-45f6-b75d-c1cb901155ec</id>
+      <BoundTo>b0b557cc-a597-4c94-b8e6-5f470c82aaf5</BoundTo>
+    </Compile>
+    <Compile Include="GeneralRecordings\ValidateOutputWindowText.UserCode.cs">
+      <DependentUpon>ValidateOutputWindowText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bc021b75-df46-4d89-a06e-890031d0f5e2</id>
+      <BoundTo>b0b557cc-a597-4c94-b8e6-5f470c82aaf5</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ChangingSettingsForClearHistory.cs">
+      <DependentUpon>ChangingSettingsForClearHistory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>84d8def4-bcd1-4e70-aeb4-833e01997360</id>
+      <BoundTo>6dac777f-1464-40e7-8cc7-fbe5b89dc9eb</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ChangingSettingsForClearHistory.UserCode.cs">
+      <DependentUpon>ChangingSettingsForClearHistory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41a30bcd-a30a-4912-9619-10b0854b51f3</id>
+      <BoundTo>6dac777f-1464-40e7-8cc7-fbe5b89dc9eb</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\CloseQuickFindandValidate.cs">
+      <DependentUpon>CloseQuickFindandValidate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>80747113-11db-4634-8eeb-65e398da9cd2</id>
+      <BoundTo>e95ce4e2-b90b-468f-92fd-868519bf86ab</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\CloseQuickFindandValidate.UserCode.cs">
+      <DependentUpon>CloseQuickFindandValidate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2184a4b1-3ba3-4fa1-898a-2b70f91f01a2</id>
+      <BoundTo>e95ce4e2-b90b-468f-92fd-868519bf86ab</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\CreateNewProject.cs">
+      <DependentUpon>CreateNewProject.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ccaf772-ce96-46ff-8874-39b3a4bbb7f3</id>
+      <BoundTo>54fd7263-f2b8-4242-ad6d-f344cca7ddb9</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\CreateNewProject.UserCode.cs">
+      <DependentUpon>CreateNewProject.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2fb62f19-3e80-4fcc-9976-c2b54d1b179d</id>
+      <BoundTo>54fd7263-f2b8-4242-ad6d-f344cca7ddb9</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\FindTabRegularExpression.cs">
+      <DependentUpon>FindTabRegularExpression.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1b9325ea-bf75-41d9-bce2-c71f005bcfef</id>
+      <BoundTo>04e0f81a-6d8c-4fb9-9755-3def931f3c3b</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\FindTabRegularExpression.UserCode.cs">
+      <DependentUpon>FindTabRegularExpression.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3efec6a-47c5-4e36-ab26-85366f1a38dd</id>
+      <BoundTo>04e0f81a-6d8c-4fb9-9755-3def931f3c3b</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\MatchCase.cs">
+      <DependentUpon>MatchCase.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b9aa5b6-9262-4900-bf35-4450ae3b1858</id>
+      <BoundTo>47cb5bea-8824-4903-a0b3-d1752ee0bf02</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\MatchCase.UserCode.cs">
+      <DependentUpon>MatchCase.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06b9f3cd-d40f-4fd1-a7ee-a510389aea03</id>
+      <BoundTo>47cb5bea-8824-4903-a0b3-d1752ee0bf02</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\OpenFindDialog.cs">
+      <DependentUpon>OpenFindDialog.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>93b8ad8b-0618-4492-aeaf-49d569a392d4</id>
+      <BoundTo>aacb9529-c786-443f-9fc2-085fb8a8072c</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\OpenFindDialog.UserCode.cs">
+      <DependentUpon>OpenFindDialog.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6913b88e-c397-4d7c-8621-a8e42ef8cc36</id>
+      <BoundTo>aacb9529-c786-443f-9fc2-085fb8a8072c</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\OpenHexFindAndReplaceDialog.cs">
+      <DependentUpon>OpenHexFindAndReplaceDialog.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3429ced8-6508-450e-8ce9-89ff2560a7aa</id>
+      <BoundTo>398cbad3-292d-4ee3-9400-683d2aa90a42</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\OpenHexFindAndReplaceDialog.UserCode.cs">
+      <DependentUpon>OpenHexFindAndReplaceDialog.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f3b1187-9d49-4469-8b7e-3bcf82ce8632</id>
+      <BoundTo>398cbad3-292d-4ee3-9400-683d2aa90a42</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\OpenQuickFind.cs">
+      <DependentUpon>OpenQuickFind.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87c46035-2943-40bb-814f-f418e97ae011</id>
+      <BoundTo>3b8010fb-3ae3-4704-9558-c34d17b6cdc1</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\OpenQuickFind.UserCode.cs">
+      <DependentUpon>OpenQuickFind.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1dbea547-7324-4ff9-9539-6e0cc37e03e1</id>
+      <BoundTo>3b8010fb-3ae3-4704-9558-c34d17b6cdc1</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\PerformSearchCriteria.cs">
+      <DependentUpon>PerformSearchCriteria.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d10e95f8-2940-4510-8832-5a1922f560c1</id>
+      <BoundTo>23143db3-5c7d-4b51-842f-090d46315624</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\PerformSearchCriteria.UserCode.cs">
+      <DependentUpon>PerformSearchCriteria.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>916ff61d-d113-41ad-b395-022c56e552be</id>
+      <BoundTo>23143db3-5c7d-4b51-842f-090d46315624</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ReplaceTabRegularExpression.cs">
+      <DependentUpon>ReplaceTabRegularExpression.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4db3bd32-8d55-498e-9707-d6d0436de737</id>
+      <BoundTo>4e1aa0ac-dbba-4996-85fa-72f5da7e2ca4</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ReplaceTabRegularExpression.UserCode.cs">
+      <DependentUpon>ReplaceTabRegularExpression.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f555a71e-263a-4377-b152-119ded06086d</id>
+      <BoundTo>4e1aa0ac-dbba-4996-85fa-72f5da7e2ca4</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForEditWindow.cs">
+      <DependentUpon>SearchCriteriaForEditWindow.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>de665715-a7d1-42d8-875a-e0a85013f724</id>
+      <BoundTo>841b0c9b-4a7e-4e59-8924-d8c4a5ac47d8</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForEditWindow.UserCode.cs">
+      <DependentUpon>SearchCriteriaForEditWindow.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a202cd09-a28e-418f-bfff-c7f4955a19a3</id>
+      <BoundTo>841b0c9b-4a7e-4e59-8924-d8c4a5ac47d8</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForOpenFiles.cs">
+      <DependentUpon>SearchCriteriaForOpenFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6b2aeced-916e-4ea7-a7c4-13465d6d39de</id>
+      <BoundTo>5767b75e-71fd-4cee-9a68-a83222e64337</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForOpenFiles.UserCode.cs">
+      <DependentUpon>SearchCriteriaForOpenFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f1aac8ec-d64f-41f0-ae6f-075699a55bd2</id>
+      <BoundTo>5767b75e-71fd-4cee-9a68-a83222e64337</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForProjectFiles.cs">
+      <DependentUpon>SearchCriteriaForProjectFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0707a78c-33f3-4b68-b47b-68ab81667fa2</id>
+      <BoundTo>ef5dc00b-3bb9-4d20-8b84-154890584d5e</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForProjectFiles.UserCode.cs">
+      <DependentUpon>SearchCriteriaForProjectFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dda4c3ca-05c1-4703-90c4-3f5cb383aecf</id>
+      <BoundTo>ef5dc00b-3bb9-4d20-8b84-154890584d5e</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForStringNotFoundInFiles.cs">
+      <DependentUpon>SearchCriteriaForStringNotFoundInFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87e3b21e-ade2-4574-b6c5-a7a94c005611</id>
+      <BoundTo>a62c8e41-0554-4ac9-bdbb-ece8ca7de98a</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\SearchCriteriaForStringNotFoundInFiles.UserCode.cs">
+      <DependentUpon>SearchCriteriaForStringNotFoundInFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2a9f2af-a640-441b-850a-0cf8ee064b82</id>
+      <BoundTo>a62c8e41-0554-4ac9-bdbb-ece8ca7de98a</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateDefaultValuesForLinesBeforeAfter.cs">
+      <DependentUpon>ValidateDefaultValuesForLinesBeforeAfter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5a2e3173-744a-4088-8d2f-8e7e103a2864</id>
+      <BoundTo>ae8e15dd-acde-4254-8464-123121e1a0cf</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateDefaultValuesForLinesBeforeAfter.UserCode.cs">
+      <DependentUpon>ValidateDefaultValuesForLinesBeforeAfter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b4793a9-4ff0-4a64-8a20-94d59033f282</id>
+      <BoundTo>ae8e15dd-acde-4254-8464-123121e1a0cf</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateFindResultsFile.cs">
+      <DependentUpon>ValidateFindResultsFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0aca0af8-3cc0-4c10-84ec-f49a195caa0a</id>
+      <BoundTo>7822de85-e7b5-4696-bd09-4120d612b964</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateFindResultsFile.UserCode.cs">
+      <DependentUpon>ValidateFindResultsFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e54a4a30-bddd-4f43-9093-907f3942a7e3</id>
+      <BoundTo>7822de85-e7b5-4696-bd09-4120d612b964</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateMatchStringCount.cs">
+      <DependentUpon>ValidateMatchStringCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89053183-249d-4eea-9631-a453741b7683</id>
+      <BoundTo>deef877f-b4af-476c-ab04-4f1075d45470</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateMatchStringCount.UserCode.cs">
+      <DependentUpon>ValidateMatchStringCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e222197e-8d3a-4148-86eb-46b4ff186f82</id>
+      <BoundTo>deef877f-b4af-476c-ab04-4f1075d45470</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateOutputWindowStringNotFound.cs">
+      <DependentUpon>ValidateOutputWindowStringNotFound.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a58e8969-de96-4888-b26b-a277b2c0199a</id>
+      <BoundTo>e86746a3-95ec-4fb1-b5ec-dfe0e676a80c</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateOutputWindowStringNotFound.UserCode.cs">
+      <DependentUpon>ValidateOutputWindowStringNotFound.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7ba4a6c9-04c1-46d8-94ce-6e89b5c70ff0</id>
+      <BoundTo>e86746a3-95ec-4fb1-b5ec-dfe0e676a80c</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidatePerlRegularExpressionCount.cs">
+      <DependentUpon>ValidatePerlRegularExpressionCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>169897da-6245-4e15-b758-c268225e3876</id>
+      <BoundTo>18d8794b-4699-47d8-b7e2-6fe392d84439</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidatePerlRegularExpressionCount.UserCode.cs">
+      <DependentUpon>ValidatePerlRegularExpressionCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d450e9ef-19d9-49f3-9c4d-19f01c0afcfc</id>
+      <BoundTo>18d8794b-4699-47d8-b7e2-6fe392d84439</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidatePerlRegularExpression_MatchStringCount.cs">
+      <DependentUpon>ValidatePerlRegularExpression_MatchStringCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b458802c-557c-45eb-a564-581c2fa84954</id>
+      <BoundTo>4be08020-0ff9-4035-b39c-edc05ec8b007</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidatePerlRegularExpression_MatchStringCount.UserCode.cs">
+      <DependentUpon>ValidatePerlRegularExpression_MatchStringCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a160b7d-76a5-4d0f-b57c-f76f943def90</id>
+      <BoundTo>4be08020-0ff9-4035-b39c-edc05ec8b007</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUltraEditRegularExpressionCount.cs">
+      <DependentUpon>ValidateUltraEditRegularExpressionCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ee097fb7-ebdd-4731-bf8f-b6dab6a0ff8d</id>
+      <BoundTo>5095fada-7618-4dc8-98bf-874764ed3256</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUltraEditRegularExpressionCount.UserCode.cs">
+      <DependentUpon>ValidateUltraEditRegularExpressionCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ac1adf3-658e-4847-b469-bb66fdfb3d89</id>
+      <BoundTo>5095fada-7618-4dc8-98bf-874764ed3256</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUltraEditRegularExpression_MatchStringCount.cs">
+      <DependentUpon>ValidateUltraEditRegularExpression_MatchStringCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b2881336-3431-4b8c-adc6-4defc6fff505</id>
+      <BoundTo>8559f116-4961-4057-bb2e-b8e13742cb07</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUltraEditRegularExpression_MatchStringCount.UserCode.cs">
+      <DependentUpon>ValidateUltraEditRegularExpression_MatchStringCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>115e5150-be9d-4fa9-98de-5253e2c2314d</id>
+      <BoundTo>8559f116-4961-4057-bb2e-b8e13742cb07</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUnixRegularExpressionCount.cs">
+      <DependentUpon>ValidateUnixRegularExpressionCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a3456927-ca24-43c9-a8b5-ca18ed591016</id>
+      <BoundTo>52419ae0-bbdb-4c94-be2d-82db8714cb6b</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUnixRegularExpressionCount.UserCode.cs">
+      <DependentUpon>ValidateUnixRegularExpressionCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f8ecbf1f-5529-42f9-a027-bd9b8c219069</id>
+      <BoundTo>52419ae0-bbdb-4c94-be2d-82db8714cb6b</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUnixRegularExpression_MatchStringCount.cs">
+      <DependentUpon>ValidateUnixRegularExpression_MatchStringCount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6969ab61-e3f2-4beb-8841-11c53979f6fe</id>
+      <BoundTo>c27f8246-3cb3-4931-8884-32c9353ab6c8</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidateUnixRegularExpression_MatchStringCount.UserCode.cs">
+      <DependentUpon>ValidateUnixRegularExpression_MatchStringCount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba2cd855-8514-4ff2-a0b3-f39f2b888812</id>
+      <BoundTo>c27f8246-3cb3-4931-8884-32c9353ab6c8</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidatingQuickFindDialogPosition.cs">
+      <DependentUpon>ValidatingQuickFindDialogPosition.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c243acd-f14c-40de-8bca-ccafec297180</id>
+      <BoundTo>8eaabc14-07b8-453d-9a15-f50a571f1154</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\ValidatingQuickFindDialogPosition.UserCode.cs">
+      <DependentUpon>ValidatingQuickFindDialogPosition.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>93a66395-0d8e-4e8f-86d1-ded8287ba93b</id>
+      <BoundTo>8eaabc14-07b8-453d-9a15-f50a571f1154</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\VerifyHistoryAfterChangingSettings.cs">
+      <DependentUpon>VerifyHistoryAfterChangingSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>356c0f44-b0e6-496a-9fe8-199e98347e6e</id>
+      <BoundTo>73b9d8cb-fd22-46b7-8ab4-3de9d3334928</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\VerifyHistoryAfterChangingSettings.UserCode.cs">
+      <DependentUpon>VerifyHistoryAfterChangingSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d8829826-75aa-4ea8-8124-76ebcff2741b</id>
+      <BoundTo>73b9d8cb-fd22-46b7-8ab4-3de9d3334928</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\VerifyHistoryBeforeChangingSettings.cs">
+      <DependentUpon>VerifyHistoryBeforeChangingSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>680b6389-e605-4fda-b245-cb0bd1a50ca0</id>
+      <BoundTo>8349d696-ede0-4f2d-83d8-a386e05a0680</BoundTo>
+    </Compile>
+    <Compile Include="SearchTests\VerifyHistoryBeforeChangingSettings.UserCode.cs">
+      <DependentUpon>VerifyHistoryBeforeChangingSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>07e8873b-ef98-4f39-8eb5-b879dbe8efb5</id>
+      <BoundTo>8349d696-ede0-4f2d-83d8-a386e05a0680</BoundTo>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>fef12304-5856-4124-8d18-eed1bebb33ca</id>
+    </Compile>
+    <Compile Include="UltraEditAutomationRepository.cs">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <DependentUpon>UltraEditAutomationRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>d0a8a3fd-1c55-4043-83b1-46280a511a21</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>49540ff0-d6e4-4c32-a191-b39eb061c306</id>
+    </None>
+    <None Include="Common\ProcessNames.txt">
+      <id>610cdded-4c32-4773-b868-70725563cbe6</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Editing\AdvancedSettingtoPerformJunk.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>6178812e-ec2a-415f-b28d-cf5bfaa9271f</id>
+      <recordtableid>aecca4da-b82f-4f69-a825-8960a7f38b1b</recordtableid>
+    </None>
+    <None Include="Editing\BlockComment.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>5847b289-6c8e-4728-8397-f8ce592ecfa1</id>
+      <recordtableid>87020684-07d5-494c-ab73-4720950f7270</recordtableid>
+    </None>
+    <None Include="Editing\CloseAllTabs.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>7baf1ccf-2128-49ba-9cf6-52deb88bcc35</id>
+      <recordtableid>ac95e0b1-adb3-4393-98fa-39469d0158e6</recordtableid>
+    </None>
+    <None Include="Editing\CommentSpecificLine.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>35bcc0bc-31ff-43c7-bf6c-3cea8cda73ba</id>
+      <recordtableid>dc03bf4b-bb16-4b68-90a0-08d8ad3b6d27</recordtableid>
+    </None>
+    <None Include="Editing\comparetext.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>0aa98ac2-d67d-46ab-b2b7-edb98d7aa20c</id>
+      <recordtableid>f7391458-ddea-4db5-a9e2-44ac69e0ad3b</recordtableid>
+    </None>
+    <None Include="Editing\DeleteToEnd.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>b636d35b-4bc0-411d-a989-84a4d4e98082</id>
+      <recordtableid>f2280f39-fd10-4608-81ba-9d233103227a</recordtableid>
+    </None>
+    <None Include="Editing\Delete_BeginingofTheWord.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>679ed7ea-9e7d-4e2f-b258-bb1e37fc0b9a</id>
+      <recordtableid>30592967-c650-4a79-9a04-973ba9ba242b</recordtableid>
+    </None>
+    <None Include="Editing\NewDocumentCreatetionandotheractions.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>509faf85-f457-44d8-8a64-6755eebb7770</id>
+      <recordtableid>ed936a00-3c61-4458-b79f-d8ab8dc3079b</recordtableid>
+    </None>
+    <None Include="Editing\PasteFullLineContent.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>da5434ca-1e7b-4c74-bccb-0673c5b140d0</id>
+      <recordtableid>080266c3-b53a-40a5-89b1-7bc05f4d283f</recordtableid>
+    </None>
+    <None Include="Editing\PerformRemove_Line_Comment_Action.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>1049b2d8-fddd-4c8c-a14d-fa0de5f2e5b6</id>
+      <recordtableid>1f12b93a-582c-4da1-b3b8-c8bd1b59524e</recordtableid>
+    </None>
+    <None Include="Editing\RemoveBlockComment.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>ec074ed5-4cc6-4935-8ae1-250d5306eb85</id>
+      <recordtableid>c5a419f7-a789-472a-b557-876c6c6e2339</recordtableid>
+    </None>
+    <None Include="Editing\VerifyBlockComment.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>9255a2ca-d857-4351-8400-ff3417a5398d</id>
+      <recordtableid>5db27ace-d5e9-49ff-b48b-17e55ddda857</recordtableid>
+    </None>
+    <None Include="Editing\VerifyBlockComment_Removed.rxrec">
+      <id>d89075e5-e5f8-48ae-b16e-9f2895116c05</id>
+      <recordtableid>bdc42b2f-7a3c-44d0-ba97-edc75c88278e</recordtableid>
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+    </None>
+    <None Include="Editing\VerifyCloseTag.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>47a53060-3d26-49d9-99fd-e89993691ad1</id>
+      <recordtableid>65cbedfa-0485-4e10-944e-ec709981d248</recordtableid>
+    </None>
+    <None Include="Editing\VerifyCommentedLine.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>fc05dfb0-3c08-4a2b-ab16-6f9378ac8dba</id>
+      <recordtableid>50015fca-4ddb-4ed9-a934-12c461a76c65</recordtableid>
+    </None>
+    <None Include="Editing\VerifyEnabled_CutCopy_Setting.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>d653020f-e0eb-487e-845a-3863f5637059</id>
+      <recordtableid>d1ab732f-fe38-40f0-b962-936cdbaedf8c</recordtableid>
+    </None>
+    <None Include="Editing\Verify_PasteFullLineContent.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>6f0d3e5f-a0cd-4eb0-8937-ad99082dd4b4</id>
+      <recordtableid>f3551a65-41a2-4117-a2c3-2069be88c7f2</recordtableid>
+    </None>
+    <None Include="Editing\Verify_Remove_Line_Comment.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>233d9a3b-e286-434f-8cff-78094d47aa67</id>
+      <recordtableid>d131c938-266d-41d6-b4e7-0edf93a07911</recordtableid>
+    </None>
+    <None Include="FileHandling\ASCIItoEBCDICConversion.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>8e22c2bc-4a86-4fa0-86c5-731a2ec18798</id>
+      <recordtableid>098dd6ea-7519-49d0-8eb4-233ff75f85b3</recordtableid>
+    </None>
+    <None Include="FileHandling\AutomaticallyDetectEncoding_IsSelected.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>bd8b7b91-d58f-4c20-a2a3-3e0edcc2e68c</id>
+      <recordtableid>875812ad-0ca5-43e5-a4bf-15077eeaaa73</recordtableid>
+    </None>
+    <None Include="FileHandling\BackupFileDefaultDirectory.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>57acc811-05c9-42c0-8eb8-9521a5d5ffd5</id>
+      <recordtableid>404df1b2-38d3-490c-a383-d196ede2e0c6</recordtableid>
+    </None>
+    <None Include="FileHandling\BackupSettingsWithReplaceExtension.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>f380e44f-fa9c-4fb0-aeaf-4d86e0d0f578</id>
+      <recordtableid>432d8fa3-c71b-4c47-8314-f2194497c8e5</recordtableid>
+    </None>
+    <None Include="FileHandling\Case1_IBM500Conversion.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>afe4e64f-9623-4736-be9b-3ac7dc0fcb80</id>
+      <recordtableid>08593478-1057-4d9d-a0cb-3d260bc44698</recordtableid>
+    </None>
+    <None Include="FileHandling\Case2_NonIBM500Conversion.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>9e8033fb-4f88-460f-9439-44e6ca4be95a</id>
+      <recordtableid>b596690a-84cb-4914-80f2-48ed9792ec5a</recordtableid>
+    </None>
+    <None Include="FileHandling\CloseCommandPrompt.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>539a8df6-ca8d-4eac-af9b-a29029d3510c</id>
+      <recordtableid>7ef26525-6370-4726-bb94-d4fed520d5f3</recordtableid>
+    </None>
+    <None Include="FileHandling\CloseUltraCompareAUT.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>c41e6f84-8f32-413b-a8a5-382395ac95f7</id>
+      <recordtableid>4d45d98c-9798-4f49-8831-58aef5e14c1c</recordtableid>
+    </None>
+    <None Include="FileHandling\CompareConversion.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>d4a85d57-2461-4831-bea3-b313a4b3bd8f</id>
+      <recordtableid>27f730cf-944d-48f1-ad4e-fd3e4f57632e</recordtableid>
+    </None>
+    <None Include="FileHandling\CompareTheFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>719b1214-45c2-4be3-8a7f-6fd45c730cf3</id>
+      <recordtableid>2b4cc9f0-17b1-4ced-9c18-59ea46d5b0ed</recordtableid>
+    </None>
+    <None Include="FileHandling\ConvertTargetToUTF8.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>6e7d936d-853a-4ee3-9f51-5318bd64accb</id>
+      <recordtableid>0b042a5e-65f1-4ebd-a3de-8ff6d9de2b24</recordtableid>
+    </None>
+    <None Include="FileHandling\CreateNewEditFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>71b3c342-dbec-4dcd-a539-874854beb286</id>
+      <recordtableid>bc39ae22-0ade-45b7-bc49-09de583621a8</recordtableid>
+    </None>
+    <None Include="FileHandling\CreateNewFileInCommandPrompt.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>f18d9688-be1e-42e9-975c-6a87c14fbe14</id>
+      <recordtableid>2c83e4bd-d1d8-4250-991d-6ed73cb9fdde</recordtableid>
+    </None>
+    <None Include="FileHandling\CreateNewFilesAndPasteTheData.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>833757f7-d0b4-409d-b3b1-9123c0e234b1</id>
+      <recordtableid>9e7724d3-6e9a-4d38-8c63-f364dffd76fb</recordtableid>
+    </None>
+    <None Include="FileHandling\EBCDICtoASCII.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>ae80675d-a9c9-412b-b64b-686cbb76c756</id>
+      <recordtableid>cf658415-57a9-4c67-9c94-50349029e570</recordtableid>
+    </None>
+    <None Include="FileHandling\MakeChangesToLocalFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>d848852c-3c72-424a-bce0-e4f2cb66c1b0</id>
+      <recordtableid>69132b06-cc37-44f9-99e9-f9b8f7afe170</recordtableid>
+    </None>
+    <None Include="FileHandling\ModifyTheFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>5a9d917e-4e54-4ce7-8256-fdc65e82925e</id>
+      <recordtableid>2bed0fef-c9ef-4068-a575-e58d9050fbc9</recordtableid>
+    </None>
+    <None Include="FileHandling\SelectDiscardUnsavedEditFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>46986aa3-5200-4ce1-acf8-ce468fa9742c</id>
+      <recordtableid>1b535571-9ccc-40ef-860f-193527cdaf2e</recordtableid>
+    </None>
+    <None Include="FileHandling\ValidateTheDataPresentInTheFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>c8bb32d9-f840-4582-872b-3185631dbaf1</id>
+      <recordtableid>44411f4e-c2d1-4eb6-a4c6-8dbb15b4ee5d</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyEncodingValue.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>c5aa5656-27a0-4608-9ce2-e40e84b0515e</id>
+      <recordtableid>c9302e3b-67ba-4cde-8906-9752d24ee409</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyEncryptedFileCreation.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>d66dc45a-d2dc-45d5-85f9-63c1ab751bcb</id>
+      <recordtableid>c9bbd87d-1783-4752-9a9e-c73ee90aae15</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyFileCreationAndModifiedFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>508f590e-61ac-40cf-baa2-c79ae8d97d15</id>
+      <recordtableid>4dce27ff-e640-47f3-a591-c4b76a1447d3</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyFileIsDecrypted.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>5ac22671-af13-43cc-8c3f-141511b9d0c0</id>
+      <recordtableid>7b5efe65-4f67-48f1-a069-be48e7278b81</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyModifiedFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>bcf3ab31-0850-4dc3-a631-7a034e6ce359</id>
+      <recordtableid>027abb78-9640-4226-97e2-751409629dbc</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyPromptForSaveState.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>7fd36959-89e0-4098-8166-84d91683d985</id>
+      <recordtableid>4d9e273e-afd2-4c3c-8628-930f9032d013</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifySaveStateDialog.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>fdfa58a8-5497-40d9-bd23-15f415de3eb3</id>
+      <recordtableid>4acfad82-c6e6-414d-987f-b59ffe890293</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifySessionOptions.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>cd655c3b-6ed5-49e4-8edf-48e74acebbc6</id>
+      <recordtableid>3db627bd-46a4-4294-b830-0cb100ef1ef6</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyThaiDetection.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>5f697b24-a25d-4211-a660-036471b1c564</id>
+      <recordtableid>46cded95-f243-4a5b-bc15-d66e3844059a</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyTraditionalChineseDetection.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>f3cb670c-f2eb-44b7-8edf-29aa275d29e9</id>
+      <recordtableid>4242176f-e1fd-484f-940a-8a565bd9da2c</recordtableid>
+    </None>
+    <None Include="FileHandling\VerifyUTF8Detection.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>b497932c-564d-4e59-989b-6d2b957ae0a5</id>
+      <recordtableid>7e96d2c8-1b86-4dc5-a878-b344fdb71477</recordtableid>
+    </None>
+    <None Include="GeneralRecordings\CloseAUT.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>d3fcb87c-9269-404f-a1b8-232e7fc0095c</id>
+      <recordtableid>1bf7a2c8-a5e7-4a64-91f7-f31777f468e7</recordtableid>
+    </None>
+    <None Include="GeneralRecordings\OpenFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>c7bedab4-f7b6-4ad4-987d-625a4c70bfa0</id>
+      <recordtableid>86a4a5f3-5d95-466e-838a-0c9261985152</recordtableid>
+    </None>
+    <None Include="GeneralRecordings\OpenFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>6abb87bd-9a6c-4378-8e1c-b7786c04b7e9</id>
+      <recordtableid>7a5ab324-ab0e-4bf2-bc8f-6fcc72fcf84e</recordtableid>
+    </None>
+    <None Include="GeneralRecordings\OpenFindAndReplaceDialog.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>4f98fd45-a04e-4d35-a743-246c500711e4</id>
+      <recordtableid>52bd87ad-316e-4894-b0bc-2d499a91bfc5</recordtableid>
+    </None>
+    <None Include="GeneralRecordings\StartAUT.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>ad411d09-6dcb-48df-a8cd-3d8c2d3e3902</id>
+      <recordtableid>e2650338-2dbb-41bb-a3a6-4798caf81207</recordtableid>
+    </None>
+    <None Include="GeneralRecordings\ValidateOutputWindowText.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>b0b557cc-a597-4c94-b8e6-5f470c82aaf5</id>
+      <recordtableid>ac540112-662b-4521-bc2b-05443ff3f890</recordtableid>
+    </None>
+    <None Include="SearchTests\ChangingSettingsForClearHistory.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>6dac777f-1464-40e7-8cc7-fbe5b89dc9eb</id>
+      <recordtableid>a90b4107-da59-4b80-8a3e-ba6086021c1b</recordtableid>
+    </None>
+    <None Include="SearchTests\CloseQuickFindandValidate.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>e95ce4e2-b90b-468f-92fd-868519bf86ab</id>
+      <recordtableid>3af88c2c-0385-41c5-9620-e68a632529ed</recordtableid>
+    </None>
+    <None Include="SearchTests\CreateNewProject.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>54fd7263-f2b8-4242-ad6d-f344cca7ddb9</id>
+      <recordtableid>7c6a1689-f1e2-49ff-ac4b-2c81fbe3c7c5</recordtableid>
+    </None>
+    <None Include="SearchTests\FindTabRegularExpression.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>04e0f81a-6d8c-4fb9-9755-3def931f3c3b</id>
+      <recordtableid>3e0e4776-bfc2-404b-9fa5-a8c702b234c3</recordtableid>
+    </None>
+    <None Include="SearchTests\MatchCase.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>47cb5bea-8824-4903-a0b3-d1752ee0bf02</id>
+      <recordtableid>e6385fd6-39e2-46c1-86fe-44094e989c26</recordtableid>
+    </None>
+    <None Include="SearchTests\OpenFindDialog.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>aacb9529-c786-443f-9fc2-085fb8a8072c</id>
+      <recordtableid>97666bd3-d9e1-4855-b687-7c24f4429f6c</recordtableid>
+    </None>
+    <None Include="SearchTests\OpenHexFindAndReplaceDialog.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>398cbad3-292d-4ee3-9400-683d2aa90a42</id>
+      <recordtableid>9d8cc124-2259-47d8-b082-64c86ec1eb68</recordtableid>
+    </None>
+    <None Include="SearchTests\OpenQuickFind.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>3b8010fb-3ae3-4704-9558-c34d17b6cdc1</id>
+      <recordtableid>dfcde82f-883f-4d9a-ba67-27a762c8c55a</recordtableid>
+    </None>
+    <None Include="SearchTests\PerformSearchCriteria.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>23143db3-5c7d-4b51-842f-090d46315624</id>
+      <recordtableid>11ed9aa5-4ddf-4d81-9451-3977c3bdb6e3</recordtableid>
+    </None>
+    <None Include="SearchTests\ReplaceTabRegularExpression.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>4e1aa0ac-dbba-4996-85fa-72f5da7e2ca4</id>
+      <recordtableid>103f669d-51d0-4654-989f-5c5de6474b6e</recordtableid>
+    </None>
+    <None Include="SearchTests\SearchCriteriaForEditWindow.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>841b0c9b-4a7e-4e59-8924-d8c4a5ac47d8</id>
+      <recordtableid>85b28673-7b93-435c-b571-826a70cf5480</recordtableid>
+    </None>
+    <None Include="SearchTests\SearchCriteriaForOpenFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>5767b75e-71fd-4cee-9a68-a83222e64337</id>
+      <recordtableid>69b8997f-3ff0-4671-bc3f-121b027a9d81</recordtableid>
+    </None>
+    <None Include="SearchTests\SearchCriteriaForProjectFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>ef5dc00b-3bb9-4d20-8b84-154890584d5e</id>
+      <recordtableid>4218b1e6-9d62-474e-b606-2117335f2fa8</recordtableid>
+    </None>
+    <None Include="SearchTests\SearchCriteriaForStringNotFoundInFiles.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>a62c8e41-0554-4ac9-bdbb-ece8ca7de98a</id>
+      <recordtableid>df8813d7-4ecf-4cf3-b72d-6e66074d3dbb</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateDefaultValuesForLinesBeforeAfter.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>ae8e15dd-acde-4254-8464-123121e1a0cf</id>
+      <recordtableid>404092f4-ac78-4d02-a306-520be121d188</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateFindResultsFile.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>7822de85-e7b5-4696-bd09-4120d612b964</id>
+      <recordtableid>3ffec21c-da52-4b7c-a169-86b7b80ba42e</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateMatchStringCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>deef877f-b4af-476c-ab04-4f1075d45470</id>
+      <recordtableid>69850bed-bb16-49e1-b33e-174fea4c5691</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateOutputWindowStringNotFound.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>e86746a3-95ec-4fb1-b5ec-dfe0e676a80c</id>
+      <recordtableid>2d258ea4-5e6a-4a1c-9093-0f42fabf3265</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidatePerlRegularExpressionCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>18d8794b-4699-47d8-b7e2-6fe392d84439</id>
+      <recordtableid>2fa6c601-7500-4a23-aed3-1c330cf91b92</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidatePerlRegularExpression_MatchStringCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>4be08020-0ff9-4035-b39c-edc05ec8b007</id>
+      <recordtableid>6ec00d98-45d4-4414-aa36-1c9b86266973</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateUltraEditRegularExpressionCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>5095fada-7618-4dc8-98bf-874764ed3256</id>
+      <recordtableid>3663032b-ec34-435a-adf2-f476ceab34e4</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateUltraEditRegularExpression_MatchStringCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>8559f116-4961-4057-bb2e-b8e13742cb07</id>
+      <recordtableid>df9b4d3f-127f-4e4d-9916-6b04b2aaf3b0</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateUnixRegularExpressionCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>52419ae0-bbdb-4c94-be2d-82db8714cb6b</id>
+      <recordtableid>e8b28476-17e8-42c5-b71f-b93aba1c4d3a</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidateUnixRegularExpression_MatchStringCount.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>c27f8246-3cb3-4931-8884-32c9353ab6c8</id>
+      <recordtableid>e4b93ddb-9f3a-4174-b608-21c0a1fd174f</recordtableid>
+    </None>
+    <None Include="SearchTests\ValidatingQuickFindDialogPosition.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>8eaabc14-07b8-453d-9a15-f50a571f1154</id>
+      <recordtableid>599e747d-5423-4b6d-abef-ac8a1f3576fd</recordtableid>
+    </None>
+    <None Include="SearchTests\VerifyHistoryAfterChangingSettings.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>73b9d8cb-fd22-46b7-8ab4-3de9d3334928</id>
+      <recordtableid>564a15cb-08d2-4503-975c-fdcfa624652c</recordtableid>
+    </None>
+    <None Include="SearchTests\VerifyHistoryBeforeChangingSettings.rxrec">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <id>8349d696-ede0-4f2d-83d8-a386e05a0680</id>
+      <recordtableid>dc6151b8-f755-4c33-af46-dcc38882c83b</recordtableid>
+    </None>
+    <None Include="UltraEditAutomationRepository.rximg">
+      <BoundTo>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</BoundTo>
+      <DependentUpon>UltraEditAutomationRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>321fd5ef-fa0e-4943-b4ca-36f3ba154203</id>
+    </None>
+    <None Include="UltraEditAutomationRepository.rxrep">
+      <id>91d5db8d-efc0-49fa-b2ff-21df4cb3efef</id>
+      <repoid>b697612f-b6e1-428c-a528-831bd57006ad</repoid>
+      <reporootid>53beb013-b633-4b2b-a168-b0173ef46ccf</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UltraEditAutomation.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f4d18708-b254-497a-af05-9d31b873cea0</id>
+    </Content>
+    <Content Include="UltraEditAutomation.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>935998ad-183d-4ca1-a518-8a3f4b8253df</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common">
+      <id>162aa2c0-11f7-48d2-bdde-3205bec2b4e3</id>
+    </Folder>
+    <Folder Include="Editing">
+      <id>979b556c-55f9-44b2-8176-49ac258d4e08</id>
+    </Folder>
+    <Folder Include="FileHandling">
+      <id>9c690a57-1f1f-40db-ad38-1f4b0176a95b</id>
+    </Folder>
+    <Folder Include="GeneralRecordings">
+      <id>bae5312c-a7c8-4183-a4aa-f64452701171</id>
+    </Folder>
+    <Folder Include="SearchTests">
+      <id>3202205a-8581-4fb1-8d64-f81737959551</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
 </Project>

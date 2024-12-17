@@ -11,7 +11,7 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="UltraEditAutomation.ConvertTargetToUTF8.PrintCopiedText()" />
+      <Element value="UltraEditAutomation.VerifyFile_inMultipleLine.VerifyTextIsInMultipleLines()" />
       <Element value="UltraEditAutomation.ConvertTargetToUTF8.PrintCopiedText()" />
       <Element value="UltraEditAutomation.VerifyEncodingValue.NavigateTabAndVerifyEncoding()" />
       <Element value="UltraEditAutomation.ASCIItoEBCDICConversion.CheckAndClickYesButton(RepoItemInfo buttonYes)" />

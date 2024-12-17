@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="b697612f-b6e1-428c-a528-831bd57006ad"
 name="UltraEditAutomationRepository">
 	<codegen
@@ -698,7 +697,6 @@ o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
 			refpath="/form[@title='[C:\UltraEditFiles\ue-20241025T061201Z-001\ue\codePageDetection\_li_thai.txt] - UltraEdit 64-bit']/element[@controlid='59393']/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']"
 			robustPath="/form[@title>'[C:\UltraEditFiles\ue-202']//text[@accessiblename='874   (ANSI/OEM - Thai)']"
 			searchtimeout="30000ms">
-				/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']
 				<image
 				guid="12daeb6a-465a-48d3-aceb-1fe6eb82a22f"
 				name="Screenshot1">
@@ -717,6 +715,7 @@ zAY1EMEetFfB5RUyFLf25fLj+VkbPJMuijveh+sJwuuAhUT9/vBOSYUZknFAPMc3utb5WX/sMQLh
 eJpUzeRXhJUTqaF6zVC3Xe8Pcdvvpp5cy/iwjMHzszZ8pnWtK/8XpO24vj2o8cfdL8IV/OHIBAwN
 7H9FcBD/hPDeFbzgEZDb1P72N4Rf8OtYhJ8pSPiC9/QNuSEOVH5lkSMAAAAASUVORK5CYII=
 				</image>
+				/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename='874   (ANSI/OEM - Thai)']
 			</item>
 			<item
 			addcaps="text,accessible"
@@ -727,7 +726,6 @@ eJpUzeRXhJUTqaF6zVC3Xe8Pcdvvpp5cy/iwjMHzszZ8pnWtK/8XpO24vj2o8cfdL8IV/OHIBAwN
 			refpath="/form[@title='[C:\UltraEditFiles\ue-20241025T061201Z-004\ue\codePageDetection\stringtable_tc.resource] - UltraEdit 64-bit']/element[@controlid='59393']/statusbar[@accessiblename='StatusBar']/text[@accessiblename='950   (ANSI/OEM - Traditional Chinese Big5)']"
 			robustPath="/form[@title>'[C:\UltraEditFiles\ue-202']//text[@accessiblename>'950   (ANSI/OEM - Traditional']"
 			searchtimeout="30000ms">
-				/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename&gt;'950   (ANSI/OEM - Traditional']
 				<image
 				guid="48107aa3-594b-4203-9b5c-15839a470329"
 				name="Screenshot1">
@@ -753,6 +751,7 @@ ShKwN1UCT/oEF30hO8Lj/SAtkiT3Rm6b7gSBwRvfpLlJjmOQm0zDjSmy2n/MBc4bf5IvIuf4OoSV
 /ZG8Z2/w8/W7cZvx4qQkuDf+ZHJZ1l8CDu2yWc9dRVPm0yRwcDL5H9A3P97iHvgJveY6mnIymTRm
 U04mVwY1JfO4/AHzsLF7JB5pJwAAAABJRU5ErkJggg==
 				</image>
+				/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/statusbar[@accessiblename='StatusBar']/text[@accessiblename&gt;'950   (ANSI/OEM - Traditional']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -871,6 +870,28 @@ U04mVwY1JfO4/AHzsLF7JB5pJwAAAABJRU5ErkJggg==
 				robustPath="/form[@title>'[C:\UltraEditFiles\ue-202']//button[@accessiblename='Paste']"
 				searchtimeout="30000ms">
 					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Paste']
+				</item>
+				<item
+				addcaps="tabpage,accessible"
+				capname="tabpage"
+				id="77dd594d-19d1-4b53-804a-cd3be03418d9"
+				name="Edit"
+				refimgid="7b082850-f9d7-41b8-b84a-ea97cd02604a"
+				refpath="/form[@title>'[C:\UltraEditFiles\ue-202']/element[@controlid='59398']/toolbar/container/tabpage[@accessiblename='Edit']"
+				robustPath=".//tabpage[@accessiblename='Edit']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Edit']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="00838eed-376e-4c04-b3c9-112ebde3544d"
+				name="Copy"
+				refimgid="80c1c881-e1a3-44d6-9d00-f20366a6220b"
+				refpath="/form[@title>'[C:\UltraEditFiles\ue-202']/element[@controlid='59398']/toolbar/toolbar[@accessiblename='Home']/toolbar[@accessiblename='Clipboard']/button[@accessiblename='Copy']"
+				robustPath=".//button[@accessiblename='Copy']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Copy']
 				</item>
 				<basepath>
 					/form[@title&gt;'[C:\UltraEditFiles\ue-202']/?/?/toolbar[@accessiblename=' ']
@@ -1831,6 +1852,17 @@ gc/UTS3sz5Ec0dpYyoplRP37P7D52SmK0pdF8cXN4yJ89l+YWp4g+GokjKqnwX9rXn6q7Fz9AcmJ
 			searchtimeout="30000ms">
 				/form[@processname='uedit64']/container[@controlid='59648']//tabpage[@accessiblename='strings.txt*']
 			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="baafa883-550d-4d0e-98c7-e6ea25d8b152"
+			name="SelectAll"
+			refimgid="f5371e3b-c6e7-47f0-a049-2bb506a6eec9"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='Select all']"
+			robustPath=".//menuitem[@accessiblename='Select all']"
+			searchtimeout="30000ms">
+				/form[@processname='uedit64']/?/?/toolbar[@accessiblename='Select']/menuitem[@accessiblename='Select all']
+			</item>
 			<basepath>
 				/form[@processname='uedit64']
 			</basepath>
@@ -2757,7 +2789,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="12637a40-349c-4377-8b59-359116562e64"
 		isrooted="True"
 		name="AdministratorCmd"
-		refpath="/form[@title='Administrator: C:\Windows\System32\cmd.exe']"
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
@@ -2766,13 +2797,12 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="06037ab5-08b3-46ab-aa34-d793dcff715b"
 			name="TextArea"
 			refimgid="21ab61a8-79b0-4237-8094-dc052a315f4f"
-			refpath="/form[@title='Administrator: C:\Windows\System32\cmd.exe']/text[@automationid='Text Area']"
 			robustPath="/form[@title>'Administrator: C:\Windows']/text[@automationid='Text Area']"
 			searchtimeout="30000ms">
-				/form[@title&gt;'Administrator: C:\Windows']/text[@automationid='Text Area']
+				/form[@title='Administrator: C:\Windows\System32\cmd.exe']/text[@automationid='Text Area']
 			</item>
 			<basepath>
-				/form[@title&gt;'Administrator: C:\Windows']
+				/form[@title='Administrator: C:\Windows\System32\cmd.exe']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

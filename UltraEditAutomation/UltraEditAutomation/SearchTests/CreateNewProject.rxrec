@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7c6a1689-f1e2-49ff-ac4b-2c81fbe3c7c5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateNewProject"
+	namespace="UltraEditAutomation.SearchTests">
+	</codegen>
+	<variables>
+		<var
+		id="78c821ba-3979-4458-9cc7-8db2494ced8c"
+		name="ProjectName">
+		</var>
+		<var
+		id="cd0ddc78-73db-4354-834f-724dca0b2bcc"
+		name="DirectoryPath">
+		</var>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Select"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3ef67266-6850-45e8-ae0d-4cbf2c6d6d92">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53445db1-7a37-4ba6-bab4-3223536a9609"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Project' and @accessiblerole='PageTab']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="726245e7-2e88-4b34-a6b0-a2d8b7995142">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d51011a0-94ac-4811-9ab6-7f8f63213a6e"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="53445db1-7a37-4ba6-bab4-3223536a9609"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Project' and @accessiblerole='PageTab']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e9ba113a-7145-423a-9183-f784215e89ac"
+		sx="136"
+		sy="63"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e243fd8d-de1c-41bd-b405-7054f4e157fa"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="92,52,88,22"
+				role="button"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Project']/?/?/button[@accessiblename='New project' and @accessibledefaultaction='Press']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="070d745f-d17c-424b-aaee-291b938db4b7"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="82e07493-fb5a-42ae-a340-caa3dbe8d102"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="form"
+				rect="675,304,571,424"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALnSURBVDhPfZNrSFNhGMfP3HbczbOLOt1gRYha
+lBcqEzWxjVZQhpFRItnEQrIaBCoJQW9hTCuwNIru4IfIJUQXJ3RVSqgob9nmzEs3zal9i7744W/P
+2WTZhf7w43DOeX/Pc973vC/3j2iITQRbQAGhI/4bLVGRutwyGRiuR+A9w9SgE1Pe1QgMaJG9ip+m
+90cJEyEhfku0RCJxBYZPkjgv+w8i4CP5nQ6TvZH4+orHRJccNO4OjV8S0kLh6WFtUJ7vHBBlbwZ1
+JrmHD8vjHXJ8fsiLRa6QJ4R0jst17lv/faz/BJ4/YOju3I/xt5no7TCi87aA1/dUeHYzEp5LPO6d
+k6OtkcdQqxrkbQnaVM094a/DfTdDmWMrGMtC39NYulpQVJgAVhmDkm1qpC2LxLKECOStlOLFRY34
+FU+DBfJykmc+exlcx8pgs+WCHU7GI7eA7QVLYF+3GHt36rA0gUdqkgxFdhmOlEai57KAmmLND9J5
+bvZb09zHficqnVbYrCtxipnRcl5AeqoFO/KNKM5XIEotQXZaBKp38Wiv08B/XYuhqzpxGonc7LRz
+bvR1JtZb02G3JuNmkw71TIDRaMTuAgGFdilkUg5xBgkWx0nQzDTwXdZh8II+VGBdjjAz/FKPlJRk
+6roIBxx6bLJpYTIK2LVZgY3ZEYhScdiYIUXJBh6PXUJQrioMTkEuLmLbh5cKVDiMMMXHw2zSISZa
+DXuWAqycR3pSBOQyDhajBGtXSNHOtPA1RouL+IQKBGMdp//c1aJEA1OBVSlRW6PE3ZNKtJ9S4/gh
+JVgpFSuha7kKXS49vGdjfv1GiriRrn+hTTLi4eFtVWDQrcaIOwpDzQL6LmrRfU6LNw16vDltwMCZ
+YPcb5IlbPxwzPfR88ijw8Y4KY7eiMHpDwHBzaLXFOXsbDcHONO4xjU8k/joPMUR1SoJ8Mixf0cFP
+sq/JgDVJ4cNkJv6SFyaWcFCnS0QHcY3u9xCi+Ec47icxtYFJho9VyAAAAABJRU5ErkJggg==
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Specify Project File
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						#32770
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Win32
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						dialogue
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Specify Project File
+					</attribute>
+					<attribute
+					name="nativewindowhandle"
+					type="System.Int32">
+						2951876
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						55804
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='uedit64']/form[@name='Specify Project File' and @controltype='Window']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="87d1b66e-f63f-4e93-bd34-c9a22ef37e4d">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ProjectName">
+				</binding>
+			</bindings>
+			<info
+			id="242977bd-fe01-4db9-8ef2-0e045b64e44c"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/combobox[@controlid='1148']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3298075c-595c-455d-8dc6-a2a74c944f45"
+		sx="1194"
+		sy="674"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2cf4c3e0-a09a-464d-a161-f82a4515fdb1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/button[@text='&amp;Save' and @class='Button' and @processname='uedit64']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="CreateNewProject"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckAndClickYesButton"
+		namespace="UltraEditAutomation.SearchTests"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c2778fe3-fc86-4287-ac1c-11e6fb34a0c2">
+				<argument
+				argname="buttonYes"
+				id="dd09da21-27fc-486d-a9f2-2dcc56da0f3d">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="9c2af75e-016d-4766-8f9f-deca150be7d1"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@processname='uedit64']/container[@class='DirectUIHWND']/?/?/button[@text='&amp;Yes']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="af64e01e-4a00-4dfe-864f-fa961dbbf4fe"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dc4e6138-957f-4af4-aa53-b07f46aff15d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/form[@name&gt;'Project Settings - [fifPr']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<invokeactionrecorditem
+		action="Press"
+		enabled="True"
+		optional="False"
+		searchpropertyid="541a2f7f-dd6f-465a-aedf-86f0d953fe63">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf98df23-9e93-4b85-bb9e-d2d244ccdbcc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/button[@text='&amp;Add folder...']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="e4bf125d-6d17-4714-a565-dbba4d125633">
+			</arguments>
+		</invokeactionrecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c33d9a83-d994-47b7-be2d-d18b6b974645"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a39c3ebb-9fa9-4e7f-a231-54d35124a101"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="form"
+				rect="785,328,351,377"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						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
+SUVORK5CYII=
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Add Folder
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						#32770
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Win32
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						dialogue
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Add Folder
+					</attribute>
+					<attribute
+					name="nativewindowhandle"
+					type="System.Int32">
+						4001784
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						55804
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='uedit64']/?/?/form[@name='Add Folder']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="e9b5c902-6604-415d-a7d3-18693225aef7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="DirectoryPath">
+				</binding>
+			</bindings>
+			<info
+			id="b43a312a-2429-42cc-8c79-3bd6ea4a14a3"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/text[@controlid='342']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dcd7af95-98a0-4c83-a767-71fb54ef62ed"
+		sx="1078"
+		sy="676"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9e1b8a8d-88ef-4a0b-b9f8-f42b4238e6b7"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/button[@text='&amp;Add']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="Close"
+		enabled="True"
+		optional="False"
+		searchpropertyid="011e696f-97b4-4535-8722-fa431571b409">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dc4e6138-957f-4af4-aa53-b07f46aff15d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='uedit64']/form[@name&gt;'Project Settings - [fifPr']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="41de9b40-78c7-4ab8-8a2f-a4625b4469ad">
+			</arguments>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateNewProject.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

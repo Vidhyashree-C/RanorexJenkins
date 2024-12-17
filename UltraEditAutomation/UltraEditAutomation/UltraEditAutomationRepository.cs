@@ -2336,6 +2336,8 @@ namespace UltraEditAutomation
         {
             RepoItemInfo _edit1Info;
             RepoItemInfo _pasteInfo;
+            RepoItemInfo _editInfo;
+            RepoItemInfo _copyInfo;
 
             /// <summary>
             /// Creates a new ToolBar  folder.
@@ -2345,6 +2347,8 @@ namespace UltraEditAutomation
             {
                 _edit1Info = new RepoItemInfo(this, "Edit1", "toolbar[@accessiblename='Edit']", "", 30000, null, "ba01f167-d64c-43d7-a7fc-951011780a00");
                 _pasteInfo = new RepoItemInfo(this, "Paste", "toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Paste']", "", 30000, null, "6145e8b5-db98-4335-88c9-d5d0d4a5f52f");
+                _editInfo = new RepoItemInfo(this, "Edit", "?/?/tabpage[@accessiblename='Edit']", "", 30000, null, "77dd594d-19d1-4b53-804a-cd3be03418d9");
+                _copyInfo = new RepoItemInfo(this, "Copy", "toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Copy']", "", 30000, null, "00838eed-376e-4c04-b3c9-112ebde3544d");
             }
 
             /// <summary>
@@ -2416,6 +2420,54 @@ namespace UltraEditAutomation
                 get
                 {
                     return _pasteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Edit item.
+            /// </summary>
+            [RepositoryItem("77dd594d-19d1-4b53-804a-cd3be03418d9")]
+            public virtual Ranorex.TabPage Edit
+            {
+                get
+                {
+                    return _editInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Edit item info.
+            /// </summary>
+            [RepositoryItemInfo("77dd594d-19d1-4b53-804a-cd3be03418d9")]
+            public virtual RepoItemInfo EditInfo
+            {
+                get
+                {
+                    return _editInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy item.
+            /// </summary>
+            [RepositoryItem("00838eed-376e-4c04-b3c9-112ebde3544d")]
+            public virtual Ranorex.Button Copy
+            {
+                get
+                {
+                    return _copyInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy item info.
+            /// </summary>
+            [RepositoryItemInfo("00838eed-376e-4c04-b3c9-112ebde3544d")]
+            public virtual RepoItemInfo CopyInfo
+            {
+                get
+                {
+                    return _copyInfo;
                 }
             }
         }
@@ -2767,6 +2819,7 @@ namespace UltraEditAutomation
             RepoItemInfo _buttonokInfo;
             RepoItemInfo _newfiletxtInfo;
             RepoItemInfo _stringstxtasteriskInfo;
+            RepoItemInfo _selectallInfo;
 
             /// <summary>
             /// Creates a new Uedit64  folder.
@@ -2839,6 +2892,7 @@ namespace UltraEditAutomation
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@text='&OK']", "button[@text='&OK']", 30000, null, "d53c7d78-3a45-44a4-bdbf-9553b001a00e");
                 _newfiletxtInfo = new RepoItemInfo(this, "NewfileTxt", "container[@controlid='59648']//tabpage[@accessiblename='newfile.txt']", ".//tabpage[@accessiblename='newfile.txt']", 30000, null, "9dade4fe-a213-4484-aef4-de71d9e5794e");
                 _stringstxtasteriskInfo = new RepoItemInfo(this, "StringsTxtAsterisk", "container[@controlid='59648']//tabpage[@accessiblename='strings.txt*']", ".//tabpage[@accessiblename='file.txt*']", 30000, null, "e91b423f-9634-47db-b01d-b30b10f0bd69");
+                _selectallInfo = new RepoItemInfo(this, "SelectAll", "?/?/toolbar[@accessiblename='Select']/menuitem[@accessiblename='Select all']", ".//menuitem[@accessiblename='Select all']", 30000, null, "baafa883-550d-4d0e-98c7-e6ea25d8b152");
             }
 
             /// <summary>
@@ -4422,6 +4476,30 @@ namespace UltraEditAutomation
                 get
                 {
                     return _stringstxtasteriskInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SelectAll item.
+            /// </summary>
+            [RepositoryItem("baafa883-550d-4d0e-98c7-e6ea25d8b152")]
+            public virtual Ranorex.MenuItem SelectAll
+            {
+                get
+                {
+                    return _selectallInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectAll item info.
+            /// </summary>
+            [RepositoryItemInfo("baafa883-550d-4d0e-98c7-e6ea25d8b152")]
+            public virtual RepoItemInfo SelectAllInfo
+            {
+                get
+                {
+                    return _selectallInfo;
                 }
             }
         }
@@ -6278,7 +6356,7 @@ namespace UltraEditAutomation
             /// Creates a new AdministratorCmd  folder.
             /// </summary>
             public AdministratorCmdAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("AdministratorCmd", "/form[@title>'Administrator: C:\\Windows']", parentFolder, 30000, null, true, "12637a40-349c-4377-8b59-359116562e64", "")
+                    base("AdministratorCmd", "/form[@title='Administrator: C:\\Windows\\System32\\cmd.exe']", parentFolder, 30000, null, true, "12637a40-349c-4377-8b59-359116562e64", "")
             {
                 _textareaInfo = new RepoItemInfo(this, "TextArea", "text[@automationid='Text Area']", "text[@automationid='Text Area']", 30000, null, "06037ab5-08b3-46ab-aa34-d793dcff715b");
             }

@@ -83,6 +83,28 @@
 			type="UserCode">
 			</testmodule>
 			<testmodule
+			id="0332820f-5922-4b30-ae10-797babb5f471"
+			name="OpenFile"
+			ref="86a4a5f3-5d95-466e-838a-0c9261985152"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="FileName"
+					datasourceid="1526f42b-db62-4441-ad55-3934e4f79954"
+					variableid="039f2917-7ffd-4039-9459-b9be9c68f26e"
+					variablename="Filepath">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="FilePath"
+					datasourceid="60c8d6d2-9990-400f-996e-53661e21789e"
+					variableid="039f2917-7ffd-4039-9459-b9be9c68f26e"
+					variablename="Filepath">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="0410f28d-0fa7-4c9a-9edd-eabb0d4b88ab"
 			name="ValidateDefaultValuesForLinesBeforeAfter"
 			ref="404092f4-ac78-4d02-a306-520be121d188"
@@ -421,7 +443,7 @@
 					<param
 					mask="False"
 					name="FileName"
-					value="C:\UltraEditFiles\ue-20241025T061201Z-001\ue\deleteEmpty\ASCII_DOS.txt">
+					value="C:\UltraEditFiles\ue-20241025T061201Z-001\ue\codePageDetection\ascii.txt">
 					</param>
 				</parameters>
 			</testcase>
@@ -475,6 +497,20 @@
 			name="ModifyTheFile"
 			ref="2bed0fef-c9ef-4068-a575-e58d9050fbc9"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="18c5ce01-d31a-4298-bca1-6c09fbe46ee2"
+			name="CloseAUT"
+			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="6fdd8673-017f-4293-8641-eb9f3ba7c872"
+					variableid="b268e45b-7775-4008-b608-c5d144175e07"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="1946992d-1281-41e2-969c-57951d350818"
@@ -898,6 +934,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="3cbe997e-2b01-4500-87be-611bae6097b6"
+			name="ValidateTheDataPresentInTheFile"
+			ref="44411f4e-c2d1-4eb6-a4c6-8dbb15b4ee5d"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="3e7015b8-c559-484f-a84a-ed31e3f98639"
 			name="FileDeletion"
 			ref="11ae5738-4113-49ff-8da3-50cd33535578"
@@ -971,7 +1013,7 @@
 			</testmodule>
 			<testmodule
 			id="42dc7875-8421-4fef-9a3a-b4b1bc6e741d"
-			name="ValidateBakBackupFileCreatedOrNot"
+			name="ValidateBakBackupFileCreated"
 			ref="9883c95c-fed6-4d71-8d54-3078246b4284"
 			type="UserCode">
 				<databinding>
@@ -1225,6 +1267,28 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="51e5d71c-517b-4cbd-ad87-bdb453562035"
+			name="CreateNewFilesAndPasteTheData"
+			ref="9e7724d3-6e9a-4d38-8c63-f364dffd76fb"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="savefilepath"
+					datasourceid="b9507d47-b388-437f-b2dd-dba1411aed29"
+					variableid="450c1a83-d955-4f85-9c68-402f4379bd31"
+					variablename="savefilepath">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="SaveFilePath"
+					datasourceid="8ecd74f0-d8b1-4c67-931d-a8b98307a7fb"
+					variableid="450c1a83-d955-4f85-9c68-402f4379bd31"
+					variablename="savefilepath">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="524a3af2-7a5f-42d2-96f0-ac491fb86b2e"
 			name="CloseAUT"
 			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
@@ -1447,12 +1511,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="66ceb6c8-171c-48d3-a73e-2c49a1b514e9"
-			name="CloseWindow"
-			ref="95084b25-0b93-4f8f-9e9e-e31ad38bcccb"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="671423a5-e26f-4126-962c-e042d20ed12c"
 			name="OpenFile"
 			ref="86a4a5f3-5d95-466e-838a-0c9261985152"
@@ -1515,6 +1573,20 @@
 					variablename="Filepath">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="6cd56b5f-7cfa-4179-8f12-dfc03b7dcd55"
+			name="CloseAUT"
+			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="6fdd8673-017f-4293-8641-eb9f3ba7c872"
+					variableid="b268e45b-7775-4008-b608-c5d144175e07"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="6da26a39-4442-49e6-af01-585cc2548013"
@@ -1700,18 +1772,6 @@
 			ref="ac95e0b1-adb3-4393-98fa-39469d0158e6"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="77b838fe-ec95-448c-828d-13f03c72f4f8"
-			name="CloseWindow"
-			ref="95084b25-0b93-4f8f-9e9e-e31ad38bcccb"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="79094dd8-2825-4888-b0a0-2c5bbee03de5"
-			name="CloseWindow"
-			ref="95084b25-0b93-4f8f-9e9e-e31ad38bcccb"
-			type="Recording">
-			</testmodule>
 			<setup
 			id="7a12b5d1-20b9-4976-871e-07325aa20418"
 			name="setup">
@@ -1729,6 +1789,20 @@
 					variablename="Text">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="7c27d8d6-2dd0-480a-b612-d9206ba4e292"
+			name="CloseAUT"
+			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="6fdd8673-017f-4293-8641-eb9f3ba7c872"
+					variableid="b268e45b-7775-4008-b608-c5d144175e07"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="7eb2e896-83c6-4ebc-b341-3f24c4130624"
@@ -1956,12 +2030,17 @@
 					<param
 					mask="False"
 					name="FileName"
-					value="C:\UltraEditFiles\ue-20241025T061201Z-001\ue\autoComplete\case.txt">
+					value="C:\UltraEditFiles\ue-20241025T061201Z-001\ue\fileProperties\ansi.txt">
 					</param>
 					<param
 					mask="False"
 					name="SourceFile"
-					value="C:\UltraEditFiles\ue-20241025T061201Z-001\ue\autoComplete\case.bak">
+					value="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\TestData\test.bak">
+					</param>
+					<param
+					mask="False"
+					name="SaveFilePath"
+					value="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\TestData\test.txt">
 					</param>
 				</parameters>
 			</testcase>
@@ -2037,6 +2116,28 @@
 					datasourceid="6fdd8673-017f-4293-8641-eb9f3ba7c872"
 					variableid="b268e45b-7775-4008-b608-c5d144175e07"
 					variablename="CloseAutProcessIDVar">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="95273db6-1f53-4ba0-98d0-d8980c688225"
+			name="OpenFile"
+			ref="86a4a5f3-5d95-466e-838a-0c9261985152"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="BackupFile"
+					datasourceid="b9507d47-b388-437f-b2dd-dba1411aed29"
+					variableid="039f2917-7ffd-4039-9459-b9be9c68f26e"
+					variablename="Filepath">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="SourceFile"
+					datasourceid="8ecd74f0-d8b1-4c67-931d-a8b98307a7fb"
+					variableid="039f2917-7ffd-4039-9459-b9be9c68f26e"
+					variablename="Filepath">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -2602,12 +2703,17 @@
 					<param
 					mask="False"
 					name="BackupDirectory"
-					value="C:\BackupDirectory">
+					value="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\BackupDirectory">
 					</param>
 					<param
 					mask="False"
 					name="BackupFile"
-					value="C:\BackupDirectory\ansi.bak">
+					value="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\BackupDirectory\test.bak">
+					</param>
+					<param
+					mask="False"
+					name="savefilepath"
+					value="C:\RanorexUltraEdit\UltraEditAutomation\UltraEditAutomation\BackupDirectory\test.txt">
 					</param>
 				</parameters>
 			</testcase>
@@ -3049,12 +3155,9 @@
 			</testmodule>
 			<testmodule
 			id="d4e52e5f-8cf9-4512-925a-fb88f3438c9c"
-			name="ValidateTheSameFileShouldOpen"
+			name="ValidateTheDataPresentInTheFile"
 			ref="44411f4e-c2d1-4eb6-a4c6-8dbb15b4ee5d"
 			type="Recording">
-				<description>
-					<![CDATA[Exact file is not open so not added validation code]]>
-				</description>
 			</testmodule>
 			<teardown
 			id="d5810541-1e05-4bf4-b4af-38412e468329"
@@ -3246,7 +3349,7 @@
 			</testmodule>
 			<testmodule
 			id="dd74e5da-ecad-4a00-8b40-0fd4b69abf84"
-			name="ValidateBakBackupFileCreatedOrNot"
+			name="ValidateBakBackupFileCreated"
 			ref="9883c95c-fed6-4d71-8d54-3078246b4284"
 			type="UserCode">
 				<databinding>
@@ -3303,6 +3406,28 @@
 			type="UserCode">
 			</testmodule>
 			<testmodule
+			id="e29bae33-335b-469b-8679-66bb97786385"
+			name="OpenFile"
+			ref="86a4a5f3-5d95-466e-838a-0c9261985152"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SourceFile"
+					datasourceid="8ecd74f0-d8b1-4c67-931d-a8b98307a7fb"
+					variableid="039f2917-7ffd-4039-9459-b9be9c68f26e"
+					variablename="Filepath">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="FileName"
+					datasourceid="1526f42b-db62-4441-ad55-3934e4f79954"
+					variableid="039f2917-7ffd-4039-9459-b9be9c68f26e"
+					variablename="Filepath">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="e2fb4fe4-d7e7-4d56-98bf-6561df1fc79a"
 			name="SearchCriteriaForStringNotFoundInFiles"
 			ref="df8813d7-4ecf-4cf3-b72d-6e66074d3dbb"
@@ -3327,6 +3452,12 @@
 					variablename="Path">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="e377f953-9723-4049-bcb4-2705f7bee274"
+			name="ValidateTheDataPresentInTheFile"
+			ref="44411f4e-c2d1-4eb6-a4c6-8dbb15b4ee5d"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="e3dcaee2-1612-4024-909d-c676dee664cd"
@@ -3592,6 +3723,20 @@
 			id="f56b0ebd-47ae-4597-abcd-44503324c8ec"
 			name="setup">
 			</setup>
+			<testmodule
+			id="f717b7f7-1220-4867-ba95-a3f49f6fff51"
+			name="CreateNewFilesAndPasteTheData"
+			ref="9e7724d3-6e9a-4d38-8c63-f364dffd76fb"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SaveFilePath"
+					datasourceid="8ecd74f0-d8b1-4c67-931d-a8b98307a7fb"
+					variableid="450c1a83-d955-4f85-9c68-402f4379bd31"
+					variablename="savefilepath">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="f733ab98-d27f-4e37-9bf6-74e0130ebbdb"
 			name="SearchCriteriaForOpenFiles"
@@ -5141,15 +5286,19 @@
 								name="StartAUT">
 								</testmodule>
 								<testmodule
+								id="0332820f-5922-4b30-ae10-797babb5f471"
+								name="OpenFile">
+								</testmodule>
+								<testmodule
 								id="d4e52e5f-8cf9-4512-925a-fb88f3438c9c"
-								name="ValidateTheSameFileShouldOpen">
+								name="ValidateTheDataPresentInTheFile">
 								</testmodule>
 								<teardown
 								id="984962eb-53a1-4df9-ab55-fcc147066848"
 								name="teardown">
 									<testmodule
-									id="79094dd8-2825-4888-b0a0-2c5bbee03de5"
-									name="CloseWindow">
+									id="18c5ce01-d31a-4298-bca1-6c09fbe46ee2"
+									name="CloseAUT">
 									</testmodule>
 								</teardown>
 							</testcase>
@@ -5177,19 +5326,31 @@
 								name="OpenFile">
 								</testmodule>
 								<testmodule
+								id="f717b7f7-1220-4867-ba95-a3f49f6fff51"
+								name="CreateNewFilesAndPasteTheData">
+								</testmodule>
+								<testmodule
 								id="decde542-6a50-4b08-bcd6-8adc7d708b85"
 								name="BackupSettingsWithReplaceExtension">
 								</testmodule>
 								<testmodule
 								id="dd74e5da-ecad-4a00-8b40-0fd4b69abf84"
-								name="ValidateBakBackupFileCreatedOrNot">
+								name="ValidateBakBackupFileCreated">
+								</testmodule>
+								<testmodule
+								id="e29bae33-335b-469b-8679-66bb97786385"
+								name="OpenFile">
+								</testmodule>
+								<testmodule
+								id="e377f953-9723-4049-bcb4-2705f7bee274"
+								name="ValidateTheDataPresentInTheFile">
 								</testmodule>
 								<teardown
 								id="3fd2e68e-fcde-42d9-86f0-73e05d1ad03d"
 								name="teardown">
 									<testmodule
-									id="77b838fe-ec95-448c-828d-13f03c72f4f8"
-									name="CloseWindow">
+									id="7c27d8d6-2dd0-480a-b612-d9206ba4e292"
+									name="CloseAUT">
 									</testmodule>
 								</teardown>
 							</testcase>
@@ -5213,19 +5374,31 @@
 								name="OpenFile">
 								</testmodule>
 								<testmodule
+								id="51e5d71c-517b-4cbd-ad87-bdb453562035"
+								name="CreateNewFilesAndPasteTheData">
+								</testmodule>
+								<testmodule
 								id="1fc63f0c-3ed1-4719-a1b5-fa385eb5f6a3"
 								name="BackupFileDefaultDirectory">
 								</testmodule>
 								<testmodule
 								id="42dc7875-8421-4fef-9a3a-b4b1bc6e741d"
-								name="ValidateBakBackupFileCreatedOrNot">
+								name="ValidateBakBackupFileCreated">
+								</testmodule>
+								<testmodule
+								id="95273db6-1f53-4ba0-98d0-d8980c688225"
+								name="OpenFile">
+								</testmodule>
+								<testmodule
+								id="3cbe997e-2b01-4500-87be-611bae6097b6"
+								name="ValidateTheDataPresentInTheFile">
 								</testmodule>
 								<teardown
 								id="afdd3312-bbf4-49d4-bcb1-91d51591ef40"
 								name="teardown">
 									<testmodule
-									id="66ceb6c8-171c-48d3-a73e-2c49a1b514e9"
-									name="CloseWindow">
+									id="6cd56b5f-7cfa-4179-8f12-dfc03b7dcd55"
+									name="CloseAUT">
 									</testmodule>
 								</teardown>
 							</testcase>
@@ -5386,25 +5559,25 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="2ee8f293-f8ff-4063-8474-47eeef5c266c">
-			</testcontainer>
-			<testcontainer
-			id="4d954276-fadf-4067-880c-e42324aaf048">
+			id="30e457c5-53a0-4681-905b-9436fb7b7ed7">
 			</testcontainer>
 			<testcontainer
 			id="6fdd8673-017f-4293-8641-eb9f3ba7c872">
 			</testcontainer>
 			<testcontainer
-			id="77a3d148-d2a1-4b86-8f0e-5c1bc7627e7f">
-			</testcontainer>
-			<testcontainer
-			id="a5e9503f-93b7-45a4-a415-bfec3e74d744">
+			id="bf0375ce-9d25-4ed3-b895-c151257cd6f1">
 			</testcontainer>
 			<testcontainer
 			id="c065cfe3-4560-42d3-8fce-da928e47a312">
 			</testcontainer>
 			<testcontainer
-			id="d3015180-2ae5-4f5e-a607-9735d60b2235">
+			id="c7e7f39a-63ab-4e08-a3c5-eaf24a137751">
+			</testcontainer>
+			<testcontainer
+			id="ddade01c-117a-4957-90c0-e6e0548f814e">
+			</testcontainer>
+			<testcontainer
+			id="f7cac758-3f47-42bb-b51a-ffdca956e7bb">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

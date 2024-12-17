@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4acfad82-c6e6-414d-987f-b59ffe890293"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifySaveStateDialog"
+	namespace="UltraEditAutomation.FileHandling">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="VerifySaveStateDialog"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckSaveState"
+		namespace="UltraEditAutomation.FileHandling"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c7b0ab67-2737-4785-8fd1-38626cc79543">
+				<argument
+				argname="formInfo"
+				id="c87a27ae-f8d4-45f2-8f58-4adbca28f252">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="dfe90453-3eae-43b1-b2e4-163b5d8103f1"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='uedit64']/form[@name='Save state is enabled']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="checkboxInfo"
+				id="80371f13-6f06-4078-91eb-95877e6b77d1">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="395a5056-8232-4086-b1df-d716db707e0f"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='uedit64']/checkbox[@text&gt;'Don''t show this window ag']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="buttonInfo"
+				id="55c26634-960d-4210-86da-e475d459b186">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="d53c7d78-3a45-44a4-bdbf-9553b001a00e"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='uedit64']/button[@text='&amp;OK']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifySaveStateDialog.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

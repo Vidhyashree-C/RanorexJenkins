@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="69b8997f-3ff0-4671-bc3f-121b027a9d81"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SearchCriteriaForOpenFiles"
+	namespace="UltraEditAutomation.SearchTests">
+	</codegen>
+	<variables>
+		<var
+		id="c8950b29-dfa6-4c2b-8520-2a4f79595a7e"
+		name="Text">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="SearchCriteriaForOpenFiles"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ClearTextField"
+		namespace="UltraEditAutomation.SearchTests"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="eff2f8a5-1af3-41d1-8557-1e4be99af1dc">
+				<argument
+				argname="TextField"
+				id="0374a4ca-04f3-4a67-8c10-6e735ad04aea">
+					<argvaluetype>
+						Ranorex.Adapter, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="dba2549e-5e61-4821-ae76-bcd27c4b7bdc"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Find and Replace']//container[@class='#32770']/text[@controlid='2541']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		KeySequence="test"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="908dbe9c-74d3-47c5-9dbc-420e4ed337b2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Text">
+				</binding>
+			</bindings>
+			<info
+			id="dba2549e-5e61-4821-ae76-bcd27c4b7bdc"
+			sourcename="Recorder">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="True"
+				index="1"
+				prefcap="text"
+				rect="671,429,338,73"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						2541
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						593066
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						30400
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						uedit64
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify, ClientEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, VerticalScrollBar, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Find and Replace']//container[@class='#32770']/text[@controlid='2541']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="34f69e29-f4bb-4c63-a797-729f6fcebfb0">
+				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
+dB/7LWcv3h9a0YP+QBcf9dB/7LWcv3h9axpby9f8ipdBlFFFbEj/AOFfpWjoX/H6/wD1zP8AMVnf
+wr9K0dC/4/X/AOuZ/mKxr/w2VHcoL92lpF+7S1uSFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFI33T9KWkb7p+lAE
+VFFFIDUg/wCQBcf9dB/7LWcv3h9a0YP+QBcf9dB/7LWcv3h9axpby9f8ipdBlFFFbEj/AOFfpWjo
+X/H6/wD1zP8AMVnfwr9K0dC/4/X/AOuZ/mKxr/w2VHcoL92lpF+7S1uSFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FI33T9KWkb7p+lAEVFFFIDUg/wCQBcf9dB/7LWcv3h9a0YP+QBcf9dB/7LWcv3h9axpby9f8ipdB
+lFFFbEj/AOFfpWjoX/H6/wD1zP8AMVnfwr9K0dC/4/X/AOuZ/mKxr/w2VHcoL92lpF+7S1uSFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFI33T9KWkb7p+lADAjEZCkj6UhVlGSpH1FWoiRbgryabc58pc9c0gLcH/IAu
+P+ug/wDZazl+8PrWjB/yALj/AK6D/wBlrOX7w+tY0t5ev+RUugyiiitiR/8ACv0rR0L/AI/X/wCu
+Z/mKzv4V+lTWl09pKZIwpJXb81Z1YuUGkOLsyIMAKXcKv/21c/3IvyP+NTyX9+JZEjgWQIxUssbd
+vxqeep/L+P8AwB2Xcydwo3CtA6xdqAWijGRkZU8j86T+2rn+5F+R/wAaOep/L+P/AAAsu5Q3CjcK
+v/21c/3IvyP+NH9tXP8Aci/I/wCNHPU/l/H/AIAWXcobhRuFX/7auf7kX5H/ABo/tq5/uRfkf8aO
+ep/L+P8AwAsu5Q3CjcKv/wBtXP8Aci/I/wCNH9tXP9yL8j/jRz1P5fx/4AWXcobhRuFX/wC2rn+5
+F+R/xo/tq5/uRfkf8aOep/L+P/ACy7lDcKNwq/8A21c/3IvyP+NH9tXP9yL8j/jRz1P5fx/4AWXc
+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
+			</helperscreenshot>
+		</keysequenceitem>
+		<invokeactionrecorditem
+		action="Select"
+		enabled="True"
+		optional="False"
+		searchpropertyid="46338964-7018-4fa9-9700-47c2ace077fe">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3d64b3c3-1fba-4a40-b496-fc6317e6a42d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="7"
+				prefcap="radiobutton"
+				rect="844,521,156,16"
+				role="radiobutton"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Open files
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						418
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						2036154
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						27336
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						uedit64
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Open files
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Find and Replace']//container[@class='#32770']/radiobutton[@text='&amp;Open files' and @windowtext='&amp;Open files' and @processname='uedit64']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="6963e5c6-e6a9-420f-be08-f3abdff1cc6d">
+			</arguments>
+		</invokeactionrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="113646aa-6641-45b6-9446-972356f82f79"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3d64b3c3-1fba-4a40-b496-fc6317e6a42d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="7"
+				prefcap="radiobutton"
+				rect="844,521,156,16"
+				role="radiobutton"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Open files
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						418
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						2036154
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						27336
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						uedit64
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Open files
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Find and Replace']//container[@class='#32770']/radiobutton[@text='&amp;Open files' and @windowtext='&amp;Open files' and @processname='uedit64']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Checked
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c6475497-3080-474c-871e-fa556a00c5f1"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f526be5-fa1c-4583-8691-5227072aa6ed"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Find and Replace']//container[@class='#32770']/button[@text='Fi&amp;nd']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="b697612f-b6e1-428c-a528-831bd57006ad"
+	name="UltraEditAutomationRepository"
+	relativepath="..\UltraEditAutomationRepository.rxrep">
+		<codegen
+		classname="UltraEditAutomationRepository"
+		namespace="UltraEditAutomation">
+		</codegen>
+		<rootfolder
+		id="53beb013-b633-4b2b-a168-b0173ef46ccf"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SearchCriteriaForOpenFiles.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
