@@ -5570,15 +5570,6 @@
 			<testcontainer
 			id="c065cfe3-4560-42d3-8fce-da928e47a312">
 			</testcontainer>
-			<testcontainer
-			id="c7e7f39a-63ab-4e08-a3c5-eaf24a137751">
-			</testcontainer>
-			<testcontainer
-			id="ddade01c-117a-4957-90c0-e6e0548f814e">
-			</testcontainer>
-			<testcontainer
-			id="f7cac758-3f47-42bb-b51a-ffdca956e7bb">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
