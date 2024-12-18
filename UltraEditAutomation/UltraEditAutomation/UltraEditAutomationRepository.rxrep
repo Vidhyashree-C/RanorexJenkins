@@ -2785,7 +2785,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		</appfolder>
 		<appfolder
 		addcaps="form,nativewindow"
-		capname="form"
+		capname="text"
 		id="12637a40-349c-4377-8b59-359116562e64"
 		isrooted="True"
 		name="AdministratorCmd"
@@ -2799,10 +2799,10 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			refimgid="21ab61a8-79b0-4237-8094-dc052a315f4f"
 			robustPath="/form[@title>'Administrator: C:\Windows']/text[@automationid='Text Area']"
 			searchtimeout="30000ms">
-				/form[@title='C:\Windows\System32\cmd.exe']/text[@automationid='Text Area']
+				/form[@title&gt;'Administrator: C:\Windows']/text[@automationid='Text Area']/text[@automationid='Text Area']
 			</item>
 			<basepath>
-				/form[@title='C:\Windows\System32\cmd.exe']
+				/form[@title&gt;'Administrator: C:\Windows']/text[@automationid='Text Area']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
