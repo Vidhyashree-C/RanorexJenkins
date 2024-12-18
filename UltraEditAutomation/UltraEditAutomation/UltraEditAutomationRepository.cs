@@ -6356,20 +6356,20 @@ namespace UltraEditAutomation
             /// Creates a new AdministratorCmd  folder.
             /// </summary>
             public AdministratorCmdAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("AdministratorCmd", "/form[@title='C:\\Windows\\System32\\cmd.exe']", parentFolder, 30000, null, true, "12637a40-349c-4377-8b59-359116562e64", "")
+                    base("AdministratorCmd", "/form[@title>'Administrator: C:\\Windows']/text[@automationid='Text Area']", parentFolder, 30000, null, true, "12637a40-349c-4377-8b59-359116562e64", "")
             {
-                _textareaInfo = new RepoItemInfo(this, "TextArea", "text[@automationid='Text Area']", "text[@automationid='Text Area']", 30000, null, "06037ab5-08b3-46ab-aa34-d793dcff715b");
+                _textareaInfo = new RepoItemInfo(this, "TextArea", "text[@automationid='Text Area']", "", 30000, null, "06037ab5-08b3-46ab-aa34-d793dcff715b");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
             [RepositoryItem("12637a40-349c-4377-8b59-359116562e64")]
-            public virtual Ranorex.Form Self
+            public virtual Ranorex.Text Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
