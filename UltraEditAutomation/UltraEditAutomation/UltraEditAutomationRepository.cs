@@ -6356,7 +6356,7 @@ namespace UltraEditAutomation
             /// Creates a new AdministratorCmd  folder.
             /// </summary>
             public AdministratorCmdAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("AdministratorCmd", "/form[@title='Administrator: C:\\Windows\\System32\\cmd.exe']", parentFolder, 30000, null, true, "12637a40-349c-4377-8b59-359116562e64", "")
+                    base("AdministratorCmd", "/form[@title='C:\\Windows\\System32\\cmd.exe']", parentFolder, 30000, null, true, "12637a40-349c-4377-8b59-359116562e64", "")
             {
                 _textareaInfo = new RepoItemInfo(this, "TextArea", "text[@automationid='Text Area']", "text[@automationid='Text Area']", 30000, null, "06037ab5-08b3-46ab-aa34-d793dcff715b");
             }
