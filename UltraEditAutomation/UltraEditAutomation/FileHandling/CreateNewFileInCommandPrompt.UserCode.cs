@@ -34,27 +34,23 @@ namespace UltraEditAutomation.FileHandling
                 // Step 1: Start Command Prompt with appropriate settings
                 ProcessStartInfo processInfo = new ProcessStartInfo
                 {
-                    FileName = "cmd.exe", // Path to Command Prompt executable
-                    Arguments = "/K uedit64 C:\\temp\\newfile.txt", // Use /K to run the command and exit
-                    WorkingDirectory = @"C:\Windows\System32", // Optional starting directory
-                    UseShellExecute = false,  // Allow interaction via StandardInput
-                    RedirectStandardInput = true, // Redirect standard input
-                    RedirectStandardOutput = true, // Capture output (optional)
-                    RedirectStandardError = true, // Capture errors
-                    CreateNoWindow = false // Show the Command Prompt window
+				FileName = "cmd.exe",    // Path to Command Prompt executable
+                Arguments = "/K uedit64 C:\\temp\\newfile.txt",          // Optional arguments
+                WorkingDirectory = @"C:\Windows\System32", // Optional starting directory
+                UseShellExecute = true,  // Required for administrative privileges
+                Verb = "runas"
+
                 };
 
                 // Step 2: Launch Command Prompt
                 Process cmdProcess = Process.Start(processInfo);
-                
-                // Log success message
-                Report.Info("Command Prompt opened successfully.");
-
-                // Step 3: Wait for the process to complete
-                //cmdProcess.WaitForExit();
-
-                // Log the result
-                Report.Info("Command executed successfully: uedit64 C:\\temp\\newfile.txt");
+                Report.Success("Command Prompt opened successfully.");
+                Thread.Sleep(2000);
+ 
+                //Step 3: Wait for the process to complete
+                cmdProcess.WaitForExit();
+                 
+                Report.Success("newfile.txt created successfully.");
             }
             catch (Exception ex)
             {

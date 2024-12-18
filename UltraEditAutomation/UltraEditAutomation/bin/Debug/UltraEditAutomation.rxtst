@@ -387,7 +387,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="111e543c-5c03-4ffd-bd97-373f360e7d41"
 			name="VerifySaveStateDialog"
 			ref="4acfad82-c6e6-414d-987f-b59ffe890293"
@@ -1256,7 +1255,6 @@
 				</parameters>
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="507ecf34-565f-45d6-991e-2973b3ec4262"
 			name="CloseAUT"
 			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
@@ -2726,7 +2724,6 @@
 			type="UserCode">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="bd18c0d7-bca3-4288-bc61-920805c10670"
 			name="CloseCommandPrompt"
 			ref="7ef26525-6370-4726-bb94-d4fed520d5f3"
@@ -2829,7 +2826,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="c412b95a-3a59-415a-a330-8369add986e1"
 			name="MakeChangesToLocalFile"
 			ref="69132b06-cc37-44f9-99e9-f9b8f7afe170"
@@ -3593,7 +3589,6 @@
 				</parameters>
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="ea4277ef-c9a1-400e-beed-656f6ee96839"
 			name="VerifyFileCreationAndModifiedFiles"
 			ref="4dce27ff-e640-47f3-a591-c4b76a1447d3"
@@ -3807,7 +3802,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="fb344c97-000e-4449-961f-9f48e9a43492"
 			name="OpenFile"
 			ref="86a4a5f3-5d95-466e-838a-0c9261985152"

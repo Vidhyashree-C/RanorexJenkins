@@ -26,7 +26,7 @@ mode="Global">
 	</variables>
 	<recorditems>
 		<runapprecorditem
-		enabled="False"
+		enabled="True"
 		maximized="False"
 		optional="False">
 			<comment>
@@ -37,7 +37,7 @@ mode="Global">
 				C:\Windows\System32\cmd.exe
 			</filename>
 			<args>
-				uedit64 C:\temp\newfile.txt
+				/K uedit64 C:\temp\newfile.txt
 			</args>
 		</runapprecorditem>
 		<WaitForRecordItem
@@ -104,7 +104,7 @@ mode="Global">
 		</keysequenceitem>
 		<userrecorditem
 		classname="CreateNewFileInCommandPrompt"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="False"
 		methodname="CommandPrompt"
 		namespace="UltraEditAutomation.FileHandling"
