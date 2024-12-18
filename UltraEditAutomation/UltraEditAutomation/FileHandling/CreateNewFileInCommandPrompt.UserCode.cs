@@ -39,33 +39,29 @@ namespace UltraEditAutomation.FileHandling
         {
             try
             {
-                // Step 1: Start Command Prompt
-                Process cmdProcess = new Process();
-                cmdProcess.StartInfo.FileName = "cmd.exe";
-                cmdProcess.StartInfo.UseShellExecute = false;
-                cmdProcess.StartInfo.RedirectStandardInput = true; // To send commands
-                cmdProcess.StartInfo.RedirectStandardOutput = true; // To capture output (optional)
-                cmdProcess.StartInfo.CreateNoWindow = false; // Show Command Prompt window
-                cmdProcess.Start();
-                
-                Thread.Sleep(5000);
-
-                // Step 2: Send the command to Command Prompt
-                using (StreamWriter cmdInput = cmdProcess.StandardInput)
+                // Step 1: Start Command Prompt with appropriate settings
+                ProcessStartInfo processInfo = new ProcessStartInfo
                 {
-                    if (cmdInput.BaseStream.CanWrite)
-                    {
-                        // Command to open UltraEdit with the specified file
-                        cmdInput.WriteLine(@"uedit64 C:\temp\newfile.txt");
-                        // Optional: Close Command Prompt after execution
-                        //cmdInput.WriteLine("exit");
-                    }
-                }
+                    FileName = "cmd.exe", // Path to Command Prompt executable
+                    Arguments = "/c uedit64 C:\\temp\\newfile.txt", // Use /c to run the command and exit
+                    WorkingDirectory = @"C:\Windows\System32", // Optional starting directory
+                    UseShellExecute = false,  // Allow interaction via StandardInput
+                    RedirectStandardInput = true, // Redirect standard input
+                    RedirectStandardOutput = true, // Capture output (optional)
+                    RedirectStandardError = true, // Capture errors
+                    CreateNoWindow = false // Show the Command Prompt window
+                };
+
+                // Step 2: Launch Command Prompt
+                Process cmdProcess = Process.Start(processInfo);
+                
+                // Log success message
+                Report.Info("Command Prompt opened successfully.");
 
                 // Step 3: Wait for the process to complete
                 cmdProcess.WaitForExit();
 
-                // Log success message
+                // Log the result
                 Report.Info("Command executed successfully: uedit64 C:\\temp\\newfile.txt");
             }
             catch (Exception ex)
