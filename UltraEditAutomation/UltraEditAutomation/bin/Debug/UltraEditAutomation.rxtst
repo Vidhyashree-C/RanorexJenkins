@@ -2726,6 +2726,7 @@
 			type="UserCode">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="bd18c0d7-bca3-4288-bc61-920805c10670"
 			name="CloseCommandPrompt"
 			ref="7ef26525-6370-4726-bb94-d4fed520d5f3"

@@ -4,18 +4,21 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="FileHandling\CreateNewFileInCommandPrompt.UserCode.cs" />
     <Element value="UltraEditAutomation.rxtst" />
+    <Element value="FileHandling\CreateNewFileInCommandPrompt.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="UltraEditAutomation.FileHandling.CreateNewFileInCommandPrompt.CommandPrompt()" />
+      <Element value="UltraEditAutomation.FileHandling.CreateNewFileInCommandPrompt.CommandPrompt()" />
       <Element value="UltraEditAutomation.VerifyFile_inMultipleLine.VerifyTextIsInMultipleLines()" />
       <Element value="UltraEditAutomation.ConvertTargetToUTF8.PrintCopiedText()" />
       <Element value="UltraEditAutomation.VerifyEncodingValue.NavigateTabAndVerifyEncoding()" />
       <Element value="UltraEditAutomation.ASCIItoEBCDICConversion.CheckAndClickYesButton(RepoItemInfo buttonYes)" />
-      <Element value="UltraEditAutomation.ASCIItoEBCDICConversion.UserCodeMethod(RepoItemInfo buttonYes)" />
     </Array>
   </Properties>
 </Properties>
