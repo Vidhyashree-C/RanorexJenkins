@@ -37,10 +37,11 @@ mode="Global">
 				C:\Windows\System32\cmd.exe
 			</filename>
 			<args>
+				uedit64 C:\temp\newfile.txt
 			</args>
 		</runapprecorditem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="6cc8b3b0-e98e-434f-8d73-1b313d38895d"
 		waitaction="Exists"
@@ -62,7 +63,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="uedit64 C:\temp\newfile.txt"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="1227a65f-cf65-4d67-9744-857f2de63289">
@@ -83,7 +84,7 @@ mode="Global">
 		<keysequenceitem
 		KeySequence="{Return}"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="7e123dd7-e67f-4e84-bcae-d52bbedcfa51">
