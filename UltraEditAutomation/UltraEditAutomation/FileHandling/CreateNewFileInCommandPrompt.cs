@@ -79,9 +79,9 @@ namespace UltraEditAutomation.FileHandling
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Windows\\System32\\cmd.exe' with arguments 'uedit64 C:\\temp\\newfile.txt' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\Windows\\System32\\cmd.exe", "uedit64 C:\\temp\\newfile.txt", "", false);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Windows\\System32\\cmd.exe' with arguments 'uedit64 C:\\temp\\newfile.txt' in normal mode.", new RecordItemIndex(0));
+            //Host.Local.RunApplication("C:\\Windows\\System32\\cmd.exe", "uedit64 C:\\temp\\newfile.txt", "", false);
+            //Delay.Milliseconds(0);
             
             //Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'AdministratorCmd'", repo.AdministratorCmd.SelfInfo, new ActionTimeout(15000), new RecordItemIndex(1));
             //repo.AdministratorCmd.SelfInfo.WaitForExists(15000);
@@ -93,6 +93,9 @@ namespace UltraEditAutomation.FileHandling
             //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'AdministratorCmd'.", repo.AdministratorCmd.SelfInfo, new RecordItemIndex(3));
             //repo.AdministratorCmd.Self.PressKeys("{Return}");
             //Delay.Milliseconds(0);
+            
+            CommandPrompt();
+            Delay.Milliseconds(0);
             
         }
 

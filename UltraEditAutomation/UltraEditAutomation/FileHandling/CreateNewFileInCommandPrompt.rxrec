@@ -26,7 +26,7 @@ mode="Global">
 	</variables>
 	<recorditems>
 		<runapprecorditem
-		enabled="True"
+		enabled="False"
 		maximized="False"
 		optional="False">
 			<comment>
@@ -102,6 +102,21 @@ mode="Global">
 				</robustPath>
 			</info>
 		</keysequenceitem>
+		<userrecorditem
+		classname="CreateNewFileInCommandPrompt"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CommandPrompt"
+		namespace="UltraEditAutomation.FileHandling"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="044dc6ec-ade7-492f-b365-3ade02ad9433">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="b697612f-b6e1-428c-a528-831bd57006ad"

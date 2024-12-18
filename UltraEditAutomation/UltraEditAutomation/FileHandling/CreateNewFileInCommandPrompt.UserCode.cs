@@ -8,6 +8,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 using System;
+using System.Diagnostics; // For Process
+using System.IO;         // For StreamWriter
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -33,5 +35,44 @@ namespace UltraEditAutomation.FileHandling
             // Your recording specific initialization code goes here.
         }
 
+        public void CommandPrompt()
+        {
+            try
+            {
+                // Step 1: Start Command Prompt
+                Process cmdProcess = new Process();
+                cmdProcess.StartInfo.FileName = "cmd.exe";
+                cmdProcess.StartInfo.UseShellExecute = false;
+                cmdProcess.StartInfo.RedirectStandardInput = true; // To send commands
+                cmdProcess.StartInfo.RedirectStandardOutput = true; // To capture output (optional)
+                cmdProcess.StartInfo.CreateNoWindow = false; // Show Command Prompt window
+                cmdProcess.Start();
+                
+                Thread.Sleep(5000);
+
+                // Step 2: Send the command to Command Prompt
+                using (StreamWriter cmdInput = cmdProcess.StandardInput)
+                {
+                    if (cmdInput.BaseStream.CanWrite)
+                    {
+                        // Command to open UltraEdit with the specified file
+                        cmdInput.WriteLine(@"uedit64 C:\temp\newfile.txt");
+                        // Optional: Close Command Prompt after execution
+                        //cmdInput.WriteLine("exit");
+                    }
+                }
+
+                // Step 3: Wait for the process to complete
+                cmdProcess.WaitForExit();
+
+                // Log success message
+                Report.Info("Command executed successfully: uedit64 C:\\temp\\newfile.txt");
+            }
+            catch (Exception ex)
+            {
+                // Log error in case of failure
+                Report.Error("Error while automating Command Prompt: " + ex.Message);
+            }
+        }
     }
 }
