@@ -37,7 +37,7 @@ mode="Global">
 				C:\Windows\System32\cmd.exe
 			</filename>
 			<args>
-				uedit64 C:\temp\newfile.txt
+				/K uedit64 C:\temp\newfile.txt
 			</args>
 		</runapprecorditem>
 		<WaitForRecordItem
