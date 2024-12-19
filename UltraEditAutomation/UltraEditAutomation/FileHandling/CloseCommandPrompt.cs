@@ -80,7 +80,7 @@ namespace UltraEditAutomation.FileHandling
             Init();
 
             //Report.Log(ReportLevel.Info, "Invoke action", "Invoking Close() on item 'AdministratorCmd'.", repo.AdministratorCmd.SelfInfo, new RecordItemIndex(0));
-            //repo.AdministratorCmd.Self.As<Form>().Close();
+            //repo.AdministratorCmd.Self.Close();
             //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'AdministratorCmd'.", repo.AdministratorCmd.SelfInfo, new RecordItemIndex(1));
