@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.24s"
+		durationms="7238"
+		type="root"
+		rid="23d5cd58c6e506e2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vidhyashree.c"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000301"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="12/19/2024 10:34:33 AM"
+		timestampiso="2024-12-19T05:04:33"
+		endtime="12/19/2024 10:34:40 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CreateNewFileInCommandPrompt">
+		<detail>
+			CreateNewFileInCommandPrompt
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.157"
+			timeRelativeToTestModuleStartTime="00:07.157"
+			timeWallClock="10:34:40"
+			time="00:07.157"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Windows\System32\cmd.exe' with arguments '/K uedit64 C:\temp\newfile.txt' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\RanorexJenkins\UltraEditAutomation\UltraEditAutomation\FileHandling\CreateNewFileInCommandPrompt.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

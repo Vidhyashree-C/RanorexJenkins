@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="21.48s"
+		durationms="21483"
+		type="root"
+		rid="ea47e8fb76e8a14"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vidhyashree.c"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000301"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="12/19/2024 10:35:10 AM"
+		timestampiso="2024-12-19T05:05:10"
+		endtime="12/19/2024 10:35:32 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseCommandPrompt">
+		<detail>
+			CloseCommandPrompt
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.667"
+			timeRelativeToTestModuleStartTime="00:12.667"
+			timeWallClock="10:35:23"
+			time="00:12.667"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'AdministratorCmd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Administrator: C:\Windows']/text[@automationid='Text Area']"
+				itempath="/form[@title>'Administrator: C:\Windows']/text[@automationid='Text Area']"
+				fullname="UltraEditAutomationRepository.AdministratorCmd.Self"
+				id="12637a40349c43778b59359116562e64"
+				timeout="30000"
+				codefile="D:\RanorexJenkins\UltraEditAutomation\UltraEditAutomation\FileHandling\CloseCommandPrompt.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

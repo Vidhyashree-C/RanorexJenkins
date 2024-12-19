@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="UltraEditAutomation.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="FileHandling\CreateNewFileInCommandPrompt.UserCode.cs" />
+    <Element value="FileHandling\CloseCommandPrompt.rxrec" />
     <Element value="UltraEditAutomation.rxtst" />
     <Element value="FileHandling\CreateNewFileInCommandPrompt.rxrec" />
+    <Element value="FileHandling\CreateNewFileInCommandPrompt.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
